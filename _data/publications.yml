@@ -1,22 +1,37 @@
 main:
 
-  - title: Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
-    authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
-    conference_short: MICCAI
-    conference: International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.
-    pdf: https://arxiv.org/pdf/2306.00988.pdf
-    code: https://github.com/MrGiovanni/ContinualLearning
-    bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/teaser_example_2.png
+  - title: "Taiyi-Diffusion-XL: Advancing Bilingual Text-to-Image Generation With Large Vision-Language Model"
+    conference_short: Arxiv
+    conference: Arxiv, 2024
+    authors: <strong>Xiaojun Wu</strong>, Dixiang Zhang, Ruyi Gan, Junyu Lu, Ziwei Wu, Renliang Sun, Jiaxing Zhang, Pingjian Zhang, Yan Song
+    paper: https://arxiv.org/abs/2401.14688
+    code: https://github.com/IDEA-CCNL/Fooocus-Taiyi-XL
+    model: https://huggingface.co/IDEA-CCNL/Taiyi-Stable-Diffusion-XL-3.5B
+    image: ./assets/img/taiyi_diffusion_xl.png
+
+  - title: "Can ChatGPT Serve as a Multi-Criteria Decision Maker? A Novel Approach to Supplier Evaluation"
+    conference_short: ICASSP
+    conference: IEEE International Conference on Acoustics, Speech and Signal Processing <strong>(ICASSP)</strong>, 2024
+    authors: Xihui Wang, <strong>Xiaojun Wu</strong>
+    paper: https://ieeexplore.ieee.org/document/10447204
+    code: https://github.com/wxj630/chatgpt_supplier
+    image: ./assets/img/chatgpt_supplier.png
     notes: Early Accept
 
-  - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
-    authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
-    conference_short: CVPR
-    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
-    pdf: https://arxiv.org/pdf/2002.10211.pdf
-    code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    notes: Oral Presentation
-    image: ./assets/img/teaser_example.png
+  - title: "Ziya-VL: Bilingual Large Vision-Language Model via Multi-Task Instruction Tuning"
+    conference_short: Arxiv
+    conference: Arxiv, 2023
+    authors: Junyu Lu, Dixiang Zhang, <strong>XiaoJun Wu</strong>, Xinyu Gao, Ruyi Gan, Jiaxing Zhang, Yan Song, Pingjian Zhang
+    paper: https://arxiv.org/abs/2310.08166
+    code: https://github.com/IDEA-CCNL/Fengshenbang-LMziya
+    model: https://huggingface.co/IDEA-CCNL/Ziya-Visual-14B-Chat
+    image: ./assets/img/ziya_vl.png
+
+  - title: "Noise Learning for Text Classification: A Benchmark"
+    conference_short: COLING
+    conference: The 29th International Conference on Computational Linguistics <strong>(COLING)</strong>, 2022
+    authors: Bo Liu, Wandi Xu, Yuejia Xiang, <strong>XiaoJun Wu</strong>, Lejian He, BoWen Zhang, Li Zhu
+    paper: https://aclanthology.org/2022.coling-1.402/
+    code: https://github.com/maopademiao/generate_noisy_label
+    image: ./assets/img/noise_learning.png
+    notes: Accepted
