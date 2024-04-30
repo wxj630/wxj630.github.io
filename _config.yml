@@ -6,9 +6,9 @@ email: wuxiaojun (at) idea.edu.cn
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
-keywords: minimal light
-description: The Minimal Light is a simple and elegant jekyll theme for academic personal homepage.
-canonical: https://minimal-light-theme.yliu.me/
+keywords: Xiaojun Wu, wuxiaojun, 吴 晓均, 吴晓均
+description: academic personal homepage of xiaojun wu.
+canonical: https://github.com/wxj630
 
 # Links 
 # If you don't need one of them, you may delete the corresponding line.
@@ -28,7 +28,7 @@ favicon_dark: ./assets/img/favicon-dark.png
 
 # Footnote
 # You may use the option to disable the footnote, "Powered by Jekyll and Minimal Light theme."
-# enable_footnote: true
+enable_footnote: true
 
 # Auto Dark Mode
 # You may use the option to disable the automatic dark theme
