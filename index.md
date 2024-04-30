@@ -9,7 +9,7 @@ Initial members of the IDEA Research Institute's Fengshenbang Team([封神榜团
 ## Experiences
 
 - **[2014.09 - 2018.07]** Bachelor's in Information Management and Information Systems, Xidian University
-- **[2018.09 - 2020.07]** Master's in Information Science, under the supervision of [Prof.Jimin Wang](http://www.im.pku.edu.cn/szll/xxxwyjs/wjm/index.htm), [scie lab](https://scie.pku.edu.cn/), Peking University
+- **[2018.09 - 2020.07]** Master's in Information Science, supervised by [Prof.Jimin Wang](http://www.im.pku.edu.cn/szll/xxxwyjs/wjm/index.htm), [scie lab](https://scie.pku.edu.cn/), Peking University
 - **[2019.07 - 2020.05]** Big Data Development Intern, ByteDance
 - **[2020.07 - 2021.07]** Algorithm Engineer, The Smart City Research Institute of CETC
 - **[2021.07 - Present]** Algorithm Engineer, IDEA
