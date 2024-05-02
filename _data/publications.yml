@@ -14,7 +14,7 @@ main:
     conference: IEEE International Conference on Acoustics, Speech and Signal Processing <strong>(ICASSP)</strong>, 2024
     authors: Xihui Wang, <strong>Xiaojun Wu</strong>
     paper: https://ieeexplore.ieee.org/document/10447204
-    code: https://github.com/wxj630/chatgpt_supplier
+    code: https://github.com/lightwxy/chatgpt_as_decision_maker
     image: ./assets/img/chatgpt_supplier.png
     notes: Early Accept
 
