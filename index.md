@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-Initial members of the IDEA Research Institute's Fengshenbang Team([封神榜团队](https://huggingface.co/IDEA-CCNL)), engaged in pre-trained large language model work, including LLM, Multimodal LLM, and Diffusion-based AIGC model. Internship and work experience include internet companies, state-owned enterprises, and research institutes. Rich in technical passion and curiosity, enjoys sharing (with over <strong>10,000 Fans</strong> and <strong>1000,000 Reads</strong> on [Zhihu](https://www.zhihu.com/people/wxj630)) and exploring Multimodal, Generative AI, and General Artificial Intelligence.
+Initial members of the IDEA Research Institute's Fengshenbang Team([封神榜团队](https://huggingface.co/IDEA-CCNL)), engaged in pre-trained large language model work, including LLM, Multimodal LLM, and Diffusion-based AIGC model. Internship and work experience include internet companies, state-owned enterprises, and research institutes. Rich in technical passion and curiosity, enjoys sharing (with over <strong>10,000 Fans</strong> and <strong>1,000,000 Reads</strong> on [Zhihu](https://www.zhihu.com/people/wxj630)) and exploring Multimodal, Generative AI, and General Artificial Intelligence.
 
 ## Experiences
 
