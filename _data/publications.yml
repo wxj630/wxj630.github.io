@@ -1,8 +1,8 @@
 main:
 
   - title: "Taiyi-Diffusion-XL: Advancing Bilingual Text-to-Image Generation With Large Vision-Language Model"
-    conference_short: Arxiv
-    conference: Arxiv, 2024
+    conference_short: Under Review
+    conference: Submitted to EMNLP 2024 System Demonstration Track
     authors: <strong>Xiaojun Wu</strong>, Dixiang Zhang, Ruyi Gan, Junyu Lu, Ziwei Wu, Renliang Sun, Jiaxing Zhang, Pingjian Zhang, Yan Song
     paper: https://arxiv.org/abs/2401.14688
     code: https://github.com/IDEA-CCNL/Fooocus-Taiyi-XL

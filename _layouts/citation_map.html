@@ -1,0 +1,4311 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8383a22adcaf0263c824f4406c37432d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_8383a22adcaf0263c824f4406c37432d" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_8383a22adcaf0263c824f4406c37432d = L.map(
+                "map_8383a22adcaf0263c824f4406c37432d",
+                {
+                    center: [20.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1403cd3a6ebe263288a16ee7464960f6 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_1403cd3a6ebe263288a16ee7464960f6.addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var marker_604b61bd3017d203ece8ae4599f4789e = L.marker(
+                [31.2757194, 120.7354788633219],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_048dc509cd788812a8cd83bc676d3214 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_604b61bd3017d203ece8ae4599f4789e.setIcon(icon_048dc509cd788812a8cd83bc676d3214);
+        
+    
+        var popup_13982f51e1759cfc0c73106c83c6ef47 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5664700e9c546f212c0e2bbded9d7e32 = $(`<div id="html_5664700e9c546f212c0e2bbded9d7e32" style="width: 100.0%; height: 100.0%;">Xi’an Jiaotong University (B Liu)</div>`)[0];
+                popup_13982f51e1759cfc0c73106c83c6ef47.setContent(html_5664700e9c546f212c0e2bbded9d7e32);
+            
+        
+
+        marker_604b61bd3017d203ece8ae4599f4789e.bindPopup(popup_13982f51e1759cfc0c73106c83c6ef47)
+        ;
+
+        
+    
+    
+            var marker_6b390a7e7a89654fe6675f6364303050 = L.marker(
+                [22.4201838, 114.20791453524086],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_55147d87939f319bea5f9eff47ca7a54 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_6b390a7e7a89654fe6675f6364303050.setIcon(icon_55147d87939f319bea5f9eff47ca7a54);
+        
+    
+        var popup_fca3b3327350a8bd5114ae162eb64c06 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_44ba86aa2510a7140388b8399716690d = $(`<div id="html_44ba86aa2510a7140388b8399716690d" style="width: 100.0%; height: 100.0%;">The Chinese University of Hongkong (Xidong WANG)</div>`)[0];
+                popup_fca3b3327350a8bd5114ae162eb64c06.setContent(html_44ba86aa2510a7140388b8399716690d);
+            
+        
+
+        marker_6b390a7e7a89654fe6675f6364303050.bindPopup(popup_fca3b3327350a8bd5114ae162eb64c06)
+        ;
+
+        
+    
+    
+            var marker_cf85dd776106fae225423fe48661fb58 = L.marker(
+                [40.80803455, 29.356343258075448],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_99e32be42d661ec18dc8d7f671afd512 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_cf85dd776106fae225423fe48661fb58.setIcon(icon_99e32be42d661ec18dc8d7f671afd512);
+        
+    
+        var popup_85840705b78f7d070ae20af0071a3767 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_238968238ac974492a37e01c682145a0 = $(`<div id="html_238968238ac974492a37e01c682145a0" style="width: 100.0%; height: 100.0%;">Computer Engineering (Shuai Wang)</div>`)[0];
+                popup_85840705b78f7d070ae20af0071a3767.setContent(html_238968238ac974492a37e01c682145a0);
+            
+        
+
+        marker_cf85dd776106fae225423fe48661fb58.bindPopup(popup_85840705b78f7d070ae20af0071a3767)
+        ;
+
+        
+    
+    
+            var marker_d492c9c216d860c00167771751b2c538 = L.marker(
+                [32.6099702, -110.7651843],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_c06452eb72f4e131bdd2509f5b6e2247 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d492c9c216d860c00167771751b2c538.setIcon(icon_c06452eb72f4e131bdd2509f5b6e2247);
+        
+    
+        var popup_8e494b4b3e5300d9484e33b7cd2f6158 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d9dcdd262eb22d82be4d7043c15771fc = $(`<div id="html_d9dcdd262eb22d82be4d7043c15771fc" style="width: 100.0%; height: 100.0%;">Oracle (Lejian (Leo) He)</div>`)[0];
+                popup_8e494b4b3e5300d9484e33b7cd2f6158.setContent(html_d9dcdd262eb22d82be4d7043c15771fc);
+            
+        
+
+        marker_d492c9c216d860c00167771751b2c538.bindPopup(popup_8e494b4b3e5300d9484e33b7cd2f6158)
+        ;
+
+        
+    
+    
+            var marker_582c25ff1ac8adc91e0e79840aa2cd78 = L.marker(
+                [39.7638538, 37.025058],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_5696c66cce21a16ae8a98865534033b9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_582c25ff1ac8adc91e0e79840aa2cd78.setIcon(icon_5696c66cce21a16ae8a98865534033b9);
+        
+    
+        var popup_0f93441a8df29f6a11945fe2a6e9eb56 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_42244ebf51c578705ebbafc7bb3e82e7 = $(`<div id="html_42244ebf51c578705ebbafc7bb3e82e7" style="width: 100.0%; height: 100.0%;">ALIBABA (Zhiyu Tan)</div>`)[0];
+                popup_0f93441a8df29f6a11945fe2a6e9eb56.setContent(html_42244ebf51c578705ebbafc7bb3e82e7);
+            
+        
+
+        marker_582c25ff1ac8adc91e0e79840aa2cd78.bindPopup(popup_0f93441a8df29f6a11945fe2a6e9eb56)
+        ;
+
+        
+    
+    
+            var marker_82016c01eb8e1b0569c7fb599c2392e8 = L.marker(
+                [37.632441400000005, 127.07946475957468],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_af0b6260003fa5c68194a0015c519721 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_82016c01eb8e1b0569c7fb599c2392e8.setIcon(icon_af0b6260003fa5c68194a0015c519721);
+        
+    
+        var popup_54b08bc84fe81ca282e4beed46d66fd5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_80a27601d720e50eaa1db7fb6d8b288d = $(`<div id="html_80a27601d720e50eaa1db7fb6d8b288d" style="width: 100.0%; height: 100.0%;">Seoul National University of Science and Technology (minjun Kim)</div>`)[0];
+                popup_54b08bc84fe81ca282e4beed46d66fd5.setContent(html_80a27601d720e50eaa1db7fb6d8b288d);
+            
+        
+
+        marker_82016c01eb8e1b0569c7fb599c2392e8.bindPopup(popup_54b08bc84fe81ca282e4beed46d66fd5)
+        ;
+
+        
+    
+    
+            var marker_09b3f5d42a452c194df69afe5e5b8779 = L.marker(
+                [32.05764775, 118.78828187958575],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_4d8ac1f76065218119de928eb3292be7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_09b3f5d42a452c194df69afe5e5b8779.setIcon(icon_4d8ac1f76065218119de928eb3292be7);
+        
+    
+        var popup_2890b28f12b81e8e313f8bc8b4a2a238 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6b6972440a607a421ed9e733281de5a3 = $(`<div id="html_6b6972440a607a421ed9e733281de5a3" style="width: 100.0%; height: 100.0%;">Southeast University (Shuai Wang)</div>`)[0];
+                popup_2890b28f12b81e8e313f8bc8b4a2a238.setContent(html_6b6972440a607a421ed9e733281de5a3);
+            
+        
+
+        marker_09b3f5d42a452c194df69afe5e5b8779.bindPopup(popup_2890b28f12b81e8e313f8bc8b4a2a238)
+        ;
+
+        
+    
+    
+            var marker_fe5c8c9e6bff228171728d9e3b65931b = L.marker(
+                [51.51426105, -0.11673351981492822],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_b0e49025fff150ddd2ce91d898600540 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_fe5c8c9e6bff228171728d9e3b65931b.setIcon(icon_b0e49025fff150ddd2ce91d898600540);
+        
+    
+        var popup_746966a25a59dc59b0a03bedd1ff2cce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e8705eb1642b7ac88d41ad71530eb55c = $(`<div id="html_e8705eb1642b7ac88d41ad71530eb55c" style="width: 100.0%; height: 100.0%;">Economics (Biyang Guo (郭必扬))</div>`)[0];
+                popup_746966a25a59dc59b0a03bedd1ff2cce.setContent(html_e8705eb1642b7ac88d41ad71530eb55c);
+            
+        
+
+        marker_fe5c8c9e6bff228171728d9e3b65931b.bindPopup(popup_746966a25a59dc59b0a03bedd1ff2cce)
+        ;
+
+        
+    
+    
+            var marker_8ea5efd64d1991d75c5edb27b5f11f98 = L.marker(
+                [45.741589, 126.62556263488914],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_dce2b552451b30270a5fae05ed1b8cc1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_8ea5efd64d1991d75c5edb27b5f11f98.setIcon(icon_dce2b552451b30270a5fae05ed1b8cc1);
+        
+    
+        var popup_955d43425af0a0b426ca935b0224213d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2a830f1db7f72b7fcc5a5d4cb05222a9 = $(`<div id="html_2a830f1db7f72b7fcc5a5d4cb05222a9" style="width: 100.0%; height: 100.0%;">Harbin Institute of Technology (Xin Zhang)</div>`)[0];
+                popup_955d43425af0a0b426ca935b0224213d.setContent(html_2a830f1db7f72b7fcc5a5d4cb05222a9);
+            
+        
+
+        marker_8ea5efd64d1991d75c5edb27b5f11f98.bindPopup(popup_955d43425af0a0b426ca935b0224213d)
+        ;
+
+        
+    
+    
+            var marker_f4bbad537a0be0f12f85324975bddf09 = L.marker(
+                [22.1938349, 113.551515185608],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_085617b7d1c1d3d74eae2a817a310bd6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_f4bbad537a0be0f12f85324975bddf09.setIcon(icon_085617b7d1c1d3d74eae2a817a310bd6);
+        
+    
+        var popup_b5de5d89a5be965a8b4b2e9607ec9765 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d937c8281897fcaf24aab91a593aa4da = $(`<div id="html_d937c8281897fcaf24aab91a593aa4da" style="width: 100.0%; height: 100.0%;">Macao Polytechnic University (Chan-Tong Lam)</div>`)[0];
+                popup_b5de5d89a5be965a8b4b2e9607ec9765.setContent(html_d937c8281897fcaf24aab91a593aa4da);
+            
+        
+
+        marker_f4bbad537a0be0f12f85324975bddf09.bindPopup(popup_b5de5d89a5be965a8b4b2e9607ec9765)
+        ;
+
+        
+    
+    
+            var marker_4c3ffd896b3afd0c48c5d35d178b1278 = L.marker(
+                [47.413218, 8.5374914],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_1f1a3d04a1012f10cd6655a8408d3260 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4c3ffd896b3afd0c48c5d35d178b1278.setIcon(icon_1f1a3d04a1012f10cd6655a8408d3260);
+        
+    
+        var popup_a35f70fe04434417f069e910c11d058e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9b22ec7e8170faa274d1dcd6074e794f = $(`<div id="html_9b22ec7e8170faa274d1dcd6074e794f" style="width: 100.0%; height: 100.0%;">ETH Zürich (Florian E. Dorner)</div>`)[0];
+                popup_a35f70fe04434417f069e910c11d058e.setContent(html_9b22ec7e8170faa274d1dcd6074e794f);
+            
+        
+
+        marker_4c3ffd896b3afd0c48c5d35d178b1278.bindPopup(popup_a35f70fe04434417f069e910c11d058e)
+        ;
+
+        
+    
+    
+            var marker_86f05ab2e92de757a18496e193492540 = L.marker(
+                [32.069329249999996, 34.84334338615306],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_be4b6d1836b5caded717e7a62d0bc61d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "beige", "prefix": "glyphicon"}
+            );
+            marker_86f05ab2e92de757a18496e193492540.setIcon(icon_be4b6d1836b5caded717e7a62d0bc61d);
+        
+    
+        var popup_f7f8438f954ebb16fdc73ad3f239903d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_04e00556949332ab78ca88da20b6f828 = $(`<div id="html_04e00556949332ab78ca88da20b6f828" style="width: 100.0%; height: 100.0%;">Bar Ilan University (Ohad Rahamim)</div>`)[0];
+                popup_f7f8438f954ebb16fdc73ad3f239903d.setContent(html_04e00556949332ab78ca88da20b6f828);
+            
+        
+
+        marker_86f05ab2e92de757a18496e193492540.bindPopup(popup_f7f8438f954ebb16fdc73ad3f239903d)
+        ;
+
+        
+    
+    
+            var marker_c52549edc413dff38a182c223a83d27b = L.marker(
+                [37.3555833, -121.931328],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_1dec0f628ebdf5111c5baef4e45d05d3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "beige", "prefix": "glyphicon"}
+            );
+            marker_c52549edc413dff38a182c223a83d27b.setIcon(icon_1dec0f628ebdf5111c5baef4e45d05d3);
+        
+    
+        var popup_db9334a08f6b1cc03ee51e4f9f83a028 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8bd12663ad71abad89f49ef7d37a2bed = $(`<div id="html_8bd12663ad71abad89f49ef7d37a2bed" style="width: 100.0%; height: 100.0%;">ByteDance (Fulong Ye)</div>`)[0];
+                popup_db9334a08f6b1cc03ee51e4f9f83a028.setContent(html_8bd12663ad71abad89f49ef7d37a2bed);
+            
+        
+
+        marker_c52549edc413dff38a182c223a83d27b.bindPopup(popup_db9334a08f6b1cc03ee51e4f9f83a028)
+        ;
+
+        
+    
+    
+            var marker_ff3f1cf4cc52c080ffcef3a8677a06ac = L.marker(
+                [30.67823145, 104.0980033903279],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_6e79d10c1f7b4a2430a2c4fb1c61ad2d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_ff3f1cf4cc52c080ffcef3a8677a06ac.setIcon(icon_6e79d10c1f7b4a2430a2c4fb1c61ad2d);
+        
+    
+        var popup_92bcda57d6a304c9261fcb930c13997d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4b857696d9566dd3a8d480f885ea0d1c = $(`<div id="html_4b857696d9566dd3a8d480f885ea0d1c" style="width: 100.0%; height: 100.0%;">University of Electronic Science (Shaohuan Cheng)</div>`)[0];
+                popup_92bcda57d6a304c9261fcb930c13997d.setContent(html_4b857696d9566dd3a8d480f885ea0d1c);
+            
+        
+
+        marker_ff3f1cf4cc52c080ffcef3a8677a06ac.bindPopup(popup_92bcda57d6a304c9261fcb930c13997d)
+        ;
+
+        
+    
+    
+            var marker_6d2bb495328db8206c84dad968db4a0b = L.marker(
+                [2.8213271, 101.6948016],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_6f4e79714bcb7e820afc6c97105c6456 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_6d2bb495328db8206c84dad968db4a0b.setIcon(icon_6f4e79714bcb7e820afc6c97105c6456);
+        
+    
+        var popup_9bc60ed0e1849d3c665a03ec66be01de = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_125983586c8550b4ca4c4618317683fc = $(`<div id="html_125983586c8550b4ca4c4618317683fc" style="width: 100.0%; height: 100.0%;">Master's (Akash Ghosh)</div>`)[0];
+                popup_9bc60ed0e1849d3c665a03ec66be01de.setContent(html_125983586c8550b4ca4c4618317683fc);
+            
+        
+
+        marker_6d2bb495328db8206c84dad968db4a0b.bindPopup(popup_9bc60ed0e1849d3c665a03ec66be01de)
+        ;
+
+        
+    
+    
+            var marker_d85e508156025062a94e56e408f32de7 = L.marker(
+                [33.9404278, -83.37304904988295],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_01b6bd39e689f4c33930d1c98fb0170e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_d85e508156025062a94e56e408f32de7.setIcon(icon_01b6bd39e689f4c33930d1c98fb0170e);
+        
+    
+        var popup_2b6857dafd3f80328bae1f55e8133489 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_09f2ec7cc2afb17bd24f1b84b9c642fd = $(`<div id="html_09f2ec7cc2afb17bd24f1b84b9c642fd" style="width: 100.0%; height: 100.0%;">University of Georgia (Yiwei Li)</div>`)[0];
+                popup_2b6857dafd3f80328bae1f55e8133489.setContent(html_09f2ec7cc2afb17bd24f1b84b9c642fd);
+            
+        
+
+        marker_d85e508156025062a94e56e408f32de7.bindPopup(popup_2b6857dafd3f80328bae1f55e8133489)
+        ;
+
+        
+    
+    
+            var marker_0dedb714d6bbc6613c6d1bef7e5f30e2 = L.marker(
+                [40.7466822, -73.8439272],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_ca970673f09beee2dda746bd15f455f4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_0dedb714d6bbc6613c6d1bef7e5f30e2.setIcon(icon_ca970673f09beee2dda746bd15f455f4);
+        
+    
+        var popup_14c98fdd742547f73644810ed4f45eb1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1694fd1e0950fb0d0d9003f7e0784308 = $(`<div id="html_1694fd1e0950fb0d0d9003f7e0784308" style="width: 100.0%; height: 100.0%;">President of R&D (Weijian Ruan)</div>`)[0];
+                popup_14c98fdd742547f73644810ed4f45eb1.setContent(html_1694fd1e0950fb0d0d9003f7e0784308);
+            
+        
+
+        marker_0dedb714d6bbc6613c6d1bef7e5f30e2.bindPopup(popup_14c98fdd742547f73644810ed4f45eb1)
+        ;
+
+        
+    
+    
+            var marker_e65134173f13ec32083763760b0048c9 = L.marker(
+                [-17.7817072, -63.182204],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_3af74b662e80929b3c4a2425ce5a0980 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_e65134173f13ec32083763760b0048c9.setIcon(icon_3af74b662e80929b3c4a2425ce5a0980);
+        
+    
+        var popup_2a94db97f390daa6c5a57737c37c0e51 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_06c676aeb9902f9d69d4a25bcee71654 = $(`<div id="html_06c676aeb9902f9d69d4a25bcee71654" style="width: 100.0%; height: 100.0%;">Department Head (Shuai Wang)</div>`)[0];
+                popup_2a94db97f390daa6c5a57737c37c0e51.setContent(html_06c676aeb9902f9d69d4a25bcee71654);
+            
+        
+
+        marker_e65134173f13ec32083763760b0048c9.bindPopup(popup_2a94db97f390daa6c5a57737c37c0e51)
+        ;
+
+        
+    
+    
+            var marker_b4ce702bde8da19133aae11ad78bbf54 = L.marker(
+                [14.6683641, 120.994608],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_3f8e203f44475b08abe8c8ef416b7b86 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_b4ce702bde8da19133aae11ad78bbf54.setIcon(icon_3f8e203f44475b08abe8c8ef416b7b86);
+        
+    
+        var popup_7bccbab11a09c7a730c0989e76d32b7c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_05c77804a3e3c2415aa8ea0207d01899 = $(`<div id="html_05c77804a3e3c2415aa8ea0207d01899" style="width: 100.0%; height: 100.0%;">Engineering (Dr. Sriparna Saha)</div>`)[0];
+                popup_7bccbab11a09c7a730c0989e76d32b7c.setContent(html_05c77804a3e3c2415aa8ea0207d01899);
+            
+        
+
+        marker_b4ce702bde8da19133aae11ad78bbf54.bindPopup(popup_7bccbab11a09c7a730c0989e76d32b7c)
+        ;
+
+        
+    
+    
+            var marker_67309ffe43a11147721b3d5a23d8a9f9 = L.marker(
+                [39.907697049999996, 116.24405770367915],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_373ebe98a1f2a275bbde0b6d68e48d68 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_67309ffe43a11147721b3d5a23d8a9f9.setIcon(icon_373ebe98a1f2a275bbde0b6d68e48d68);
+        
+    
+        var popup_abada8513db21629db587979bfc5e432 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a7f0e5fdf8efe5836e6606f1693e86b6 = $(`<div id="html_a7f0e5fdf8efe5836e6606f1693e86b6" style="width: 100.0%; height: 100.0%;">University of Chinese Academy of Sciences (Jingxuan Wei)</div>`)[0];
+                popup_abada8513db21629db587979bfc5e432.setContent(html_a7f0e5fdf8efe5836e6606f1693e86b6);
+            
+        
+
+        marker_67309ffe43a11147721b3d5a23d8a9f9.bindPopup(popup_abada8513db21629db587979bfc5e432)
+        ;
+
+        
+    
+    
+            var marker_98ea2f960dfcb58a5d40ade436097595 = L.marker(
+                [19.824645, 96.1625226],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_4abc5332dcb36d021d1192b9c90224cb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_98ea2f960dfcb58a5d40ade436097595.setIcon(icon_4abc5332dcb36d021d1192b9c90224cb);
+        
+    
+        var popup_cb44103b64b78362190d48a1e9fc59ef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3cf19d8d488de54c3a7ee045aae4481d = $(`<div id="html_3cf19d8d488de54c3a7ee045aae4481d" style="width: 100.0%; height: 100.0%;">CETC (Weijian Ruan)</div>`)[0];
+                popup_cb44103b64b78362190d48a1e9fc59ef.setContent(html_3cf19d8d488de54c3a7ee045aae4481d);
+            
+        
+
+        marker_98ea2f960dfcb58a5d40ade436097595.bindPopup(popup_cb44103b64b78362190d48a1e9fc59ef)
+        ;
+
+        
+    
+    
+            var marker_a5f6d8f159b6812f7aee017411119dea = L.marker(
+                [31.839071949999997, 117.26420747857581],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_1ddd87de81ee5558b11511d47ff64c9b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a5f6d8f159b6812f7aee017411119dea.setIcon(icon_1ddd87de81ee5558b11511d47ff64c9b);
+        
+    
+        var popup_fef26df442f7bb3a55eac3150781090d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b003f9adec3a51a9227dc927240aaeff = $(`<div id="html_b003f9adec3a51a9227dc927240aaeff" style="width: 100.0%; height: 100.0%;">USTC (Yan Song)</div>`)[0];
+                popup_fef26df442f7bb3a55eac3150781090d.setContent(html_b003f9adec3a51a9227dc927240aaeff);
+            
+        
+
+        marker_a5f6d8f159b6812f7aee017411119dea.bindPopup(popup_fef26df442f7bb3a55eac3150781090d)
+        ;
+
+        
+    
+    
+            var marker_6e2dd38f8f6c82b1f5ece788af0b9219 = L.marker(
+                [19.824645, 96.1625226],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_63112a0765086a44aabeab74af643bbd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkblue", "prefix": "glyphicon"}
+            );
+            marker_6e2dd38f8f6c82b1f5ece788af0b9219.setIcon(icon_63112a0765086a44aabeab74af643bbd);
+        
+    
+        var popup_b1247f7a52e25c3ac0d78b52275e0a59 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1934855d77d7d2cdb2e1d0ffcd78f75e = $(`<div id="html_1934855d77d7d2cdb2e1d0ffcd78f75e" style="width: 100.0%; height: 100.0%;">CETC (B Liu)</div>`)[0];
+                popup_b1247f7a52e25c3ac0d78b52275e0a59.setContent(html_1934855d77d7d2cdb2e1d0ffcd78f75e);
+            
+        
+
+        marker_6e2dd38f8f6c82b1f5ece788af0b9219.bindPopup(popup_b1247f7a52e25c3ac0d78b52275e0a59)
+        ;
+
+        
+    
+    
+            var marker_e365cfa70c20a6b535fd9fdaf2367de0 = L.marker(
+                [22.28269745, 114.13845499995571],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_df0e4cd909bfd3f0267373953b4f9ac4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_e365cfa70c20a6b535fd9fdaf2367de0.setIcon(icon_df0e4cd909bfd3f0267373953b4f9ac4);
+        
+    
+        var popup_443a2fcb892da2887bc4c12c4bd3dd45 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e40c4bbee5c8d6f482907c285ed54ca1 = $(`<div id="html_e40c4bbee5c8d6f482907c285ed54ca1" style="width: 100.0%; height: 100.0%;">The University of Hong Kong (Jiannan Wu)</div>`)[0];
+                popup_443a2fcb892da2887bc4c12c4bd3dd45.setContent(html_e40c4bbee5c8d6f482907c285ed54ca1);
+            
+        
+
+        marker_e365cfa70c20a6b535fd9fdaf2367de0.bindPopup(popup_443a2fcb892da2887bc4c12c4bd3dd45)
+        ;
+
+        
+    
+    
+            var marker_2f8ee425c45e050b3aa3de16dc1548ea = L.marker(
+                [-17.7817072, -63.182204],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_3a32c70233a9ca5931fd17451dbbe8c6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_2f8ee425c45e050b3aa3de16dc1548ea.setIcon(icon_3a32c70233a9ca5931fd17451dbbe8c6);
+        
+    
+        var popup_40a76cb33f6fd745054bb4ce72f665bd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8abdb8b5c40dbe2066661a94dafd7fe5 = $(`<div id="html_8abdb8b5c40dbe2066661a94dafd7fe5" style="width: 100.0%; height: 100.0%;">Department Head (Shuai Wang)</div>`)[0];
+                popup_40a76cb33f6fd745054bb4ce72f665bd.setContent(html_8abdb8b5c40dbe2066661a94dafd7fe5);
+            
+        
+
+        marker_2f8ee425c45e050b3aa3de16dc1548ea.bindPopup(popup_40a76cb33f6fd745054bb4ce72f665bd)
+        ;
+
+        
+    
+    
+            var marker_36cad564c206919d223bc2e5b25daf72 = L.marker(
+                [41.7691902, 123.439023],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_93296dd43e0666147def7968344f6cf3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_36cad564c206919d223bc2e5b25daf72.setIcon(icon_93296dd43e0666147def7968344f6cf3);
+        
+    
+        var popup_7993bd3b6aa0922d44f72c59e0b3a983 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ba916eac8536d657e260790b21a71435 = $(`<div id="html_ba916eac8536d657e260790b21a71435" style="width: 100.0%; height: 100.0%;">Chinese Academy of Science (Yuan Yao)</div>`)[0];
+                popup_7993bd3b6aa0922d44f72c59e0b3a983.setContent(html_ba916eac8536d657e260790b21a71435);
+            
+        
+
+        marker_36cad564c206919d223bc2e5b25daf72.bindPopup(popup_7993bd3b6aa0922d44f72c59e0b3a983)
+        ;
+
+        
+    
+    
+            var marker_1e1610eafaba59dcc608583d184b3f41 = L.marker(
+                [24.4324903, 54.618379],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_fc117563f70c2981824a6424790ca972 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_1e1610eafaba59dcc608583d184b3f41.setIcon(icon_fc117563f70c2981824a6424790ca972);
+        
+    
+        var popup_780a3bf125967130aa0551f6996d2707 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d61a1449e5fb8f862d84e4bb1748335c = $(`<div id="html_d61a1449e5fb8f862d84e4bb1748335c" style="width: 100.0%; height: 100.0%;">Mohamed Bin Zayed University of Artificial Intelligence (Abdelrahman Shaker)</div>`)[0];
+                popup_780a3bf125967130aa0551f6996d2707.setContent(html_d61a1449e5fb8f862d84e4bb1748335c);
+            
+        
+
+        marker_1e1610eafaba59dcc608583d184b3f41.bindPopup(popup_780a3bf125967130aa0551f6996d2707)
+        ;
+
+        
+    
+    
+            var marker_654f5aa7e8c69b76522d3acdd59a1930 = L.marker(
+                [50.4629226, 3.9140489715804607],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_55d1f5dc898d3acb1dc2b6960e928d62 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_654f5aa7e8c69b76522d3acdd59a1930.setIcon(icon_55d1f5dc898d3acb1dc2b6960e928d62);
+        
+    
+        var popup_6e09c1eab6198bb065f3cdd68376b7cb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ad0dcb2e02c55f7e92cbb9151fcdb47e = $(`<div id="html_ad0dcb2e02c55f7e92cbb9151fcdb47e" style="width: 100.0%; height: 100.0%;">IDEA (Junqing He)</div>`)[0];
+                popup_6e09c1eab6198bb065f3cdd68376b7cb.setContent(html_ad0dcb2e02c55f7e92cbb9151fcdb47e);
+            
+        
+
+        marker_654f5aa7e8c69b76522d3acdd59a1930.bindPopup(popup_6e09c1eab6198bb065f3cdd68376b7cb)
+        ;
+
+        
+    
+    
+            var marker_3f118e1c5ac615eb65fadfa01d3e11c3 = L.marker(
+                [51.532285200000004, -0.12057660198478583],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_19df70cf314c364010f7166ec5124940 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3f118e1c5ac615eb65fadfa01d3e11c3.setIcon(icon_19df70cf314c364010f7166ec5124940);
+        
+    
+        var popup_c706ab6767233a7aa54dcf85cc747017 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c2ce4be4d7e3a5bcff94d96688023eb9 = $(`<div id="html_c2ce4be4d7e3a5bcff94d96688023eb9" style="width: 100.0%; height: 100.0%;">Institute of Physics (Yuan Yao)</div>`)[0];
+                popup_c706ab6767233a7aa54dcf85cc747017.setContent(html_c2ce4be4d7e3a5bcff94d96688023eb9);
+            
+        
+
+        marker_3f118e1c5ac615eb65fadfa01d3e11c3.bindPopup(popup_c706ab6767233a7aa54dcf85cc747017)
+        ;
+
+        
+    
+    
+            var marker_18e1dfbaaa2d37381f6fd3ed18b3771b = L.marker(
+                [40.002290450000004, 116.3209629696906],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_2d9f07f00a962cdfa25386be3d10561d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_18e1dfbaaa2d37381f6fd3ed18b3771b.setIcon(icon_2d9f07f00a962cdfa25386be3d10561d);
+        
+    
+        var popup_c7efc9fdc5022d0590bb28b0251f14c8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5c3698876b30c9d618df536a22b84aaa = $(`<div id="html_5c3698876b30c9d618df536a22b84aaa" style="width: 100.0%; height: 100.0%;">Tsinghua University (Jinyi Hu)</div>`)[0];
+                popup_c7efc9fdc5022d0590bb28b0251f14c8.setContent(html_5c3698876b30c9d618df536a22b84aaa);
+            
+        
+
+        marker_18e1dfbaaa2d37381f6fd3ed18b3771b.bindPopup(popup_c7efc9fdc5022d0590bb28b0251f14c8)
+        ;
+
+        
+    
+    
+            var marker_6a39e9febb3dda8d8f82447182acd2d0 = L.marker(
+                [31.30116485, 121.49808756382322],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_381487e7f3ac183a4f841904965240ab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_6a39e9febb3dda8d8f82447182acd2d0.setIcon(icon_381487e7f3ac183a4f841904965240ab);
+        
+    
+        var popup_5de9ad067cb94947cfd94ba42e718931 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9ce1a42c70a4d9986554ca68d4cf2b47 = $(`<div id="html_9ce1a42c70a4d9986554ca68d4cf2b47" style="width: 100.0%; height: 100.0%;">FUDAN UNIVERSITY (Zhiyu Tan)</div>`)[0];
+                popup_5de9ad067cb94947cfd94ba42e718931.setContent(html_9ce1a42c70a4d9986554ca68d4cf2b47);
+            
+        
+
+        marker_6a39e9febb3dda8d8f82447182acd2d0.bindPopup(popup_5de9ad067cb94947cfd94ba42e718931)
+        ;
+
+        
+    
+    
+            var marker_06e9d9204c47a6e2245b5d4ccc30c85f = L.marker(
+                [31.839071949999997, 117.26420747857581],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_0a6d46cfef95e240346f066b255b4113 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_06e9d9204c47a6e2245b5d4ccc30c85f.setIcon(icon_0a6d46cfef95e240346f066b255b4113);
+        
+    
+        var popup_f481d68cc949e26687e25a3933382470 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f9ed59d7068853e976437d1a4c4e1267 = $(`<div id="html_f9ed59d7068853e976437d1a4c4e1267" style="width: 100.0%; height: 100.0%;">USTC (Yan Song)</div>`)[0];
+                popup_f481d68cc949e26687e25a3933382470.setContent(html_f9ed59d7068853e976437d1a4c4e1267);
+            
+        
+
+        marker_06e9d9204c47a6e2245b5d4ccc30c85f.bindPopup(popup_f481d68cc949e26687e25a3933382470)
+        ;
+
+        
+    
+    
+            var marker_0562d1a000d6fa327bef1b542c3142c6 = L.marker(
+                [31.839071949999997, 117.26420747857581],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_811820471fa8f3a46b688cd144ae739e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_0562d1a000d6fa327bef1b542c3142c6.setIcon(icon_811820471fa8f3a46b688cd144ae739e);
+        
+    
+        var popup_8d41fe765d3642a8e79e830fa10ffdc7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cb8f921148ee95d6eec5fa9bda1a3a00 = $(`<div id="html_cb8f921148ee95d6eec5fa9bda1a3a00" style="width: 100.0%; height: 100.0%;">Technology of China (Chang Liu)</div>`)[0];
+                popup_8d41fe765d3642a8e79e830fa10ffdc7.setContent(html_cb8f921148ee95d6eec5fa9bda1a3a00);
+            
+        
+
+        marker_0562d1a000d6fa327bef1b542c3142c6.bindPopup(popup_8d41fe765d3642a8e79e830fa10ffdc7)
+        ;
+
+        
+    
+    
+            var marker_d2a2a3a5de388ca333057cb706e28fe3 = L.marker(
+                [49.25783145, -123.24624198622213],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_0e490b93d538746a86f49fb2186d6848 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d2a2a3a5de388ca333057cb706e28fe3.setIcon(icon_0e490b93d538746a86f49fb2186d6848);
+        
+    
+        var popup_2ac444d26a510ce2293fe0bed26e366c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d9773d752e2d0ca1f0944cff52edd4da = $(`<div id="html_d9773d752e2d0ca1f0944cff52edd4da" style="width: 100.0%; height: 100.0%;">University of British Columbia (Yuwei Yin)</div>`)[0];
+                popup_2ac444d26a510ce2293fe0bed26e366c.setContent(html_d9773d752e2d0ca1f0944cff52edd4da);
+            
+        
+
+        marker_d2a2a3a5de388ca333057cb706e28fe3.bindPopup(popup_2ac444d26a510ce2293fe0bed26e366c)
+        ;
+
+        
+    
+    
+            var marker_58d0633eb36fe06d7e9197021e452dc3 = L.marker(
+                [39.90933665, 116.32971461228999],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_6d02a871ca943aad4924f166050ca307 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_58d0633eb36fe06d7e9197021e452dc3.setIcon(icon_6d02a871ca943aad4924f166050ca307);
+        
+    
+        var popup_bbf6ad52d67a395c684a3a33ae5418ce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_352d2d7972a5bedc014397440a44cc4d = $(`<div id="html_352d2d7972a5bedc014397440a44cc4d" style="width: 100.0%; height: 100.0%;">Chinese Academy of Sciences (Duzhen Zhang)</div>`)[0];
+                popup_bbf6ad52d67a395c684a3a33ae5418ce.setContent(html_352d2d7972a5bedc014397440a44cc4d);
+            
+        
+
+        marker_58d0633eb36fe06d7e9197021e452dc3.bindPopup(popup_bbf6ad52d67a395c684a3a33ae5418ce)
+        ;
+
+        
+    
+    
+            var marker_9a633ebb50b193bda49c24666a692710 = L.marker(
+                [54.1720834, 12.0790983],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_4b5c876f39ba4e54b4e76d1d939c7b49 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9a633ebb50b193bda49c24666a692710.setIcon(icon_4b5c876f39ba4e54b4e76d1d939c7b49);
+        
+    
+        var popup_19549e851d4427443a9b327467508236 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b149b12498b73a19c2bb4034e9438814 = $(`<div id="html_b149b12498b73a19c2bb4034e9438814" style="width: 100.0%; height: 100.0%;">Institute of Automation (Chenxing Li)</div>`)[0];
+                popup_19549e851d4427443a9b327467508236.setContent(html_b149b12498b73a19c2bb4034e9438814);
+            
+        
+
+        marker_9a633ebb50b193bda49c24666a692710.bindPopup(popup_19549e851d4427443a9b327467508236)
+        ;
+
+        
+    
+    
+            var marker_3fbe299a428205c9b13bbb22afa68c1e = L.marker(
+                [25.5357691, 84.8511222],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_448399c03c1991401bde65831ea3badc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_3fbe299a428205c9b13bbb22afa68c1e.setIcon(icon_448399c03c1991401bde65831ea3badc);
+        
+    
+        var popup_2797485623632c6f03b6cf116c341c90 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1de127a5c8ed805ae1d364497ab66829 = $(`<div id="html_1de127a5c8ed805ae1d364497ab66829" style="width: 100.0%; height: 100.0%;">Indian Institute of Technology Patna (Arkadeep Acharya)</div>`)[0];
+                popup_2797485623632c6f03b6cf116c341c90.setContent(html_1de127a5c8ed805ae1d364497ab66829);
+            
+        
+
+        marker_3fbe299a428205c9b13bbb22afa68c1e.bindPopup(popup_2797485623632c6f03b6cf116c341c90)
+        ;
+
+        
+    
+    
+            var marker_1195725f3a5e853cfa139723220ba8ec = L.marker(
+                [31.839071949999997, 117.26420747857581],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_c81adaf5ebef1beca8ab33750f52cada = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_1195725f3a5e853cfa139723220ba8ec.setIcon(icon_c81adaf5ebef1beca8ab33750f52cada);
+        
+    
+        var popup_258f0187677d2924254ab58b9815cc78 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_374ea90c88c91325893ae04c766a0aa3 = $(`<div id="html_374ea90c88c91325893ae04c766a0aa3" style="width: 100.0%; height: 100.0%;">Technology of China (Xuanting Xie)</div>`)[0];
+                popup_258f0187677d2924254ab58b9815cc78.setContent(html_374ea90c88c91325893ae04c766a0aa3);
+            
+        
+
+        marker_1195725f3a5e853cfa139723220ba8ec.bindPopup(popup_258f0187677d2924254ab58b9815cc78)
+        ;
+
+        
+    
+    
+            var marker_b8884d8fabba6b705c5aed4fd4770f0d = L.marker(
+                [22.5445741, 114.0545429],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_a2225a5be8e23410d6f478bc350de14e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_b8884d8fabba6b705c5aed4fd4770f0d.setIcon(icon_a2225a5be8e23410d6f478bc350de14e);
+        
+    
+        var popup_bbeb925e5965868bf076504435c0814a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_42f11a5f275dc66de2791c96ab0f11d4 = $(`<div id="html_42f11a5f275dc66de2791c96ab0f11d4" style="width: 100.0%; height: 100.0%;">Shenzhen (Xidong WANG)</div>`)[0];
+                popup_bbeb925e5965868bf076504435c0814a.setContent(html_42f11a5f275dc66de2791c96ab0f11d4);
+            
+        
+
+        marker_b8884d8fabba6b705c5aed4fd4770f0d.bindPopup(popup_bbeb925e5965868bf076504435c0814a)
+        ;
+
+        
+    
+    
+            var marker_73d09873137f427e35493c4e86972179 = L.marker(
+                [22.6910685, 114.20736597452726],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_5a5f364a133fec73b22b6484eb9dce35 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_73d09873137f427e35493c4e86972179.setIcon(icon_5a5f364a133fec73b22b6484eb9dce35);
+        
+    
+        var popup_76afc3f1b6bac7806cd74941af8c856d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_14b36a81017cc4971547f476535f8148 = $(`<div id="html_14b36a81017cc4971547f476535f8148" style="width: 100.0%; height: 100.0%;">CUHK-Shenzhen (Dingjie Song)</div>`)[0];
+                popup_76afc3f1b6bac7806cd74941af8c856d.setContent(html_14b36a81017cc4971547f476535f8148);
+            
+        
+
+        marker_73d09873137f427e35493c4e86972179.bindPopup(popup_76afc3f1b6bac7806cd74941af8c856d)
+        ;
+
+        
+    
+    
+            var marker_e3305f372c7d99b5aaec139d5992fd0e = L.marker(
+                [30.67823145, 104.0980033903279],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_83535d72ffc9f60eca2918adbd6329e8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_e3305f372c7d99b5aaec139d5992fd0e.setIcon(icon_83535d72ffc9f60eca2918adbd6329e8);
+        
+    
+        var popup_424df0ffaece9eb6a717e585a82a1612 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_350c98363918118c340eba62e085901d = $(`<div id="html_350c98363918118c340eba62e085901d" style="width: 100.0%; height: 100.0%;">University of Electronic Science and Technology of China (Shaohuan Cheng)</div>`)[0];
+                popup_424df0ffaece9eb6a717e585a82a1612.setContent(html_350c98363918118c340eba62e085901d);
+            
+        
+
+        marker_e3305f372c7d99b5aaec139d5992fd0e.bindPopup(popup_424df0ffaece9eb6a717e585a82a1612)
+        ;
+
+        
+    
+    
+            var marker_270f1682223319c650debc67ae443032 = L.marker(
+                [30.67823145, 104.0980033903279],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_6265d1bf032d5636f4341c69b52add13 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_270f1682223319c650debc67ae443032.setIcon(icon_6265d1bf032d5636f4341c69b52add13);
+        
+    
+        var popup_ab6075243e206d92c3b583b3675e6f3d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_37f2bf955bd235e9242443c84ef3225a = $(`<div id="html_37f2bf955bd235e9242443c84ef3225a" style="width: 100.0%; height: 100.0%;">University of Electronic Science and Technology of China (Xuanting Xie)</div>`)[0];
+                popup_ab6075243e206d92c3b583b3675e6f3d.setContent(html_37f2bf955bd235e9242443c84ef3225a);
+            
+        
+
+        marker_270f1682223319c650debc67ae443032.bindPopup(popup_ab6075243e206d92c3b583b3675e6f3d)
+        ;
+
+        
+    
+    
+            var marker_74fb85c86ffb49c101c9ea0abacb6760 = L.marker(
+                [25.2621544, 82.9925896],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_f07bb7b2d37fd804ebca598c7f521f30 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_74fb85c86ffb49c101c9ea0abacb6760.setIcon(icon_f07bb7b2d37fd804ebca598c7f521f30);
+        
+    
+        var popup_061318db27c455ec059861a513d42c79 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fe5ac78da00ee310f8a4123c013ab18c = $(`<div id="html_fe5ac78da00ee310f8a4123c013ab18c" style="width: 100.0%; height: 100.0%;">Indian Institute of Technology (Dr. Sriparna Saha)</div>`)[0];
+                popup_061318db27c455ec059861a513d42c79.setContent(html_fe5ac78da00ee310f8a4123c013ab18c);
+            
+        
+
+        marker_74fb85c86ffb49c101c9ea0abacb6760.bindPopup(popup_061318db27c455ec059861a513d42c79)
+        ;
+
+        
+    
+    
+            var marker_55009c519794bdb38bb0d1e841c55ee7 = L.marker(
+                [30.52021715, 114.41184627402748],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_5f41d665c3da833f53598ac621e4938d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_55009c519794bdb38bb0d1e841c55ee7.setIcon(icon_5f41d665c3da833f53598ac621e4938d);
+        
+    
+        var popup_8db571a0b781dcaf2ca8e3d0cb90f847 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2cfafc23a306c8e26f321143b0cee787 = $(`<div id="html_2cfafc23a306c8e26f321143b0cee787" style="width: 100.0%; height: 100.0%;">Huazhong University of Science and Technology (Jing Tang)</div>`)[0];
+                popup_8db571a0b781dcaf2ca8e3d0cb90f847.setContent(html_2cfafc23a306c8e26f321143b0cee787);
+            
+        
+
+        marker_55009c519794bdb38bb0d1e841c55ee7.bindPopup(popup_8db571a0b781dcaf2ca8e3d0cb90f847)
+        ;
+
+        
+    
+    
+            var marker_9de9da5c7d8bcebd7d120f60d25f0151 = L.marker(
+                [51.51426105, -0.11673351981492822],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_5e859fb4ce8014b8d4c5da0c941860f9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_9de9da5c7d8bcebd7d120f60d25f0151.setIcon(icon_5e859fb4ce8014b8d4c5da0c941860f9);
+        
+    
+        var popup_2dd1b8b1ce891a3b38b935df8eb34231 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c5a793a54f40dc454a8d1a24ce7e5a49 = $(`<div id="html_c5a793a54f40dc454a8d1a24ce7e5a49" style="width: 100.0%; height: 100.0%;">University of Science (Weidong Chen)</div>`)[0];
+                popup_2dd1b8b1ce891a3b38b935df8eb34231.setContent(html_c5a793a54f40dc454a8d1a24ce7e5a49);
+            
+        
+
+        marker_9de9da5c7d8bcebd7d120f60d25f0151.bindPopup(popup_2dd1b8b1ce891a3b38b935df8eb34231)
+        ;
+
+        
+    
+    
+            var marker_49ca96a5003c2b18cd7dc6cdd3ea4af4 = L.marker(
+                [35.02704665, 135.78143727667532],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_3e2567bbd5ea9224cbc738275d834b90 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_49ca96a5003c2b18cd7dc6cdd3ea4af4.setIcon(icon_3e2567bbd5ea9224cbc738275d834b90);
+        
+    
+        var popup_a66f35f66e34ff99f31db09fed14d798 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0d9c9e7824c1e64b7bfe69cef8c10056 = $(`<div id="html_0d9c9e7824c1e64b7bfe69cef8c10056" style="width: 100.0%; height: 100.0%;">Kyoto University (Yahan Yu)</div>`)[0];
+                popup_a66f35f66e34ff99f31db09fed14d798.setContent(html_0d9c9e7824c1e64b7bfe69cef8c10056);
+            
+        
+
+        marker_49ca96a5003c2b18cd7dc6cdd3ea4af4.bindPopup(popup_a66f35f66e34ff99f31db09fed14d798)
+        ;
+
+        
+    
+    
+            var marker_7ac08d8a581d44ac25eb6177300fcabd = L.marker(
+                [37.632441400000005, 127.07946475957468],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_f74e349174ecb0b4dca02a51ed5fc9b5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkblue", "prefix": "glyphicon"}
+            );
+            marker_7ac08d8a581d44ac25eb6177300fcabd.setIcon(icon_f74e349174ecb0b4dca02a51ed5fc9b5);
+        
+    
+        var popup_ab471efdb61225f319a0cac9ff9fbf45 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e86b4d17fbf5b3969d4d3fda074fc268 = $(`<div id="html_e86b4d17fbf5b3969d4d3fda074fc268" style="width: 100.0%; height: 100.0%;">Seoul National University of Science and Technology (임현석)</div>`)[0];
+                popup_ab471efdb61225f319a0cac9ff9fbf45.setContent(html_e86b4d17fbf5b3969d4d3fda074fc268);
+            
+        
+
+        marker_7ac08d8a581d44ac25eb6177300fcabd.bindPopup(popup_ab471efdb61225f319a0cac9ff9fbf45)
+        ;
+
+        
+    
+    
+            var marker_fe085f184f8d66e68608ce6fa3ebd298 = L.marker(
+                [31.29501605, 121.55067391001644],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_f126ba4181e3d80e6ee6cd330dd169b9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_fe085f184f8d66e68608ce6fa3ebd298.setIcon(icon_f126ba4181e3d80e6ee6cd330dd169b9);
+        
+    
+        var popup_c55004143ffc8baa50765e39822e0831 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cce1a084c3cdb75be7a5f0396da7c97f = $(`<div id="html_cce1a084c3cdb75be7a5f0396da7c97f" style="width: 100.0%; height: 100.0%;">University of Shanghai for Science (秦晓飞)</div>`)[0];
+                popup_c55004143ffc8baa50765e39822e0831.setContent(html_cce1a084c3cdb75be7a5f0396da7c97f);
+            
+        
+
+        marker_fe085f184f8d66e68608ce6fa3ebd298.bindPopup(popup_c55004143ffc8baa50765e39822e0831)
+        ;
+
+        
+    
+    
+            var marker_d34cef6780177d98b6d8485d25116347 = L.marker(
+                [39.90933665, 116.32971461228999],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_40a412a9a1f89c5488aac74ebe2d5ca5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_d34cef6780177d98b6d8485d25116347.setIcon(icon_40a412a9a1f89c5488aac74ebe2d5ca5);
+        
+    
+        var popup_088c1992e8823a46b3f2c911bc83c8f6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c4a9b41f139a44b5fbf2dfb23176e8ed = $(`<div id="html_c4a9b41f139a44b5fbf2dfb23176e8ed" style="width: 100.0%; height: 100.0%;">Chinese Academy of Sciences (Jiahua Dong)</div>`)[0];
+                popup_088c1992e8823a46b3f2c911bc83c8f6.setContent(html_c4a9b41f139a44b5fbf2dfb23176e8ed);
+            
+        
+
+        marker_d34cef6780177d98b6d8485d25116347.bindPopup(popup_088c1992e8823a46b3f2c911bc83c8f6)
+        ;
+
+        
+    
+    
+            var marker_6d28affc8332a64856e0aaaca92d6d3e = L.marker(
+                [3.16129015, 101.56813112882818],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_0bb172ee59001c4e3c22d44cb8da85c4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkblue", "prefix": "glyphicon"}
+            );
+            marker_6d28affc8332a64856e0aaaca92d6d3e.setIcon(icon_0bb172ee59001c4e3c22d44cb8da85c4);
+        
+    
+        var popup_8b2b7ecf3390727ee0ee5227ec52c780 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_480309f76096511d1ef8fd4ad3e57d18 = $(`<div id="html_480309f76096511d1ef8fd4ad3e57d18" style="width: 100.0%; height: 100.0%;">Technology (Mengping Yang)</div>`)[0];
+                popup_8b2b7ecf3390727ee0ee5227ec52c780.setContent(html_480309f76096511d1ef8fd4ad3e57d18);
+            
+        
+
+        marker_6d28affc8332a64856e0aaaca92d6d3e.bindPopup(popup_8b2b7ecf3390727ee0ee5227ec52c780)
+        ;
+
+        
+    
+    
+            var marker_55b29131e8c8742e6a9ce5f15d30913f = L.marker(
+                [31.29501605, 121.55067391001644],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_6cc6ed639ea11684ba6eee7a2d5f5ed6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_55b29131e8c8742e6a9ce5f15d30913f.setIcon(icon_6cc6ed639ea11684ba6eee7a2d5f5ed6);
+        
+    
+        var popup_53f810823168784559a3cfb63d6a9383 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6293ee20b1c2b87a839d8caba2c97a04 = $(`<div id="html_6293ee20b1c2b87a839d8caba2c97a04" style="width: 100.0%; height: 100.0%;">University of Shanghai for Science and Technology (秦晓飞)</div>`)[0];
+                popup_53f810823168784559a3cfb63d6a9383.setContent(html_6293ee20b1c2b87a839d8caba2c97a04);
+            
+        
+
+        marker_55b29131e8c8742e6a9ce5f15d30913f.bindPopup(popup_53f810823168784559a3cfb63d6a9383)
+        ;
+
+        
+    
+    
+            var marker_8f3a5c39861f40b22a2b527376baec47 = L.marker(
+                [32.0565957, 118.77408832807794],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_b8d776b56e2e50af9e825f1b6b305f8e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_8f3a5c39861f40b22a2b527376baec47.setIcon(icon_b8d776b56e2e50af9e825f1b6b305f8e);
+        
+    
+        var popup_31bd2e2b11cfd96f775cc6f45e0615bb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8f331be567f1c448b98e5c7050ac941a = $(`<div id="html_8f331be567f1c448b98e5c7050ac941a" style="width: 100.0%; height: 100.0%;">Nanjing University (Shiyin Lu)</div>`)[0];
+                popup_31bd2e2b11cfd96f775cc6f45e0615bb.setContent(html_8f331be567f1c448b98e5c7050ac941a);
+            
+        
+
+        marker_8f3a5c39861f40b22a2b527376baec47.bindPopup(popup_31bd2e2b11cfd96f775cc6f45e0615bb)
+        ;
+
+        
+    
+    
+            var marker_39cf551333c8747ae54b66cf38f84bc9 = L.marker(
+                [13.7871932, 100.5746341],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_aba40614ff01d77ed66391783cf73529 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_39cf551333c8747ae54b66cf38f84bc9.setIcon(icon_aba40614ff01d77ed66391783cf73529);
+        
+    
+        var popup_e1f0843604c3229d3b1344c5d33ffe64 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e11166b16c5a1185fe7ea9079977444f = $(`<div id="html_e11166b16c5a1185fe7ea9079977444f" style="width: 100.0%; height: 100.0%;">tencent (Yuejia Xiang)</div>`)[0];
+                popup_e1f0843604c3229d3b1344c5d33ffe64.setContent(html_e11166b16c5a1185fe7ea9079977444f);
+            
+        
+
+        marker_39cf551333c8747ae54b66cf38f84bc9.bindPopup(popup_e1f0843604c3229d3b1344c5d33ffe64)
+        ;
+
+        
+    
+    
+            var marker_e66ffca3b1c9b1bacfb999424a1a3985 = L.marker(
+                [3.16129015, 101.56813112882818],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_554183e4d0015dc8b821682441e94d1c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_e66ffca3b1c9b1bacfb999424a1a3985.setIcon(icon_554183e4d0015dc8b821682441e94d1c);
+        
+    
+        var popup_c965ee8066c6ed514bb8631358eaf3c4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6323fcae38d932a7df383847f0228da9 = $(`<div id="html_6323fcae38d932a7df383847f0228da9" style="width: 100.0%; height: 100.0%;">Technology (임현석)</div>`)[0];
+                popup_c965ee8066c6ed514bb8631358eaf3c4.setContent(html_6323fcae38d932a7df383847f0228da9);
+            
+        
+
+        marker_e66ffca3b1c9b1bacfb999424a1a3985.bindPopup(popup_c965ee8066c6ed514bb8631358eaf3c4)
+        ;
+
+        
+    
+    
+            var marker_93526ba3cbd3d0585e177d53d158db82 = L.marker(
+                [3.16129015, 101.56813112882818],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_fe668583f34193ae5abf5a2919f7ce18 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_93526ba3cbd3d0585e177d53d158db82.setIcon(icon_fe668583f34193ae5abf5a2919f7ce18);
+        
+    
+        var popup_8f1dfc30fd9ace5bc73cec750af1898a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fd9c359b04707204daff38108562287e = $(`<div id="html_fd9c359b04707204daff38108562287e" style="width: 100.0%; height: 100.0%;">Technology (minjun Kim)</div>`)[0];
+                popup_8f1dfc30fd9ace5bc73cec750af1898a.setContent(html_fd9c359b04707204daff38108562287e);
+            
+        
+
+        marker_93526ba3cbd3d0585e177d53d158db82.bindPopup(popup_8f1dfc30fd9ace5bc73cec750af1898a)
+        ;
+
+        
+    
+    
+            var marker_0dc91430b0fa005ac5aea378babf36b0 = L.marker(
+                [37.7822888, -122.4715708],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_d6e5935797f78279ebe741115cb1da1e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_0dc91430b0fa005ac5aea378babf36b0.setIcon(icon_d6e5935797f78279ebe741115cb1da1e);
+        
+    
+        var popup_fe6d57d34348d1c1c6b4da4b61c37546 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4ef1e16d947efcea64bd1654df356da4 = $(`<div id="html_4ef1e16d947efcea64bd1654df356da4" style="width: 100.0%; height: 100.0%;">Internet (Qing Li)</div>`)[0];
+                popup_fe6d57d34348d1c1c6b4da4b61c37546.setContent(html_4ef1e16d947efcea64bd1654df356da4);
+            
+        
+
+        marker_0dc91430b0fa005ac5aea378babf36b0.bindPopup(popup_fe6d57d34348d1c1c6b4da4b61c37546)
+        ;
+
+        
+    
+    
+            var marker_947e759f3a01196b3e3494311dcfb3b5 = L.marker(
+                [57.0017332, -111.4794365],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_c65b22918edfc96ee585276ccd3f2f44 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_947e759f3a01196b3e3494311dcfb3b5.setIcon(icon_c65b22918edfc96ee585276ccd3f2f44);
+        
+    
+        var popup_56ff5bb31ac1fb4374a70fabae3096b1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d7e2eee9c0ca95b909fddeebf62a75fe = $(`<div id="html_d7e2eee9c0ca95b909fddeebf62a75fe" style="width: 100.0%; height: 100.0%;">AI Lab (Biyang Guo (郭必扬))</div>`)[0];
+                popup_56ff5bb31ac1fb4374a70fabae3096b1.setContent(html_d7e2eee9c0ca95b909fddeebf62a75fe);
+            
+        
+
+        marker_947e759f3a01196b3e3494311dcfb3b5.bindPopup(popup_56ff5bb31ac1fb4374a70fabae3096b1)
+        ;
+
+        
+    
+    
+            var marker_d4bee583f4cdd80b1a43df32263c011f = L.marker(
+                [40.002290450000004, 116.3209629696906],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_2c14f6802f88d25026ac8b26091818a2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d4bee583f4cdd80b1a43df32263c011f.setIcon(icon_2c14f6802f88d25026ac8b26091818a2);
+        
+    
+        var popup_af93cccf76eae5d594fda9667cf28950 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9ece12bb76c3abaa44c03767aa087395 = $(`<div id="html_9ece12bb76c3abaa44c03767aa087395" style="width: 100.0%; height: 100.0%;">Tsinghua University (Qianyu Chen)</div>`)[0];
+                popup_af93cccf76eae5d594fda9667cf28950.setContent(html_9ece12bb76c3abaa44c03767aa087395);
+            
+        
+
+        marker_d4bee583f4cdd80b1a43df32263c011f.bindPopup(popup_af93cccf76eae5d594fda9667cf28950)
+        ;
+
+        
+    
+    
+            var marker_dccbb0d04126067d05d1fef30464bef9 = L.marker(
+                [40.002290450000004, 116.3209629696906],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_ad548ca31934ff3f9f1a76ce73de9952 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_dccbb0d04126067d05d1fef30464bef9.setIcon(icon_ad548ca31934ff3f9f1a76ce73de9952);
+        
+    
+        var popup_534f5c9567cf152502ba101d0cc07881 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e0df065b45dd5e47b8cd77bba732a60e = $(`<div id="html_e0df065b45dd5e47b8cd77bba732a60e" style="width: 100.0%; height: 100.0%;">Tsinghua University (Qingsong Lv)</div>`)[0];
+                popup_534f5c9567cf152502ba101d0cc07881.setContent(html_e0df065b45dd5e47b8cd77bba732a60e);
+            
+        
+
+        marker_dccbb0d04126067d05d1fef30464bef9.bindPopup(popup_534f5c9567cf152502ba101d0cc07881)
+        ;
+
+        
+    
+    
+            var marker_24df21bc1182b7f6bd9ae7e5b288553a = L.marker(
+                [32.05764775, 118.78828187958575],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_c3d2082cb8f8bb0b05b551428c369620 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "beige", "prefix": "glyphicon"}
+            );
+            marker_24df21bc1182b7f6bd9ae7e5b288553a.setIcon(icon_c3d2082cb8f8bb0b05b551428c369620);
+        
+    
+        var popup_18170c7ea18eab89517b8c15d9925d9a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c2d52b00c6382023adfdf5eb99083fd6 = $(`<div id="html_c2d52b00c6382023adfdf5eb99083fd6" style="width: 100.0%; height: 100.0%;">Southeast University (Li Lin)</div>`)[0];
+                popup_18170c7ea18eab89517b8c15d9925d9a.setContent(html_c2d52b00c6382023adfdf5eb99083fd6);
+            
+        
+
+        marker_24df21bc1182b7f6bd9ae7e5b288553a.bindPopup(popup_18170c7ea18eab89517b8c15d9925d9a)
+        ;
+
+        
+    
+    
+            var marker_ae8e45b1fb76fb11480dc2c5e8e4d287 = L.marker(
+                [31.8403891, 117.2501941133908],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_0e9eeb6bb7ebc52b6b448ea2c7e50dc9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_ae8e45b1fb76fb11480dc2c5e8e4d287.setIcon(icon_0e9eeb6bb7ebc52b6b448ea2c7e50dc9);
+        
+    
+        var popup_3d07fed557a01f55fe2f7a2e10f94a29 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_db0d29ac8d46ab0711cf5f8db82d0aae = $(`<div id="html_db0d29ac8d46ab0711cf5f8db82d0aae" style="width: 100.0%; height: 100.0%;">University of Science and Technology of China (Chang Liu)</div>`)[0];
+                popup_3d07fed557a01f55fe2f7a2e10f94a29.setContent(html_db0d29ac8d46ab0711cf5f8db82d0aae);
+            
+        
+
+        marker_ae8e45b1fb76fb11480dc2c5e8e4d287.bindPopup(popup_3d07fed557a01f55fe2f7a2e10f94a29)
+        ;
+
+        
+    
+    
+            var marker_0993593bb6b8e9b53c1ef395cd524f57 = L.marker(
+                [43.1333157, -77.5717432],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_0745f1d252aa7c39af3014a4ddc080a6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_0993593bb6b8e9b53c1ef395cd524f57.setIcon(icon_0745f1d252aa7c39af3014a4ddc080a6);
+        
+    
+        var popup_24939f3abaa52bf34eae279f94ce4149 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c14f2469ee50b1105b4e2db57bde8de = $(`<div id="html_4c14f2469ee50b1105b4e2db57bde8de" style="width: 100.0%; height: 100.0%;">Twelve Labs (Seungjoon Park)</div>`)[0];
+                popup_24939f3abaa52bf34eae279f94ce4149.setContent(html_4c14f2469ee50b1105b4e2db57bde8de);
+            
+        
+
+        marker_0993593bb6b8e9b53c1ef395cd524f57.bindPopup(popup_24939f3abaa52bf34eae279f94ce4149)
+        ;
+
+        
+    
+    
+            var marker_248cb4ceb807b1e4f4af01bc027595b9 = L.marker(
+                [40.17336535, 116.15722001868669],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_98fb95c655754a72eb6ad9978a6c1f26 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkblue", "prefix": "glyphicon"}
+            );
+            marker_248cb4ceb807b1e4f4af01bc027595b9.setIcon(icon_98fb95c655754a72eb6ad9978a6c1f26);
+        
+    
+        var popup_45d5e639e87fdfacde9b712d57334808 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b672966e9a1468f6f955178b8da0c425 = $(`<div id="html_b672966e9a1468f6f955178b8da0c425" style="width: 100.0%; height: 100.0%;">Peking University (Lei Li)</div>`)[0];
+                popup_45d5e639e87fdfacde9b712d57334808.setContent(html_b672966e9a1468f6f955178b8da0c425);
+            
+        
+
+        marker_248cb4ceb807b1e4f4af01bc027595b9.bindPopup(popup_45d5e639e87fdfacde9b712d57334808)
+        ;
+
+        
+    
+    
+            var marker_a93249e9eeaedfb2b01abfc68cc8bda1 = L.marker(
+                [48.535503750000004, 9.057921738521756],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_913be954ea27a81be3da33656cb3132b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_a93249e9eeaedfb2b01abfc68cc8bda1.setIcon(icon_913be954ea27a81be3da33656cb3132b);
+        
+    
+        var popup_b48d6093ae63ce9762fb81cc47974eef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f43b09ec136d66ed42c01006a7c38152 = $(`<div id="html_f43b09ec136d66ed42c01006a7c38152" style="width: 100.0%; height: 100.0%;">Max Planck Institute for Intelligent Systems (Moritz Hardt)</div>`)[0];
+                popup_b48d6093ae63ce9762fb81cc47974eef.setContent(html_f43b09ec136d66ed42c01006a7c38152);
+            
+        
+
+        marker_a93249e9eeaedfb2b01abfc68cc8bda1.bindPopup(popup_b48d6093ae63ce9762fb81cc47974eef)
+        ;
+
+        
+    
+    
+            var marker_0de532a3918518573fe1552576410b02 = L.marker(
+                [22.1938349, 113.551515185608],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_42d104f03515f1d0641d66dc27c15656 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0de532a3918518573fe1552576410b02.setIcon(icon_42d104f03515f1d0641d66dc27c15656);
+        
+    
+        var popup_0aaf98cd01bf350ef7d9338c0cddfc69 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3b595cf3e85f6f3f3dd6a6b7d8f04584 = $(`<div id="html_3b595cf3e85f6f3f3dd6a6b7d8f04584" style="width: 100.0%; height: 100.0%;">Macao Polytechnic University (Benjamin K. Ng)</div>`)[0];
+                popup_0aaf98cd01bf350ef7d9338c0cddfc69.setContent(html_3b595cf3e85f6f3f3dd6a6b7d8f04584);
+            
+        
+
+        marker_0de532a3918518573fe1552576410b02.bindPopup(popup_0aaf98cd01bf350ef7d9338c0cddfc69)
+        ;
+
+        
+    
+    
+            var marker_6bfa8963431561314897525d89963da1 = L.marker(
+                [30.67823145, 104.0980033903279],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_60cb3821f5f677862db0a937fc9bb06f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6bfa8963431561314897525d89963da1.setIcon(icon_60cb3821f5f677862db0a937fc9bb06f);
+        
+    
+        var popup_42d609c0ae95cc7fe80a615dedbaa712 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_92cae14be28659cd134b1ac853ded50f = $(`<div id="html_92cae14be28659cd134b1ac853ded50f" style="width: 100.0%; height: 100.0%;">University of Electronic Science (Xuanting Xie)</div>`)[0];
+                popup_42d609c0ae95cc7fe80a615dedbaa712.setContent(html_92cae14be28659cd134b1ac853ded50f);
+            
+        
+
+        marker_6bfa8963431561314897525d89963da1.bindPopup(popup_42d609c0ae95cc7fe80a615dedbaa712)
+        ;
+
+        
+    
+    
+            var marker_09095ee238bafceadcb240ccf00bcdb7 = L.marker(
+                [22.5895016, 113.96571049577483],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_b6246cd072bc40c0956fb22be2352ad4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_09095ee238bafceadcb240ccf00bcdb7.setIcon(icon_b6246cd072bc40c0956fb22be2352ad4);
+        
+    
+        var popup_fe2f264c31e9f42310db7f352634d5e6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_516305f422833ff07d7018498c094800 = $(`<div id="html_516305f422833ff07d7018498c094800" style="width: 100.0%; height: 100.0%;">Harbin Institute of Technology, Shenzhen (Xin Zhang)</div>`)[0];
+                popup_fe2f264c31e9f42310db7f352634d5e6.setContent(html_516305f422833ff07d7018498c094800);
+            
+        
+
+        marker_09095ee238bafceadcb240ccf00bcdb7.bindPopup(popup_fe2f264c31e9f42310db7f352634d5e6)
+        ;
+
+        
+    
+    
+            var marker_0af576c6dd7df3d91d85a28ef88afe7b = L.marker(
+                [42.4529076, -76.48008423030923],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_e42bdaacb0fb9957b6987fb7c83b402e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0af576c6dd7df3d91d85a28ef88afe7b.setIcon(icon_e42bdaacb0fb9957b6987fb7c83b402e);
+        
+    
+        var popup_4136b75de11b249c4540b67a62ebca3c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_be1584254f5b471b152f7d4a9b798059 = $(`<div id="html_be1584254f5b471b152f7d4a9b798059" style="width: 100.0%; height: 100.0%;">Cornell University (Lejian (Leo) He)</div>`)[0];
+                popup_4136b75de11b249c4540b67a62ebca3c.setContent(html_be1584254f5b471b152f7d4a9b798059);
+            
+        
+
+        marker_0af576c6dd7df3d91d85a28ef88afe7b.bindPopup(popup_4136b75de11b249c4540b67a62ebca3c)
+        ;
+
+        
+    
+    
+            var marker_91a3fd988da7334a94361881e0d8f978 = L.marker(
+                [31.839071949999997, 117.26420747857581],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_19f325982ddbbaa4e6b0c813fa1ddc55 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_91a3fd988da7334a94361881e0d8f978.setIcon(icon_19f325982ddbbaa4e6b0c813fa1ddc55);
+        
+    
+        var popup_8090aff6ca5a5757f71ff467272189a9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2d4d1651e41772b380f3528792a2f0d9 = $(`<div id="html_2d4d1651e41772b380f3528792a2f0d9" style="width: 100.0%; height: 100.0%;">USTC (Ruyi Gan)</div>`)[0];
+                popup_8090aff6ca5a5757f71ff467272189a9.setContent(html_2d4d1651e41772b380f3528792a2f0d9);
+            
+        
+
+        marker_91a3fd988da7334a94361881e0d8f978.bindPopup(popup_8090aff6ca5a5757f71ff467272189a9)
+        ;
+
+        
+    
+    
+            var marker_e61561c3809922543b7a3e6aa3cca989 = L.marker(
+                [33.9404278, -83.37304904988295],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_e464d4bdd26eaa9f24f689b7bf91add6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e61561c3809922543b7a3e6aa3cca989.setIcon(icon_e464d4bdd26eaa9f24f689b7bf91add6);
+        
+    
+        var popup_45979262839e3aba99bd547054b7a435 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_08e192f9b0793bd883cc373e4dc7b879 = $(`<div id="html_08e192f9b0793bd883cc373e4dc7b879" style="width: 100.0%; height: 100.0%;">University of Georgia (Zihao Wu)</div>`)[0];
+                popup_45979262839e3aba99bd547054b7a435.setContent(html_08e192f9b0793bd883cc373e4dc7b879);
+            
+        
+
+        marker_e61561c3809922543b7a3e6aa3cca989.bindPopup(popup_45979262839e3aba99bd547054b7a435)
+        ;
+
+        
+    
+    
+            var marker_3d5b8b87a1fc371b70f36e7fe4827a52 = L.marker(
+                [3.3719141, 30.9359374],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_080bce9810ed7b84f0ecfa088e6cd658 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_3d5b8b87a1fc371b70f36e7fe4827a52.setIcon(icon_080bce9810ed7b84f0ecfa088e6cd658);
+        
+    
+        var popup_74eee35c9685d8c2e58c043584590f84 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_928740d40c15301f9d679bc9f4bdbaed = $(`<div id="html_928740d40c15301f9d679bc9f4bdbaed" style="width: 100.0%; height: 100.0%;">OPPO (Yafei Liu)</div>`)[0];
+                popup_74eee35c9685d8c2e58c043584590f84.setContent(html_928740d40c15301f9d679bc9f4bdbaed);
+            
+        
+
+        marker_3d5b8b87a1fc371b70f36e7fe4827a52.bindPopup(popup_74eee35c9685d8c2e58c043584590f84)
+        ;
+
+        
+    
+    
+            var marker_252631c1281d8e72784b2ebd4cd62683 = L.marker(
+                [3.16129015, 101.56813112882818],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_3482164a042934762e47d208e6c61a04 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_252631c1281d8e72784b2ebd4cd62683.setIcon(icon_3482164a042934762e47d208e6c61a04);
+        
+    
+        var popup_4303c50de247b44d569836cc56546540 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2c6cc671519e5eb0243f43d5d4d8ce9d = $(`<div id="html_2c6cc671519e5eb0243f43d5d4d8ce9d" style="width: 100.0%; height: 100.0%;">Technology (秦晓飞)</div>`)[0];
+                popup_4303c50de247b44d569836cc56546540.setContent(html_2c6cc671519e5eb0243f43d5d4d8ce9d);
+            
+        
+
+        marker_252631c1281d8e72784b2ebd4cd62683.bindPopup(popup_4303c50de247b44d569836cc56546540)
+        ;
+
+        
+    
+    
+            var marker_3c86903b4707f4e2ef02abd8f1fb40b7 = L.marker(
+                [40.444189699999995, -79.94271918393466],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_c63b5cf0bcbfbfefcf239a8d14786793 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3c86903b4707f4e2ef02abd8f1fb40b7.setIcon(icon_c63b5cf0bcbfbfefcf239a8d14786793);
+        
+    
+        var popup_ba1292faa159ff25a28999433a1929ac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_99535f503943cda27ec5fecf9e918592 = $(`<div id="html_99535f503943cda27ec5fecf9e918592" style="width: 100.0%; height: 100.0%;">Carnegie Mellon University (Zichun Yu)</div>`)[0];
+                popup_ba1292faa159ff25a28999433a1929ac.setContent(html_99535f503943cda27ec5fecf9e918592);
+            
+        
+
+        marker_3c86903b4707f4e2ef02abd8f1fb40b7.bindPopup(popup_ba1292faa159ff25a28999433a1929ac)
+        ;
+
+        
+    
+    
+            var marker_64f900ccfd979bb5bc729cd0c5acb454 = L.marker(
+                [22.28269745, 114.13845499995571],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_2f9d26f7d70c6c6caf38d8e1a0899976 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_64f900ccfd979bb5bc729cd0c5acb454.setIcon(icon_2f9d26f7d70c6c6caf38d8e1a0899976);
+        
+    
+        var popup_f496907477c4c11e969fa6dab031ab16 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d5df0d3b30d5cba37fdbf336a2a2c349 = $(`<div id="html_d5df0d3b30d5cba37fdbf336a2a2c349" style="width: 100.0%; height: 100.0%;">The University of Hong Kong (Mukai Li)</div>`)[0];
+                popup_f496907477c4c11e969fa6dab031ab16.setContent(html_d5df0d3b30d5cba37fdbf336a2a2c349);
+            
+        
+
+        marker_64f900ccfd979bb5bc729cd0c5acb454.bindPopup(popup_f496907477c4c11e969fa6dab031ab16)
+        ;
+
+        
+    
+    
+            var marker_76e6b8495b651da1e93c05777de8e67e = L.marker(
+                [48.5785039, 7.763608117973856],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_049ab51650dd4851036a235c7a33c58a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_76e6b8495b651da1e93c05777de8e67e.setIcon(icon_049ab51650dd4851036a235c7a33c58a);
+        
+    
+        var popup_621780d70230b658665a1fb983e833c4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f5a1ee122bd554df6104fb5d1d15c89c = $(`<div id="html_f5a1ee122bd554df6104fb5d1d15c89c" style="width: 100.0%; height: 100.0%;">Culture University (Jinran Nie)</div>`)[0];
+                popup_621780d70230b658665a1fb983e833c4.setContent(html_f5a1ee122bd554df6104fb5d1d15c89c);
+            
+        
+
+        marker_76e6b8495b651da1e93c05777de8e67e.bindPopup(popup_621780d70230b658665a1fb983e833c4)
+        ;
+
+        
+    
+    
+            var marker_d9e253a2b05ea158d26903b81c06d252 = L.marker(
+                [47.65566375, -122.30270741043226],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_e370a296f1897aedbe9ec07036784783 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_d9e253a2b05ea158d26903b81c06d252.setIcon(icon_e370a296f1897aedbe9ec07036784783);
+        
+    
+        var popup_74b6a01613e01ded607a59a3f7402c55 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c82a468e7520475b0899b16ef31105d9 = $(`<div id="html_c82a468e7520475b0899b16ef31105d9" style="width: 100.0%; height: 100.0%;">University of Washington (Yuanhe Tian)</div>`)[0];
+                popup_74b6a01613e01ded607a59a3f7402c55.setContent(html_c82a468e7520475b0899b16ef31105d9);
+            
+        
+
+        marker_d9e253a2b05ea158d26903b81c06d252.bindPopup(popup_74b6a01613e01ded607a59a3f7402c55)
+        ;
+
+        
+    
+    
+            var marker_f6868ca1c047a29edf54e7d0b7111e74 = L.marker(
+                [39.993567600000006, 116.34180545615317],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_b49d640df2ba81b88e39ca4996f253ea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_f6868ca1c047a29edf54e7d0b7111e74.setIcon(icon_b49d640df2ba81b88e39ca4996f253ea);
+        
+    
+        var popup_8dc47465caabb21378eaa1901023b312 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e5359a1f13509719a7e18da4064c2f5f = $(`<div id="html_e5359a1f13509719a7e18da4064c2f5f" style="width: 100.0%; height: 100.0%;">Beijing Language (Jinran Nie)</div>`)[0];
+                popup_8dc47465caabb21378eaa1901023b312.setContent(html_e5359a1f13509719a7e18da4064c2f5f);
+            
+        
+
+        marker_f6868ca1c047a29edf54e7d0b7111e74.bindPopup(popup_8dc47465caabb21378eaa1901023b312)
+        ;
+
+        
+    
+    
+            var marker_60ba3a3c81ad33930497e24a5fa4c787 = L.marker(
+                [19.824645, 96.1625226],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_aed4f675b26913f46ad8952793a6c564 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_60ba3a3c81ad33930497e24a5fa4c787.setIcon(icon_aed4f675b26913f46ad8952793a6c564);
+        
+    
+        var popup_6de3e2a52dcd8ca3f5fd164e3a1cb1b4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2401c3ed72d9cbe8f93c6f7dc7e1877e = $(`<div id="html_2401c3ed72d9cbe8f93c6f7dc7e1877e" style="width: 100.0%; height: 100.0%;">CETC (B Liu)</div>`)[0];
+                popup_6de3e2a52dcd8ca3f5fd164e3a1cb1b4.setContent(html_2401c3ed72d9cbe8f93c6f7dc7e1877e);
+            
+        
+
+        marker_60ba3a3c81ad33930497e24a5fa4c787.bindPopup(popup_6de3e2a52dcd8ca3f5fd164e3a1cb1b4)
+        ;
+
+        
+    
+    
+            var marker_448da3b1b4accd0865c3ade7424bf6bb = L.marker(
+                [31.306866149999998, 121.49433460101635],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_b49a34c4bdd28114a4de6ea6151d2490 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_448da3b1b4accd0865c3ade7424bf6bb.setIcon(icon_b49a34c4bdd28114a4de6ea6151d2490);
+        
+    
+        var popup_b16e54af238cedfb2d6d013ef409c490 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c2635b241572e24afa5a51c1025cc113 = $(`<div id="html_c2635b241572e24afa5a51c1025cc113" style="width: 100.0%; height: 100.0%;">Shanghai University of Finance (Biyang Guo (郭必扬))</div>`)[0];
+                popup_b16e54af238cedfb2d6d013ef409c490.setContent(html_c2635b241572e24afa5a51c1025cc113);
+            
+        
+
+        marker_448da3b1b4accd0865c3ade7424bf6bb.bindPopup(popup_b16e54af238cedfb2d6d013ef409c490)
+        ;
+
+        
+    
+    
+            var marker_ec47d0d6b8d4298383ac0258a894e96a = L.marker(
+                [22.1938349, 113.551515185608],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_a3af085a4010246706984db482534076 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_ec47d0d6b8d4298383ac0258a894e96a.setIcon(icon_a3af085a4010246706984db482534076);
+        
+    
+        var popup_ea577aad6b3acc0bf82240d49fbc52b1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ce99936267769327764c10ed5d32a59d = $(`<div id="html_ce99936267769327764c10ed5d32a59d" style="width: 100.0%; height: 100.0%;">Macao Polytechnic University (Han Ma)</div>`)[0];
+                popup_ea577aad6b3acc0bf82240d49fbc52b1.setContent(html_ce99936267769327764c10ed5d32a59d);
+            
+        
+
+        marker_ec47d0d6b8d4298383ac0258a894e96a.bindPopup(popup_ea577aad6b3acc0bf82240d49fbc52b1)
+        ;
+
+        
+    
+    
+            var marker_12202738e0807029164c75794844c7e4 = L.marker(
+                [32.6099702, -110.7651843],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_f6df5fccf4c3443af7e01cebc8429213 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_12202738e0807029164c75794844c7e4.setIcon(icon_f6df5fccf4c3443af7e01cebc8429213);
+        
+    
+        var popup_495a130c0d8c6955805c6aa4dd360df9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fe064aed5b08b04f20df7dc77f68bf25 = $(`<div id="html_fe064aed5b08b04f20df7dc77f68bf25" style="width: 100.0%; height: 100.0%;">Oracle (Lejian (Leo) He)</div>`)[0];
+                popup_495a130c0d8c6955805c6aa4dd360df9.setContent(html_fe064aed5b08b04f20df7dc77f68bf25);
+            
+        
+
+        marker_12202738e0807029164c75794844c7e4.bindPopup(popup_495a130c0d8c6955805c6aa4dd360df9)
+        ;
+
+        
+    
+    
+            var marker_fca250f6246d3e15c03f316f41e3b6e0 = L.marker(
+                [40.002290450000004, 116.3209629696906],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_51072f825956191d26384b09fe8e8acd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_fca250f6246d3e15c03f316f41e3b6e0.setIcon(icon_51072f825956191d26384b09fe8e8acd);
+        
+    
+        var popup_6cb6ae4d6e402aaf6745da9cd3033bcf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_761eb2fa62a1ab6ee35ecc4d4b012d7e = $(`<div id="html_761eb2fa62a1ab6ee35ecc4d4b012d7e" style="width: 100.0%; height: 100.0%;">Tsinghua University (Ming Ding)</div>`)[0];
+                popup_6cb6ae4d6e402aaf6745da9cd3033bcf.setContent(html_761eb2fa62a1ab6ee35ecc4d4b012d7e);
+            
+        
+
+        marker_fca250f6246d3e15c03f316f41e3b6e0.bindPopup(popup_6cb6ae4d6e402aaf6745da9cd3033bcf)
+        ;
+
+        
+    
+    
+            var marker_a22a1f5a9658d16a4e216fcfb8c3393d = L.marker(
+                [22.7053282, 114.3947835],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_6a3ec22f470bd065fec91cb30b8c3b8c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_a22a1f5a9658d16a4e216fcfb8c3393d.setIcon(icon_6a3ec22f470bd065fec91cb30b8c3b8c);
+        
+    
+        var popup_4210d3d08f4ddcf0bd37d5d090be6555 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8f29d7ca94a77d3e88429c77a8348b3e = $(`<div id="html_8f29d7ca94a77d3e88429c77a8348b3e" style="width: 100.0%; height: 100.0%;">Shenzhen Technology University (Xiaojiang Peng)</div>`)[0];
+                popup_4210d3d08f4ddcf0bd37d5d090be6555.setContent(html_8f29d7ca94a77d3e88429c77a8348b3e);
+            
+        
+
+        marker_a22a1f5a9658d16a4e216fcfb8c3393d.bindPopup(popup_4210d3d08f4ddcf0bd37d5d090be6555)
+        ;
+
+        
+    
+    
+            var marker_b4df35580054e5d53f5d65cd8dc61178 = L.marker(
+                [-35.2813935, 149.11714511802117],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_0973651c43f6f1e97e7e266635649188 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_b4df35580054e5d53f5d65cd8dc61178.setIcon(icon_0973651c43f6f1e97e7e266635649188);
+        
+    
+        var popup_7e86e63243361e3083639b5403dd1fb5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_324deb0c7d1e82ca12e2f2ddd7df2d09 = $(`<div id="html_324deb0c7d1e82ca12e2f2ddd7df2d09" style="width: 100.0%; height: 100.0%;">Australian National University (Salman Khan)</div>`)[0];
+                popup_7e86e63243361e3083639b5403dd1fb5.setContent(html_324deb0c7d1e82ca12e2f2ddd7df2d09);
+            
+        
+
+        marker_b4df35580054e5d53f5d65cd8dc61178.bindPopup(popup_7e86e63243361e3083639b5403dd1fb5)
+        ;
+
+        
+    
+    
+            var marker_2e87cfa6c41786952029d1bb4191f6c3 = L.marker(
+                [31.200891149999997, 121.4283949471511],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_68d6c06f7b263f43e00f798107be99a5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_2e87cfa6c41786952029d1bb4191f6c3.setIcon(icon_68d6c06f7b263f43e00f798107be99a5);
+        
+    
+        var popup_9b7052543dca3b4cfd6f8e0052e67bea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5220798118474419b2f0380979245a71 = $(`<div id="html_5220798118474419b2f0380979245a71" style="width: 100.0%; height: 100.0%;">Shanghai Jiao Tong University (Tianhang Zhang)</div>`)[0];
+                popup_9b7052543dca3b4cfd6f8e0052e67bea.setContent(html_5220798118474419b2f0380979245a71);
+            
+        
+
+        marker_2e87cfa6c41786952029d1bb4191f6c3.bindPopup(popup_9b7052543dca3b4cfd6f8e0052e67bea)
+        ;
+
+        
+    
+    
+            var marker_2cc55d7bc32be79a0668b688b2348f46 = L.marker(
+                [10.732428500000001, 122.54784955674347],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_a2bd618a7dcd152854503845ec983ab0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_2cc55d7bc32be79a0668b688b2348f46.setIcon(icon_a2bd618a7dcd152854503845ec983ab0);
+        
+    
+        var popup_e3b0930f235ff4e21feb774149290e74 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3025c9cbf13394afdf94fc077baf3cc4 = $(`<div id="html_3025c9cbf13394afdf94fc077baf3cc4" style="width: 100.0%; height: 100.0%;">College of Environmental Sciences (Ziyuan Wang)</div>`)[0];
+                popup_e3b0930f235ff4e21feb774149290e74.setContent(html_3025c9cbf13394afdf94fc077baf3cc4);
+            
+        
+
+        marker_2cc55d7bc32be79a0668b688b2348f46.bindPopup(popup_e3b0930f235ff4e21feb774149290e74)
+        ;
+
+        
+    
+    
+            var marker_a3f9bc9ba6330c4580423055f49bf868 = L.marker(
+                [13.7871932, 100.5746341],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_57e93583dfb32eeaba677a5ddba8d71b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_a3f9bc9ba6330c4580423055f49bf868.setIcon(icon_57e93583dfb32eeaba677a5ddba8d71b);
+        
+    
+        var popup_67a886d9a27ff63c6e4330703d02a1bf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3c658c06a83510f30fd60d65c6e5b3e6 = $(`<div id="html_3c658c06a83510f30fd60d65c6e5b3e6" style="width: 100.0%; height: 100.0%;">tencent (Yuejia Xiang)</div>`)[0];
+                popup_67a886d9a27ff63c6e4330703d02a1bf.setContent(html_3c658c06a83510f30fd60d65c6e5b3e6);
+            
+        
+
+        marker_a3f9bc9ba6330c4580423055f49bf868.bindPopup(popup_67a886d9a27ff63c6e4330703d02a1bf)
+        ;
+
+        
+    
+    
+            var marker_6ada7ac7702fe6c4d4b2fab185bfbde0 = L.marker(
+                [31.8403891, 117.2501941133908],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_b5534fc63e068effe52f2391d74a6179 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_6ada7ac7702fe6c4d4b2fab185bfbde0.setIcon(icon_b5534fc63e068effe52f2391d74a6179);
+        
+    
+        var popup_cb08f4ce6cb4712c37399c8dba3bf466 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9b69316188db1b0ba76deaed68bb7800 = $(`<div id="html_9b69316188db1b0ba76deaed68bb7800" style="width: 100.0%; height: 100.0%;">University of Science and Technology of China (Weidong Chen)</div>`)[0];
+                popup_cb08f4ce6cb4712c37399c8dba3bf466.setContent(html_9b69316188db1b0ba76deaed68bb7800);
+            
+        
+
+        marker_6ada7ac7702fe6c4d4b2fab185bfbde0.bindPopup(popup_cb08f4ce6cb4712c37399c8dba3bf466)
+        ;
+
+        
+    
+    
+            var marker_cad81ed64910d7a8070721a769b1ca2d = L.marker(
+                [37.9498831, 22.967247593243634],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_2d0ed6a217e0ee8538e173ffd5394e29 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_cad81ed64910d7a8070721a769b1ca2d.setIcon(icon_2d0ed6a217e0ee8538e173ffd5394e29);
+        
+    
+        var popup_b5ed0ec850ac7b0f66fa3d128a046828 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7f59fc7057da0b08d8c152229afe5ba7 = $(`<div id="html_7f59fc7057da0b08d8c152229afe5ba7" style="width: 100.0%; height: 100.0%;">School of Engineering (Aoxiao Zhong)</div>`)[0];
+                popup_b5ed0ec850ac7b0f66fa3d128a046828.setContent(html_7f59fc7057da0b08d8c152229afe5ba7);
+            
+        
+
+        marker_cad81ed64910d7a8070721a769b1ca2d.bindPopup(popup_b5ed0ec850ac7b0f66fa3d128a046828)
+        ;
+
+        
+    
+    
+            var marker_73232d82104c6fd6ab2dba10cb5faae6 = L.marker(
+                [42.365743249999994, -71.12221394207614],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_16e78bec23509e0ce63aa88d49f515af = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_73232d82104c6fd6ab2dba10cb5faae6.setIcon(icon_16e78bec23509e0ce63aa88d49f515af);
+        
+    
+        var popup_f5923a289a0a04d5745fac63361e271e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d15b27608bede3b2a9e9225f2c3e8a63 = $(`<div id="html_d15b27608bede3b2a9e9225f2c3e8a63" style="width: 100.0%; height: 100.0%;">Harvard University (Aoxiao Zhong)</div>`)[0];
+                popup_f5923a289a0a04d5745fac63361e271e.setContent(html_d15b27608bede3b2a9e9225f2c3e8a63);
+            
+        
+
+        marker_73232d82104c6fd6ab2dba10cb5faae6.bindPopup(popup_f5923a289a0a04d5745fac63361e271e)
+        ;
+
+        
+    
+    
+            var marker_38f6ad73513313cd6b431b50d0fea5a0 = L.marker(
+                [22.1938349, 113.551515185608],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_9905170d423b0d95a30a39198caac9e2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_38f6ad73513313cd6b431b50d0fea5a0.setIcon(icon_9905170d423b0d95a30a39198caac9e2);
+        
+    
+        var popup_59eef548c871b1be413b2e5678a0216c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fc8e1cc91310842568fa78e20fa567a3 = $(`<div id="html_fc8e1cc91310842568fa78e20fa567a3" style="width: 100.0%; height: 100.0%;">Macao Polytechnic University (Baoyu Fan)</div>`)[0];
+                popup_59eef548c871b1be413b2e5678a0216c.setContent(html_fc8e1cc91310842568fa78e20fa567a3);
+            
+        
+
+        marker_38f6ad73513313cd6b431b50d0fea5a0.bindPopup(popup_59eef548c871b1be413b2e5678a0216c)
+        ;
+
+        
+    
+    
+            var marker_8d27c4f01758205c646c1ea196cc2c41 = L.marker(
+                [32.05764775, 118.78828187958575],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_7079855b393bc9b274e9c1c7202394da = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8d27c4f01758205c646c1ea196cc2c41.setIcon(icon_7079855b393bc9b274e9c1c7202394da);
+        
+    
+        var popup_0f06c2ff78371663c03cfe3d91027fd7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_38746b05581d869f1214a762353996be = $(`<div id="html_38746b05581d869f1214a762353996be" style="width: 100.0%; height: 100.0%;">Southeast University (Shuai Wang)</div>`)[0];
+                popup_0f06c2ff78371663c03cfe3d91027fd7.setContent(html_38746b05581d869f1214a762353996be);
+            
+        
+
+        marker_8d27c4f01758205c646c1ea196cc2c41.bindPopup(popup_0f06c2ff78371663c03cfe3d91027fd7)
+        ;
+
+        
+    
+    
+            var marker_ed47268f45e7e277c2e046303147e942 = L.marker(
+                [31.145081349999998, 121.41950851686008],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_c7d0185caf23da675f2be52d2db69e72 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_ed47268f45e7e277c2e046303147e942.setIcon(icon_c7d0185caf23da675f2be52d2db69e72);
+        
+    
+        var popup_befb777e1822e424fee575a9f7fde0a7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_471860bbb19b885354daa19c8705c93a = $(`<div id="html_471860bbb19b885354daa19c8705c93a" style="width: 100.0%; height: 100.0%;">East China University of Science and Technology (Mengping Yang)</div>`)[0];
+                popup_befb777e1822e424fee575a9f7fde0a7.setContent(html_471860bbb19b885354daa19c8705c93a);
+            
+        
+
+        marker_ed47268f45e7e277c2e046303147e942.bindPopup(popup_befb777e1822e424fee575a9f7fde0a7)
+        ;
+
+        
+    
+    
+            var marker_0711cc3c31a9ee4db68a54bd28ad091d = L.marker(
+                [-8.7287308, 115.2365646],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_ca38248ba9411a9a86e1ced1f355f5f0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0711cc3c31a9ee4db68a54bd28ad091d.setIcon(icon_ca38248ba9411a9a86e1ced1f355f5f0);
+        
+    
+        var popup_ff62631bf0c927ddba331684054e0490 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ce162a602c7cb4c7670ce9bd0d42620c = $(`<div id="html_ce162a602c7cb4c7670ce9bd0d42620c" style="width: 100.0%; height: 100.0%;">Tsinghua (Cunxiang Wang)</div>`)[0];
+                popup_ff62631bf0c927ddba331684054e0490.setContent(html_ce162a602c7cb4c7670ce9bd0d42620c);
+            
+        
+
+        marker_0711cc3c31a9ee4db68a54bd28ad091d.bindPopup(popup_ff62631bf0c927ddba331684054e0490)
+        ;
+
+        
+    
+    
+            var marker_4fa8f14b7f4d65a373dd2ffbcff53c5b = L.marker(
+                [38.83133325, -77.30798838879116],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_98b7fb717aaa921447ef32b2c548ac4d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_4fa8f14b7f4d65a373dd2ffbcff53c5b.setIcon(icon_98b7fb717aaa921447ef32b2c548ac4d);
+        
+    
+        var popup_efdacffec763c6cc85f33186df2009ef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_09404e67aef1c4189b04cf98bec9f74d = $(`<div id="html_09404e67aef1c4189b04cf98bec9f74d" style="width: 100.0%; height: 100.0%;">George Mason University (Chuan Yan)</div>`)[0];
+                popup_efdacffec763c6cc85f33186df2009ef.setContent(html_09404e67aef1c4189b04cf98bec9f74d);
+            
+        
+
+        marker_4fa8f14b7f4d65a373dd2ffbcff53c5b.bindPopup(popup_efdacffec763c6cc85f33186df2009ef)
+        ;
+
+        
+    
+    
+            var marker_9cb7a83959376d9ea26d5ab293b78e4d = L.marker(
+                [31.2757194, 120.7354788633219],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_07b133391dce1f99d433ceb4a606443a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "beige", "prefix": "glyphicon"}
+            );
+            marker_9cb7a83959376d9ea26d5ab293b78e4d.setIcon(icon_07b133391dce1f99d433ceb4a606443a);
+        
+    
+        var popup_a830c3575b0c7698f4c0ae9e86b4b6b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f0efedc6fd29a782d4b5546df447de1d = $(`<div id="html_f0efedc6fd29a782d4b5546df447de1d" style="width: 100.0%; height: 100.0%;">Xi’an Jiaotong University (B Liu)</div>`)[0];
+                popup_a830c3575b0c7698f4c0ae9e86b4b6b9.setContent(html_f0efedc6fd29a782d4b5546df447de1d);
+            
+        
+
+        marker_9cb7a83959376d9ea26d5ab293b78e4d.bindPopup(popup_a830c3575b0c7698f4c0ae9e86b4b6b9)
+        ;
+
+        
+    
+    
+            var marker_e0acd38bc71fbd879d2f3137a8316ec3 = L.marker(
+                [31.839071949999997, 117.26420747857581],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_c96be1a051dd2d3458df7488f9d851c5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_e0acd38bc71fbd879d2f3137a8316ec3.setIcon(icon_c96be1a051dd2d3458df7488f9d851c5);
+        
+    
+        var popup_dcbd0e9c2e9cf3c98f8c4a2b46ec09af = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d660fdb4093e47a296a08d1351b5590f = $(`<div id="html_d660fdb4093e47a296a08d1351b5590f" style="width: 100.0%; height: 100.0%;">Technology of China (Shaohuan Cheng)</div>`)[0];
+                popup_dcbd0e9c2e9cf3c98f8c4a2b46ec09af.setContent(html_d660fdb4093e47a296a08d1351b5590f);
+            
+        
+
+        marker_e0acd38bc71fbd879d2f3137a8316ec3.bindPopup(popup_dcbd0e9c2e9cf3c98f8c4a2b46ec09af)
+        ;
+
+        
+    
+    
+            var marker_5529a08642bae629a4e71c8d1cd71097 = L.marker(
+                [40.444189699999995, -79.94271918393466],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_5d703b5e3d1947ee5e0abaf4e23a3c38 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_5529a08642bae629a4e71c8d1cd71097.setIcon(icon_5d703b5e3d1947ee5e0abaf4e23a3c38);
+        
+    
+        var popup_ff8f2b0876d64b1aaff63dde79ba1fc9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_29950870b5d266d616b14d047c830180 = $(`<div id="html_29950870b5d266d616b14d047c830180" style="width: 100.0%; height: 100.0%;">Carnegie Mellon University (Chenyan Xiong)</div>`)[0];
+                popup_ff8f2b0876d64b1aaff63dde79ba1fc9.setContent(html_29950870b5d266d616b14d047c830180);
+            
+        
+
+        marker_5529a08642bae629a4e71c8d1cd71097.bindPopup(popup_ff8f2b0876d64b1aaff63dde79ba1fc9)
+        ;
+
+        
+    
+    
+            var marker_9d75376873eb3fe8eef737cbef267701 = L.marker(
+                [36.1523306, -95.94596023877983],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_56ec582347d39f16a089b63089523046 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_9d75376873eb3fe8eef737cbef267701.setIcon(icon_56ec582347d39f16a089b63089523046);
+        
+    
+        var popup_b9a9037f3efeb6bd65b05ecbb1fde43b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d2d088bca69f3670199803aaf24aa007 = $(`<div id="html_d2d088bca69f3670199803aaf24aa007" style="width: 100.0%; height: 100.0%;">University of Tulsa (Akash Ghosh)</div>`)[0];
+                popup_b9a9037f3efeb6bd65b05ecbb1fde43b.setContent(html_d2d088bca69f3670199803aaf24aa007);
+            
+        
+
+        marker_9d75376873eb3fe8eef737cbef267701.bindPopup(popup_b9a9037f3efeb6bd65b05ecbb1fde43b)
+        ;
+
+        
+    
+    
+            var marker_478c44edaa0e4c497c09492e1a70f56b = L.marker(
+                [51.51426105, -0.11673351981492822],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_ff2f5c1fd47990d49557a8c732007769 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_478c44edaa0e4c497c09492e1a70f56b.setIcon(icon_ff2f5c1fd47990d49557a8c732007769);
+        
+    
+        var popup_cb4ecf40432276a92f5a8991896bcc59 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a265b61589984ec7df93e82209f65b38 = $(`<div id="html_a265b61589984ec7df93e82209f65b38" style="width: 100.0%; height: 100.0%;">University of Science (Chang Liu)</div>`)[0];
+                popup_cb4ecf40432276a92f5a8991896bcc59.setContent(html_a265b61589984ec7df93e82209f65b38);
+            
+        
+
+        marker_478c44edaa0e4c497c09492e1a70f56b.bindPopup(popup_cb4ecf40432276a92f5a8991896bcc59)
+        ;
+
+        
+    
+    
+            var marker_754aded3a32531f9119ac371f1caf492 = L.marker(
+                [40.7466822, -73.8439272],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_39452be1509cfbe59f40fb6a35d195b6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_754aded3a32531f9119ac371f1caf492.setIcon(icon_39452be1509cfbe59f40fb6a35d195b6);
+        
+    
+        var popup_29658c1599ee202769073b6d3a4d701d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_588b14a79404fb74ee69d3c279fb43e2 = $(`<div id="html_588b14a79404fb74ee69d3c279fb43e2" style="width: 100.0%; height: 100.0%;">President of R&D (Weijian Ruan)</div>`)[0];
+                popup_29658c1599ee202769073b6d3a4d701d.setContent(html_588b14a79404fb74ee69d3c279fb43e2);
+            
+        
+
+        marker_754aded3a32531f9119ac371f1caf492.bindPopup(popup_29658c1599ee202769073b6d3a4d701d)
+        ;
+
+        
+    
+    
+            var marker_844f626c0ba2d184cd8daa1637500fa1 = L.marker(
+                [37.431313849999995, -122.16936535498309],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_45d63e40fcdcd33027ae65758d388a53 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_844f626c0ba2d184cd8daa1637500fa1.setIcon(icon_45d63e40fcdcd33027ae65758d388a53);
+        
+    
+        var popup_4d0a3cf25082865f2f1ec1514a061a8e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a9c8e9653e009e1ab500cd17c4f8fe97 = $(`<div id="html_a9c8e9653e009e1ab500cd17c4f8fe97" style="width: 100.0%; height: 100.0%;">Stanford University (Zhihong Chen)</div>`)[0];
+                popup_4d0a3cf25082865f2f1ec1514a061a8e.setContent(html_a9c8e9653e009e1ab500cd17c4f8fe97);
+            
+        
+
+        marker_844f626c0ba2d184cd8daa1637500fa1.bindPopup(popup_4d0a3cf25082865f2f1ec1514a061a8e)
+        ;
+
+        
+    
+    
+            var marker_0c00b6923dbd3d1605b732bfd9ef80b4 = L.marker(
+                [22.5445741, 114.0545429],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_3ff4cbdea835669e58fb071840e241ab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_0c00b6923dbd3d1605b732bfd9ef80b4.setIcon(icon_3ff4cbdea835669e58fb071840e241ab);
+        
+    
+        var popup_e2babd84e671ee862dd0ac501b3af7d2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_65f63b097f0fc31b277b90f9e803fd88 = $(`<div id="html_65f63b097f0fc31b277b90f9e803fd88" style="width: 100.0%; height: 100.0%;">Shenzhen (Xin Zhang)</div>`)[0];
+                popup_e2babd84e671ee862dd0ac501b3af7d2.setContent(html_65f63b097f0fc31b277b90f9e803fd88);
+            
+        
+
+        marker_0c00b6923dbd3d1605b732bfd9ef80b4.bindPopup(popup_e2babd84e671ee862dd0ac501b3af7d2)
+        ;
+
+        
+    
+    
+            var marker_16598e78b1313047fd56d61a7af3e518 = L.marker(
+                [22.7053282, 114.3947835],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_376782d4ce8143cab166ac14055807b4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_16598e78b1313047fd56d61a7af3e518.setIcon(icon_376782d4ce8143cab166ac14055807b4);
+        
+    
+        var popup_5bb1c157d9a810e9e531fd9d2bf752cf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd8aefe42254a8d8f39f1e6f3cce319b = $(`<div id="html_bd8aefe42254a8d8f39f1e6f3cce319b" style="width: 100.0%; height: 100.0%;">Shenzhen Technology University (Qing Li)</div>`)[0];
+                popup_5bb1c157d9a810e9e531fd9d2bf752cf.setContent(html_bd8aefe42254a8d8f39f1e6f3cce319b);
+            
+        
+
+        marker_16598e78b1313047fd56d61a7af3e518.bindPopup(popup_5bb1c157d9a810e9e531fd9d2bf752cf)
+        ;
+
+        
+    
+    
+            var marker_9aa53438a2d5ebbda364fae292b7df3f = L.marker(
+                [36.3697191, 127.36253700115094],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_8dc1a330c6242a1aa0369986ecc97908 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_9aa53438a2d5ebbda364fae292b7df3f.setIcon(icon_8dc1a330c6242a1aa0369986ecc97908);
+        
+    
+        var popup_3d0a32f91a098610a43df26be8f0994d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a3dcfaf8799365c607080ed6432d3748 = $(`<div id="html_a3dcfaf8799365c607080ed6432d3748" style="width: 100.0%; height: 100.0%;">KAIST (Jongwoo Ko)</div>`)[0];
+                popup_3d0a32f91a098610a43df26be8f0994d.setContent(html_a3dcfaf8799365c607080ed6432d3748);
+            
+        
+
+        marker_9aa53438a2d5ebbda364fae292b7df3f.bindPopup(popup_3d0a32f91a098610a43df26be8f0994d)
+        ;
+
+        
+    
+    
+            var marker_0e5443b604c61ef429a17bbd3bdf63e7 = L.marker(
+                [40.17336535, 116.15722001868669],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_be055cbcfdb8ac267a39acbaaf230b5b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_0e5443b604c61ef429a17bbd3bdf63e7.setIcon(icon_be055cbcfdb8ac267a39acbaaf230b5b);
+        
+    
+        var popup_1514f7605ce0f5d39765e715318b4116 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4b29dc12a35ed136011209302d31d7e4 = $(`<div id="html_4b29dc12a35ed136011209302d31d7e4" style="width: 100.0%; height: 100.0%;">Peking University (Shuhuai Ren)</div>`)[0];
+                popup_1514f7605ce0f5d39765e715318b4116.setContent(html_4b29dc12a35ed136011209302d31d7e4);
+            
+        
+
+        marker_0e5443b604c61ef429a17bbd3bdf63e7.bindPopup(popup_1514f7605ce0f5d39765e715318b4116)
+        ;
+
+        
+    
+    
+            var marker_f8a32405becd9f5433108283a8e865b6 = L.marker(
+                [54.1720834, 12.0790983],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_e947550ab1acf8e102bf6c2fdf6cb640 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_f8a32405becd9f5433108283a8e865b6.setIcon(icon_e947550ab1acf8e102bf6c2fdf6cb640);
+        
+    
+        var popup_d89a32c1bd034a8bfdf3945f17ab35b0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_29c42c4aed0d82f457571d27575f5044 = $(`<div id="html_29c42c4aed0d82f457571d27575f5044" style="width: 100.0%; height: 100.0%;">Institute of Automation (Duzhen Zhang)</div>`)[0];
+                popup_d89a32c1bd034a8bfdf3945f17ab35b0.setContent(html_29c42c4aed0d82f457571d27575f5044);
+            
+        
+
+        marker_f8a32405becd9f5433108283a8e865b6.bindPopup(popup_d89a32c1bd034a8bfdf3945f17ab35b0)
+        ;
+
+        
+    
+    
+            var marker_083ffdeddfce364def335f27f5e6cc2e = L.marker(
+                [35.02704665, 135.78143727667532],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_e404e32c44bcbfb5329b804ed6ee9882 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_083ffdeddfce364def335f27f5e6cc2e.setIcon(icon_e404e32c44bcbfb5329b804ed6ee9882);
+        
+    
+        var popup_a4bf506617131a750a7fbbc82bb0cd4d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b3d72c77be907033684d2a9fdf21ca25 = $(`<div id="html_b3d72c77be907033684d2a9fdf21ca25" style="width: 100.0%; height: 100.0%;">Kyoto University (Chenhui Chu)</div>`)[0];
+                popup_a4bf506617131a750a7fbbc82bb0cd4d.setContent(html_b3d72c77be907033684d2a9fdf21ca25);
+            
+        
+
+        marker_083ffdeddfce364def335f27f5e6cc2e.bindPopup(popup_a4bf506617131a750a7fbbc82bb0cd4d)
+        ;
+
+        
+    
+    
+            var marker_4fa4e1dc3bb4e88c6483faf50290fcec = L.marker(
+                [-4.20815, 152.2229928],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_1ed5adc3a3e25d34115b6bbffe7e6b5d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_4fa4e1dc3bb4e88c6483faf50290fcec.setIcon(icon_1ed5adc3a3e25d34115b6bbffe7e6b5d);
+        
+    
+        var popup_ee740142a5299a3799df30f0b03b729c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_791c1180cd11db4e69efc3131396d29d = $(`<div id="html_791c1180cd11db4e69efc3131396d29d" style="width: 100.0%; height: 100.0%;">BAAI (Guang Liu)</div>`)[0];
+                popup_ee740142a5299a3799df30f0b03b729c.setContent(html_791c1180cd11db4e69efc3131396d29d);
+            
+        
+
+        marker_4fa4e1dc3bb4e88c6483faf50290fcec.bindPopup(popup_ee740142a5299a3799df30f0b03b729c)
+        ;
+
+        
+    
+    
+            var marker_820730f6c236965d88b8d38bc93420be = L.marker(
+                [3.16129015, 101.56813112882818],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_d0928fbf96784e4ff90eae1b888c8446 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_820730f6c236965d88b8d38bc93420be.setIcon(icon_d0928fbf96784e4ff90eae1b888c8446);
+        
+    
+        var popup_20e09f512fb6459366115af8e4deb164 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0b787f4cf844a433066077bd93e01067 = $(`<div id="html_0b787f4cf844a433066077bd93e01067" style="width: 100.0%; height: 100.0%;">Technology (Jing Tang)</div>`)[0];
+                popup_20e09f512fb6459366115af8e4deb164.setContent(html_0b787f4cf844a433066077bd93e01067);
+            
+        
+
+        marker_820730f6c236965d88b8d38bc93420be.bindPopup(popup_20e09f512fb6459366115af8e4deb164)
+        ;
+
+        
+    
+    
+            var marker_283461feb7642433dcd3d9b741ef323e = L.marker(
+                [40.17336535, 116.15722001868669],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_06c2b40d82daf131c3822637ea290f9c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_283461feb7642433dcd3d9b741ef323e.setIcon(icon_06c2b40d82daf131c3822637ea290f9c);
+        
+    
+        var popup_d0743341ba67e43133331344fe80f75c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f077882216a446cf6c89861820e7cd00 = $(`<div id="html_f077882216a446cf6c89861820e7cd00" style="width: 100.0%; height: 100.0%;">Peking University (Peiyi Wang)</div>`)[0];
+                popup_d0743341ba67e43133331344fe80f75c.setContent(html_f077882216a446cf6c89861820e7cd00);
+            
+        
+
+        marker_283461feb7642433dcd3d9b741ef323e.bindPopup(popup_d0743341ba67e43133331344fe80f75c)
+        ;
+
+        
+    
+    
+            var marker_ce920816d0b9ec7f20fd6cd9784ed6ac = L.marker(
+                [40.190632, 116.412144],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_23bacadbd22ae9603bd948967abbf128 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_ce920816d0b9ec7f20fd6cd9784ed6ac.setIcon(icon_23bacadbd22ae9603bd948967abbf128);
+        
+    
+        var popup_817ec9a4ed8e5d7218d98f65ff72d229 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_346ff82a6fca5e4405fc19a9894bdb0a = $(`<div id="html_346ff82a6fca5e4405fc19a9894bdb0a" style="width: 100.0%; height: 100.0%;">Beijing (Yi Yang)</div>`)[0];
+                popup_817ec9a4ed8e5d7218d98f65ff72d229.setContent(html_346ff82a6fca5e4405fc19a9894bdb0a);
+            
+        
+
+        marker_ce920816d0b9ec7f20fd6cd9784ed6ac.bindPopup(popup_817ec9a4ed8e5d7218d98f65ff72d229)
+        ;
+
+        
+    
+    
+            var marker_65dd4cdb38514c4b1f032a4f79631cba = L.marker(
+                [40.80803455, 29.356343258075448],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_0a894c1a48ff60148c9d6f225801e86c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkblue", "prefix": "glyphicon"}
+            );
+            marker_65dd4cdb38514c4b1f032a4f79631cba.setIcon(icon_0a894c1a48ff60148c9d6f225801e86c);
+        
+    
+        var popup_3ce43c897613172d711f2c59154df54d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_667d62c16585f5e4e65e3e79bce4a910 = $(`<div id="html_667d62c16585f5e4e65e3e79bce4a910" style="width: 100.0%; height: 100.0%;">Computer Engineering (Shuai Wang)</div>`)[0];
+                popup_3ce43c897613172d711f2c59154df54d.setContent(html_667d62c16585f5e4e65e3e79bce4a910);
+            
+        
+
+        marker_65dd4cdb38514c4b1f032a4f79631cba.bindPopup(popup_3ce43c897613172d711f2c59154df54d)
+        ;
+
+        
+    
+    
+            var marker_960fecda6235adb318df35c7c9ec733e = L.marker(
+                [31.30116485, 121.49808756382322],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_552e7efea84685d7411b8dc9677cdfb4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_960fecda6235adb318df35c7c9ec733e.setIcon(icon_552e7efea84685d7411b8dc9677cdfb4);
+        
+    
+        var popup_737a2a374a0c75fb4ff95ecf45bb16eb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_725cc6726198797b2edbbeeda666af2a = $(`<div id="html_725cc6726198797b2edbbeeda666af2a" style="width: 100.0%; height: 100.0%;">Fudan University (Yuanhao Yue)</div>`)[0];
+                popup_737a2a374a0c75fb4ff95ecf45bb16eb.setContent(html_725cc6726198797b2edbbeeda666af2a);
+            
+        
+
+        marker_960fecda6235adb318df35c7c9ec733e.bindPopup(popup_737a2a374a0c75fb4ff95ecf45bb16eb)
+        ;
+
+        
+    
+    
+            var marker_02eae7003e250ec05cb9def8636e3f3e = L.marker(
+                [40.17336535, 116.15722001868669],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_5a343839bbc382e81b1f03da4e344ed8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_02eae7003e250ec05cb9def8636e3f3e.setIcon(icon_5a343839bbc382e81b1f03da4e344ed8);
+        
+    
+        var popup_95a841092ad44d826eeeee4e338a134b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7cd7ba14ebde446f317dc7b0ae61eee0 = $(`<div id="html_7cd7ba14ebde446f317dc7b0ae61eee0" style="width: 100.0%; height: 100.0%;">Peking University (Liang Chen)</div>`)[0];
+                popup_95a841092ad44d826eeeee4e338a134b.setContent(html_7cd7ba14ebde446f317dc7b0ae61eee0);
+            
+        
+
+        marker_02eae7003e250ec05cb9def8636e3f3e.bindPopup(popup_95a841092ad44d826eeeee4e338a134b)
+        ;
+
+        
+    
+    
+            var marker_a43b4e54aa1fe6a86d26eda30b8a1547 = L.marker(
+                [13.7871932, 100.5746341],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_ba8a92dd6db1afaf4b6d6a7d6ad675f0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkblue", "prefix": "glyphicon"}
+            );
+            marker_a43b4e54aa1fe6a86d26eda30b8a1547.setIcon(icon_ba8a92dd6db1afaf4b6d6a7d6ad675f0);
+        
+    
+        var popup_71d0547d4386e7571429b62c79b01804 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e55d73c765493c7552f0f331f0deffaf = $(`<div id="html_e55d73c765493c7552f0f331f0deffaf" style="width: 100.0%; height: 100.0%;">tencent (Yuejia Xiang)</div>`)[0];
+                popup_71d0547d4386e7571429b62c79b01804.setContent(html_e55d73c765493c7552f0f331f0deffaf);
+            
+        
+
+        marker_a43b4e54aa1fe6a86d26eda30b8a1547.bindPopup(popup_71d0547d4386e7571429b62c79b01804)
+        ;
+
+        
+    
+    
+            var marker_630015a78328d992bffc26fe8985871d = L.marker(
+                [37.632441400000005, 127.07946475957468],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_ea68f1bf9773ea2f0f197620ca9efc49 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_630015a78328d992bffc26fe8985871d.setIcon(icon_ea68f1bf9773ea2f0f197620ca9efc49);
+        
+    
+        var popup_a4977fa13c32d71858aa15ed5ba8cae5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4574f43721457a1c5945012233a5d336 = $(`<div id="html_4574f43721457a1c5945012233a5d336" style="width: 100.0%; height: 100.0%;">Seoul National University of Science (임현석)</div>`)[0];
+                popup_a4977fa13c32d71858aa15ed5ba8cae5.setContent(html_4574f43721457a1c5945012233a5d336);
+            
+        
+
+        marker_630015a78328d992bffc26fe8985871d.bindPopup(popup_a4977fa13c32d71858aa15ed5ba8cae5)
+        ;
+
+        
+    
+    
+            var marker_254ce9dca54b14e193b47f1e1c4874aa = L.marker(
+                [31.306866149999998, 121.49433460101635],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_582ded9e9deb8c559c6e11b940b5984c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_254ce9dca54b14e193b47f1e1c4874aa.setIcon(icon_582ded9e9deb8c559c6e11b940b5984c);
+        
+    
+        var popup_c5e8a17c6d985f9da3a5a42205f9e67b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_63dc8e65e15a30f591a7e8c4ec2db263 = $(`<div id="html_63dc8e65e15a30f591a7e8c4ec2db263" style="width: 100.0%; height: 100.0%;">Shanghai University of Finance (Minqi Jiang)</div>`)[0];
+                popup_c5e8a17c6d985f9da3a5a42205f9e67b.setContent(html_63dc8e65e15a30f591a7e8c4ec2db263);
+            
+        
+
+        marker_254ce9dca54b14e193b47f1e1c4874aa.bindPopup(popup_c5e8a17c6d985f9da3a5a42205f9e67b)
+        ;
+
+        
+    
+    
+            var marker_a89d72e8011151939c489da73699a569 = L.marker(
+                [40.444189699999995, -79.94271918393466],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_a2a481147e12e214e45f96f621aca299 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_a89d72e8011151939c489da73699a569.setIcon(icon_a2a481147e12e214e45f96f621aca299);
+        
+    
+        var popup_6dbbae0873cf9f0db76a1ceca9305940 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9f1e0b570ce1fb52391cccdbf8c275df = $(`<div id="html_9f1e0b570ce1fb52391cccdbf8c275df" style="width: 100.0%; height: 100.0%;">Carnegie Mellon University (Spandan Das)</div>`)[0];
+                popup_6dbbae0873cf9f0db76a1ceca9305940.setContent(html_9f1e0b570ce1fb52391cccdbf8c275df);
+            
+        
+
+        marker_a89d72e8011151939c489da73699a569.bindPopup(popup_6dbbae0873cf9f0db76a1ceca9305940)
+        ;
+
+        
+    
+    
+            var marker_43cbe8175336657edb94a30c4ba62500 = L.marker(
+                [42.4529076, -76.48008423030923],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_f3ab205f5c24c733955da9ae7373c007 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_43cbe8175336657edb94a30c4ba62500.setIcon(icon_f3ab205f5c24c733955da9ae7373c007);
+        
+    
+        var popup_76ffbc973f5d9ae4cc3fce901ccf8968 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_90b58f1658f228481f35baf95805547a = $(`<div id="html_90b58f1658f228481f35baf95805547a" style="width: 100.0%; height: 100.0%;">Cornell University (Lejian (Leo) He)</div>`)[0];
+                popup_76ffbc973f5d9ae4cc3fce901ccf8968.setContent(html_90b58f1658f228481f35baf95805547a);
+            
+        
+
+        marker_43cbe8175336657edb94a30c4ba62500.bindPopup(popup_76ffbc973f5d9ae4cc3fce901ccf8968)
+        ;
+
+        
+    
+    
+            var marker_cf6a2ffd0f1118bf05ec56e1be3fae74 = L.marker(
+                [36.3697191, 127.36253700115094],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_9199210188349e8a51e65ebe9eaa51d0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_cf6a2ffd0f1118bf05ec56e1be3fae74.setIcon(icon_9199210188349e8a51e65ebe9eaa51d0);
+        
+    
+        var popup_5d233edd890d680a4b0a014e5853578f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_445265245d7025546c77b97b215f6286 = $(`<div id="html_445265245d7025546c77b97b215f6286" style="width: 100.0%; height: 100.0%;">KAIST (Minchan Jeong)</div>`)[0];
+                popup_5d233edd890d680a4b0a014e5853578f.setContent(html_445265245d7025546c77b97b215f6286);
+            
+        
+
+        marker_cf6a2ffd0f1118bf05ec56e1be3fae74.bindPopup(popup_5d233edd890d680a4b0a014e5853578f)
+        ;
+
+        
+    
+    
+            var marker_6b80aab0d71baa5ae38c4d9f2814165f = L.marker(
+                [32.069329249999996, 34.84334338615306],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_ad32a65dcc9036214e052956f4741e07 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6b80aab0d71baa5ae38c4d9f2814165f.setIcon(icon_ad32a65dcc9036214e052956f4741e07);
+        
+    
+        var popup_20cba9093516037bc1703f19ac31d3f1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cc02e70d55479a96153aa8edb71611a9 = $(`<div id="html_cc02e70d55479a96153aa8edb71611a9" style="width: 100.0%; height: 100.0%;">Bar-Ilan University (Idan Achituve)</div>`)[0];
+                popup_20cba9093516037bc1703f19ac31d3f1.setContent(html_cc02e70d55479a96153aa8edb71611a9);
+            
+        
+
+        marker_6b80aab0d71baa5ae38c4d9f2814165f.bindPopup(popup_20cba9093516037bc1703f19ac31d3f1)
+        ;
+
+        
+    
+    
+            var marker_31af34f776d01edb9d51544e72c44589 = L.marker(
+                [30.537354049999998, 114.36152031917142],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_7ae4d728a7f179b5e8c7ba357337941d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_31af34f776d01edb9d51544e72c44589.setIcon(icon_7ae4d728a7f179b5e8c7ba357337941d);
+        
+    
+        var popup_a16aecd876dd626b4ea07fc629c6af31 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5b2b762717ed5c9b43b7054b7f7dff8b = $(`<div id="html_5b2b762717ed5c9b43b7054b7f7dff8b" style="width: 100.0%; height: 100.0%;">Wuhan University (Songhua Yang)</div>`)[0];
+                popup_a16aecd876dd626b4ea07fc629c6af31.setContent(html_5b2b762717ed5c9b43b7054b7f7dff8b);
+            
+        
+
+        marker_31af34f776d01edb9d51544e72c44589.bindPopup(popup_a16aecd876dd626b4ea07fc629c6af31)
+        ;
+
+        
+    
+    
+            var marker_7153bac318cdb3b5e0d088648b8e011f = L.marker(
+                [40.430028, -86.92642114650494],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_5cf3929f120be301903353048d30c34a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_7153bac318cdb3b5e0d088648b8e011f.setIcon(icon_5cf3929f120be301903353048d30c34a);
+        
+    
+        var popup_fbe095700e1552807b500043890ba1c3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cbbc499536c6bc0eed56e9eb65afd45a = $(`<div id="html_cbbc499536c6bc0eed56e9eb65afd45a" style="width: 100.0%; height: 100.0%;">Purdue University (Xiaoze Liu)</div>`)[0];
+                popup_fbe095700e1552807b500043890ba1c3.setContent(html_cbbc499536c6bc0eed56e9eb65afd45a);
+            
+        
+
+        marker_7153bac318cdb3b5e0d088648b8e011f.bindPopup(popup_fbe095700e1552807b500043890ba1c3)
+        ;
+
+        
+    
+    
+            var marker_c59102793d496077f70621d58b56ea25 = L.marker(
+                [31.839071949999997, 117.26420747857581],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_0b78618a7dd015e18be46eee26601452 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_c59102793d496077f70621d58b56ea25.setIcon(icon_0b78618a7dd015e18be46eee26601452);
+        
+    
+        var popup_1afacbbce76585ad1977de64cd89d320 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_004083b268935b96fc4536d24fafa5ac = $(`<div id="html_004083b268935b96fc4536d24fafa5ac" style="width: 100.0%; height: 100.0%;">Technology of China (Chang Liu)</div>`)[0];
+                popup_1afacbbce76585ad1977de64cd89d320.setContent(html_004083b268935b96fc4536d24fafa5ac);
+            
+        
+
+        marker_c59102793d496077f70621d58b56ea25.bindPopup(popup_1afacbbce76585ad1977de64cd89d320)
+        ;
+
+        
+    
+    
+            var marker_7af203f3af0c364f16ff5d34dde777c9 = L.marker(
+                [40.17336535, 116.15722001868669],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_b5589e5dd8cff5ac26b461f43de032a7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_7af203f3af0c364f16ff5d34dde777c9.setIcon(icon_b5589e5dd8cff5ac26b461f43de032a7);
+        
+    
+        var popup_c6aaa4d7af893487d5a71c1b1d7bf115 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_03b3aecd5817cf37fead53f5d1ab5d74 = $(`<div id="html_03b3aecd5817cf37fead53f5d1ab5d74" style="width: 100.0%; height: 100.0%;">Peking University (Ziyuan Wang)</div>`)[0];
+                popup_c6aaa4d7af893487d5a71c1b1d7bf115.setContent(html_03b3aecd5817cf37fead53f5d1ab5d74);
+            
+        
+
+        marker_7af203f3af0c364f16ff5d34dde777c9.bindPopup(popup_c6aaa4d7af893487d5a71c1b1d7bf115)
+        ;
+
+        
+    
+    
+            var marker_5ecb30c8fd12c02d1f5857fa1e342d15 = L.marker(
+                [42.365743249999994, -71.12221394207614],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_5c388f1f488bc51b2037fbdac71b69fd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_5ecb30c8fd12c02d1f5857fa1e342d15.setIcon(icon_5c388f1f488bc51b2037fbdac71b69fd);
+        
+    
+        var popup_2b010974226e860b430178ff69defa31 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eb33509a348daeddf32df84f36959a3b = $(`<div id="html_eb33509a348daeddf32df84f36959a3b" style="width: 100.0%; height: 100.0%;">Harvard University (Dr Shiyan Tang)</div>`)[0];
+                popup_2b010974226e860b430178ff69defa31.setContent(html_eb33509a348daeddf32df84f36959a3b);
+            
+        
+
+        marker_5ecb30c8fd12c02d1f5857fa1e342d15.bindPopup(popup_2b010974226e860b430178ff69defa31)
+        ;
+
+        
+    
+    
+            var marker_aeb2a4c2a746662f48eafc71aee38149 = L.marker(
+                [39.90933665, 116.32971461228999],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_dd53b7d10445cb847b39d85938599176 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_aeb2a4c2a746662f48eafc71aee38149.setIcon(icon_dd53b7d10445cb847b39d85938599176);
+        
+    
+        var popup_1bb067a66096e05be07e57efcd968f64 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_997ab15e74d93859ce67e278195fa5f0 = $(`<div id="html_997ab15e74d93859ce67e278195fa5f0" style="width: 100.0%; height: 100.0%;">Chinese Academy of Sciences (Chenxing Li)</div>`)[0];
+                popup_1bb067a66096e05be07e57efcd968f64.setContent(html_997ab15e74d93859ce67e278195fa5f0);
+            
+        
+
+        marker_aeb2a4c2a746662f48eafc71aee38149.bindPopup(popup_1bb067a66096e05be07e57efcd968f64)
+        ;
+
+        
+    
+    
+            var marker_4f78b09fcfc9befd1a9d202483a3a2c2 = L.marker(
+                [32.0565957, 118.77408832807794],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_85e447ab1a769be28a39dd1fbd964dc9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_4f78b09fcfc9befd1a9d202483a3a2c2.setIcon(icon_85e447ab1a769be28a39dd1fbd964dc9);
+        
+    
+        var popup_6aacf4a3e96aeee6c2df9a68ee7bd5cc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d7f95d402ed4910c3bb5a1bf2e0f654e = $(`<div id="html_d7f95d402ed4910c3bb5a1bf2e0f654e" style="width: 100.0%; height: 100.0%;">Nanjing University (Dingjie Song)</div>`)[0];
+                popup_6aacf4a3e96aeee6c2df9a68ee7bd5cc.setContent(html_d7f95d402ed4910c3bb5a1bf2e0f654e);
+            
+        
+
+        marker_4f78b09fcfc9befd1a9d202483a3a2c2.bindPopup(popup_6aacf4a3e96aeee6c2df9a68ee7bd5cc)
+        ;
+
+        
+    
+    
+            var marker_118b7be71504bf428e72a70db0aeecde = L.marker(
+                [48.535503750000004, 9.057921738521756],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_f08504dddc0ecc15580b5b2cdffe918a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkblue", "prefix": "glyphicon"}
+            );
+            marker_118b7be71504bf428e72a70db0aeecde.setIcon(icon_f08504dddc0ecc15580b5b2cdffe918a);
+        
+    
+        var popup_9bf3d6858a1fa1610b059559419f9c3e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e84410a44ccde6f86ff88b4922f9c753 = $(`<div id="html_e84410a44ccde6f86ff88b4922f9c753" style="width: 100.0%; height: 100.0%;">Max Planck Institute for Intelligent Systems (Ricardo Dominguez-Olmedo)</div>`)[0];
+                popup_9bf3d6858a1fa1610b059559419f9c3e.setContent(html_e84410a44ccde6f86ff88b4922f9c753);
+            
+        
+
+        marker_118b7be71504bf428e72a70db0aeecde.bindPopup(popup_9bf3d6858a1fa1610b059559419f9c3e)
+        ;
+
+        
+    
+    
+            var marker_3bac5d90edc17c6b4e0d8161ee686096 = L.marker(
+                [31.839071949999997, 117.26420747857581],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_1b44a7278255cdb64a755c6fbbfeacca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_3bac5d90edc17c6b4e0d8161ee686096.setIcon(icon_1b44a7278255cdb64a755c6fbbfeacca);
+        
+    
+        var popup_b578ca783382dee02f25d31a9aba5988 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c5ab2e9a64267449ff73ee5659b99dd1 = $(`<div id="html_c5ab2e9a64267449ff73ee5659b99dd1" style="width: 100.0%; height: 100.0%;">East China University of Science (Mengping Yang)</div>`)[0];
+                popup_b578ca783382dee02f25d31a9aba5988.setContent(html_c5ab2e9a64267449ff73ee5659b99dd1);
+            
+        
+
+        marker_3bac5d90edc17c6b4e0d8161ee686096.bindPopup(popup_b578ca783382dee02f25d31a9aba5988)
+        ;
+
+        
+    
+    
+            var marker_7ac48fdbb355ac5e0ed48094f4e5c82a = L.marker(
+                [12.979946, 77.6650786],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_9541993a206533fad8ed207836dbf228 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_7ac48fdbb355ac5e0ed48094f4e5c82a.setIcon(icon_9541993a206533fad8ed207836dbf228);
+        
+    
+        var popup_369b33629f60607b415a424db2364266 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3e68dd09cbe31798cea3dd4d1946b54d = $(`<div id="html_3e68dd09cbe31798cea3dd4d1946b54d" style="width: 100.0%; height: 100.0%;">Palo Alto Networks (Vinija Jain)</div>`)[0];
+                popup_369b33629f60607b415a424db2364266.setContent(html_3e68dd09cbe31798cea3dd4d1946b54d);
+            
+        
+
+        marker_7ac48fdbb355ac5e0ed48094f4e5c82a.bindPopup(popup_369b33629f60607b415a424db2364266)
+        ;
+
+        
+    
+    
+            var marker_3b94bd80bc04e1a20e22fec9b149ee72 = L.marker(
+                [32.05764775, 118.78828187958575],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_8d5855a0fb75aa49863207b773a3d065 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "beige", "prefix": "glyphicon"}
+            );
+            marker_3b94bd80bc04e1a20e22fec9b149ee72.setIcon(icon_8d5855a0fb75aa49863207b773a3d065);
+        
+    
+        var popup_fa3db304d857ad113fd27176eb8cd61c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9b691d13b451d6dd7aee4b32949a2c91 = $(`<div id="html_9b691d13b451d6dd7aee4b32949a2c91" style="width: 100.0%; height: 100.0%;">Southeast University (Li Lin)</div>`)[0];
+                popup_fa3db304d857ad113fd27176eb8cd61c.setContent(html_9b691d13b451d6dd7aee4b32949a2c91);
+            
+        
+
+        marker_3b94bd80bc04e1a20e22fec9b149ee72.bindPopup(popup_fa3db304d857ad113fd27176eb8cd61c)
+        ;
+
+        
+    
+    
+            var marker_8626de79df8a741166c96050b13ece4a = L.marker(
+                [52.5183402, 13.392920232320172],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_a65cf2987cfbb4ff2491680655ee0e5a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_8626de79df8a741166c96050b13ece4a.setIcon(icon_a65cf2987cfbb4ff2491680655ee0e5a);
+        
+    
+        var popup_64b8b6fe7cdf9cc3ffe9fa80657b1709 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_60b32d5a7857329b74930e759b4c58a5 = $(`<div id="html_60b32d5a7857329b74930e759b4c58a5" style="width: 100.0%; height: 100.0%;">Humboldt-Universität zu Berlin (Alan Akbik)</div>`)[0];
+                popup_64b8b6fe7cdf9cc3ffe9fa80657b1709.setContent(html_60b32d5a7857329b74930e759b4c58a5);
+            
+        
+
+        marker_8626de79df8a741166c96050b13ece4a.bindPopup(popup_64b8b6fe7cdf9cc3ffe9fa80657b1709)
+        ;
+
+        
+    
+    
+            var marker_dabd62d000e6aa5235ba73ae74c96671 = L.marker(
+                [33.9404278, -83.37304904988295],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_0d3f0b842053711a56023682a879d6c7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkblue", "prefix": "glyphicon"}
+            );
+            marker_dabd62d000e6aa5235ba73ae74c96671.setIcon(icon_0d3f0b842053711a56023682a879d6c7);
+        
+    
+        var popup_2df1e6e047495df699a8bd56f24cb2e4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cc089d42a52d1cdeb7a5125765e0d073 = $(`<div id="html_cc089d42a52d1cdeb7a5125765e0d073" style="width: 100.0%; height: 100.0%;">University of Georgia (Zhengliang Liu)</div>`)[0];
+                popup_2df1e6e047495df699a8bd56f24cb2e4.setContent(html_cc089d42a52d1cdeb7a5125765e0d073);
+            
+        
+
+        marker_dabd62d000e6aa5235ba73ae74c96671.bindPopup(popup_2df1e6e047495df699a8bd56f24cb2e4)
+        ;
+
+        
+    
+    
+            var marker_42633b543424aaf347fdf07560a03e45 = L.marker(
+                [19.824645, 96.1625226],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_10790a0906992c5f82b4fe9ae3176df6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_42633b543424aaf347fdf07560a03e45.setIcon(icon_10790a0906992c5f82b4fe9ae3176df6);
+        
+    
+        var popup_45c5328e7ed66352ee5e65fb74df3184 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_53165cdf6c9c9ba4ce95346f9bdfab45 = $(`<div id="html_53165cdf6c9c9ba4ce95346f9bdfab45" style="width: 100.0%; height: 100.0%;">CETC (Weijian Ruan)</div>`)[0];
+                popup_45c5328e7ed66352ee5e65fb74df3184.setContent(html_53165cdf6c9c9ba4ce95346f9bdfab45);
+            
+        
+
+        marker_42633b543424aaf347fdf07560a03e45.bindPopup(popup_45c5328e7ed66352ee5e65fb74df3184)
+        ;
+
+        
+    
+    
+            var marker_96931843cdb3dabcc6118f42a2d382a2 = L.marker(
+                [34.8088168, 113.5352664],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_3475d51feaaca2f3ca771e5c08f42ab2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_96931843cdb3dabcc6118f42a2d382a2.setIcon(icon_3475d51feaaca2f3ca771e5c08f42ab2);
+        
+    
+        var popup_0f41c45e5380b92fb4627f2a8282f4d0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2788fb3a98c29d41acad28327f51207b = $(`<div id="html_2788fb3a98c29d41acad28327f51207b" style="width: 100.0%; height: 100.0%;">Zhengzhou University (Yuxiang Jia)</div>`)[0];
+                popup_0f41c45e5380b92fb4627f2a8282f4d0.setContent(html_2788fb3a98c29d41acad28327f51207b);
+            
+        
+
+        marker_96931843cdb3dabcc6118f42a2d382a2.bindPopup(popup_0f41c45e5380b92fb4627f2a8282f4d0)
+        ;
+
+        
+    
+    
+            var marker_99e04917bf721e344145a4da9bb1d94b = L.marker(
+                [34.8088168, 113.5352664],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_93cb6be2309cadd4ebda3d88260898f5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_99e04917bf721e344145a4da9bb1d94b.setIcon(icon_93cb6be2309cadd4ebda3d88260898f5);
+        
+    
+        var popup_22347c06c02b70c897b417266dd9861b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_14dd9e67ca174fbe615bab8f732d4ba4 = $(`<div id="html_14dd9e67ca174fbe615bab8f732d4ba4" style="width: 100.0%; height: 100.0%;">Zhengzhou University (Guangyu Zhou)</div>`)[0];
+                popup_22347c06c02b70c897b417266dd9861b.setContent(html_14dd9e67ca174fbe615bab8f732d4ba4);
+            
+        
+
+        marker_99e04917bf721e344145a4da9bb1d94b.bindPopup(popup_22347c06c02b70c897b417266dd9861b)
+        ;
+
+        
+    
+    
+            var marker_6142fc8d2673f3a36cfbc3e577c34a08 = L.marker(
+                [31.839071949999997, 117.26420747857581],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_904940411dac827f89d4ce1450ad3fef = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_6142fc8d2673f3a36cfbc3e577c34a08.setIcon(icon_904940411dac827f89d4ce1450ad3fef);
+        
+    
+        var popup_71319495913d2e745336d65adbde4462 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eb32a7c0f1c23912943f4d0448f7ae1b = $(`<div id="html_eb32a7c0f1c23912943f4d0448f7ae1b" style="width: 100.0%; height: 100.0%;">Technology of China (Weidong Chen)</div>`)[0];
+                popup_71319495913d2e745336d65adbde4462.setContent(html_eb32a7c0f1c23912943f4d0448f7ae1b);
+            
+        
+
+        marker_6142fc8d2673f3a36cfbc3e577c34a08.bindPopup(popup_71319495913d2e745336d65adbde4462)
+        ;
+
+        
+    
+    
+            var marker_792916da930140abd3f4fe9f9ba280cc = L.marker(
+                [37.632441400000005, 127.07946475957468],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_6079403434c5743d1a7a4c281ff4f23a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_792916da930140abd3f4fe9f9ba280cc.setIcon(icon_6079403434c5743d1a7a4c281ff4f23a);
+        
+    
+        var popup_9dd073eb546157620bfca87cf8656509 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b62cc66b5ed0de18270b1eefda938485 = $(`<div id="html_b62cc66b5ed0de18270b1eefda938485" style="width: 100.0%; height: 100.0%;">Seoul National University of Science (minjun Kim)</div>`)[0];
+                popup_9dd073eb546157620bfca87cf8656509.setContent(html_b62cc66b5ed0de18270b1eefda938485);
+            
+        
+
+        marker_792916da930140abd3f4fe9f9ba280cc.bindPopup(popup_9dd073eb546157620bfca87cf8656509)
+        ;
+
+        
+    
+    
+            var marker_7ee87c2293ad4d08bbca23f94567e7b2 = L.marker(
+                [51.51426105, -0.11673351981492822],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_e42674c5a74fe91a3c3178d5ae82dc00 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_7ee87c2293ad4d08bbca23f94567e7b2.setIcon(icon_e42674c5a74fe91a3c3178d5ae82dc00);
+        
+    
+        var popup_98a547e06eb6d0e48ec19cdf90c41045 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_66e337fbcc5298c7f026359f39822bba = $(`<div id="html_66e337fbcc5298c7f026359f39822bba" style="width: 100.0%; height: 100.0%;">University of Science (Chang Liu)</div>`)[0];
+                popup_98a547e06eb6d0e48ec19cdf90c41045.setContent(html_66e337fbcc5298c7f026359f39822bba);
+            
+        
+
+        marker_7ee87c2293ad4d08bbca23f94567e7b2.bindPopup(popup_98a547e06eb6d0e48ec19cdf90c41045)
+        ;
+
+        
+    
+    
+            var marker_fd454ed51bf694f7d0ce4b15c93ab49a = L.marker(
+                [47.65566375, -122.30270741043226],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_1f8f0e0f32626666ff5e5e14fcbc9f6c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_fd454ed51bf694f7d0ce4b15c93ab49a.setIcon(icon_1f8f0e0f32626666ff5e5e14fcbc9f6c);
+        
+    
+        var popup_05bfed4de48877b41f5606098692787e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7e61ea8efe022a110b29bc178ce5b803 = $(`<div id="html_7e61ea8efe022a110b29bc178ce5b803" style="width: 100.0%; height: 100.0%;">University of Washington (Yuanhe Tian)</div>`)[0];
+                popup_05bfed4de48877b41f5606098692787e.setContent(html_7e61ea8efe022a110b29bc178ce5b803);
+            
+        
+
+        marker_fd454ed51bf694f7d0ce4b15c93ab49a.bindPopup(popup_05bfed4de48877b41f5606098692787e)
+        ;
+
+        
+    
+    
+            var marker_09b7cc37d95f5ad4eb5b6069ada60538 = L.marker(
+                [31.8403891, 117.2501941133908],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_e1942886a495543dedad2c9833eb97a9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkpurple", "prefix": "glyphicon"}
+            );
+            marker_09b7cc37d95f5ad4eb5b6069ada60538.setIcon(icon_e1942886a495543dedad2c9833eb97a9);
+        
+    
+        var popup_a162636a1311aa0e0ed4ed8cf0bafd3f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b2ca3aa9fa50db26322726a608de0e50 = $(`<div id="html_b2ca3aa9fa50db26322726a608de0e50" style="width: 100.0%; height: 100.0%;">University of Science and Technology of China (Chang Liu)</div>`)[0];
+                popup_a162636a1311aa0e0ed4ed8cf0bafd3f.setContent(html_b2ca3aa9fa50db26322726a608de0e50);
+            
+        
+
+        marker_09b7cc37d95f5ad4eb5b6069ada60538.bindPopup(popup_a162636a1311aa0e0ed4ed8cf0bafd3f)
+        ;
+
+        
+    
+    
+            var marker_5de44df6e7c394c09c52774c0434c956 = L.marker(
+                [32.0565957, 118.77408832807794],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_4dd70652caa225d304dfa210d56dfd4c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_5de44df6e7c394c09c52774c0434c956.setIcon(icon_4dd70652caa225d304dfa210d56dfd4c);
+        
+    
+        var popup_1c7f78e92e86249f34282ffd26f194a6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fb48a1426cad9fd75e9ad92e14087ca2 = $(`<div id="html_fb48a1426cad9fd75e9ad92e14087ca2" style="width: 100.0%; height: 100.0%;">Nanjing University (Guo Chen)</div>`)[0];
+                popup_1c7f78e92e86249f34282ffd26f194a6.setContent(html_fb48a1426cad9fd75e9ad92e14087ca2);
+            
+        
+
+        marker_5de44df6e7c394c09c52774c0434c956.bindPopup(popup_1c7f78e92e86249f34282ffd26f194a6)
+        ;
+
+        
+    
+    
+            var marker_04141ae531eb715b0c869280b4a124c0 = L.marker(
+                [32.0565957, 118.77408832807794],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_20ae2bd45f735466b6855b1e31c9fa13 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_04141ae531eb715b0c869280b4a124c0.setIcon(icon_20ae2bd45f735466b6855b1e31c9fa13);
+        
+    
+        var popup_a4330645dc1e0420e0851b1de7e448ea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fc96e965634aefeadbcaa037e1d41bd4 = $(`<div id="html_fc96e965634aefeadbcaa037e1d41bd4" style="width: 100.0%; height: 100.0%;">Nanjing University (Hai-Long Sun)</div>`)[0];
+                popup_a4330645dc1e0420e0851b1de7e448ea.setContent(html_fc96e965634aefeadbcaa037e1d41bd4);
+            
+        
+
+        marker_04141ae531eb715b0c869280b4a124c0.bindPopup(popup_a4330645dc1e0420e0851b1de7e448ea)
+        ;
+
+        
+    
+    
+            var marker_ae400502b74e951222c2ca1d2098cf38 = L.marker(
+                [40.002290450000004, 116.3209629696906],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_94148f5e6879fac6a29057c6bb5a83c8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_ae400502b74e951222c2ca1d2098cf38.setIcon(icon_94148f5e6879fac6a29057c6bb5a83c8);
+        
+    
+        var popup_fe28af87c2578ad206ea92cfd74ad7a5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2ea180d66ed59de1ee03562c49cd7f8c = $(`<div id="html_2ea180d66ed59de1ee03562c49cd7f8c" style="width: 100.0%; height: 100.0%;">Tsinghua University (Zhen Yang)</div>`)[0];
+                popup_fe28af87c2578ad206ea92cfd74ad7a5.setContent(html_2ea180d66ed59de1ee03562c49cd7f8c);
+            
+        
+
+        marker_ae400502b74e951222c2ca1d2098cf38.bindPopup(popup_fe28af87c2578ad206ea92cfd74ad7a5)
+        ;
+
+        
+    
+    
+            var marker_4a08fa8f2f280098bdf7d5973e2c472d = L.marker(
+                [22.28269745, 114.13845499995571],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_509230a8db57d130cc6243e5d4974b6a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4a08fa8f2f280098bdf7d5973e2c472d.setIcon(icon_509230a8db57d130cc6243e5d4974b6a);
+        
+    
+        var popup_4e4547c3ca021927e94015829230385c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9dc5a3011ea62ffc51d7f44efecfeba8 = $(`<div id="html_9dc5a3011ea62ffc51d7f44efecfeba8" style="width: 100.0%; height: 100.0%;">University of Hong Kong (Lei Li)</div>`)[0];
+                popup_4e4547c3ca021927e94015829230385c.setContent(html_9dc5a3011ea62ffc51d7f44efecfeba8);
+            
+        
+
+        marker_4a08fa8f2f280098bdf7d5973e2c472d.bindPopup(popup_4e4547c3ca021927e94015829230385c)
+        ;
+
+        
+    
+    
+            var marker_553554809cc2cfe41b6ac9e36d4a7b89 = L.marker(
+                [32.0565957, 118.77408832807794],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_4b5cacd28be4853c68b64feb00d9a916 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkred", "prefix": "glyphicon"}
+            );
+            marker_553554809cc2cfe41b6ac9e36d4a7b89.setIcon(icon_4b5cacd28be4853c68b64feb00d9a916);
+        
+    
+        var popup_542f03f905ce94aab6ecccf249a8cf5e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_07e025bb385801af2a0b0297c180b9d6 = $(`<div id="html_07e025bb385801af2a0b0297c180b9d6" style="width: 100.0%; height: 100.0%;">Nanjing University (Da-Wei Zhou)</div>`)[0];
+                popup_542f03f905ce94aab6ecccf249a8cf5e.setContent(html_07e025bb385801af2a0b0297c180b9d6);
+            
+        
+
+        marker_553554809cc2cfe41b6ac9e36d4a7b89.bindPopup(popup_542f03f905ce94aab6ecccf249a8cf5e)
+        ;
+
+        
+    
+    
+            var marker_97674b68d5bd0f75c725dfea4884ad66 = L.marker(
+                [41.25713055, -72.98966960152231],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_a1556b84a91b66254e8f8681c3618bb0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_97674b68d5bd0f75c725dfea4884ad66.setIcon(icon_a1556b84a91b66254e8f8681c3618bb0);
+        
+    
+        var popup_6cc8009357ae4ecf1c958129c86d8b3d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_07480c908c1e2602fd852b0b4c3fb678 = $(`<div id="html_07480c908c1e2602fd852b0b4c3fb678" style="width: 100.0%; height: 100.0%;">Yale University (Rob Xiangru Tang)</div>`)[0];
+                popup_6cc8009357ae4ecf1c958129c86d8b3d.setContent(html_07480c908c1e2602fd852b0b4c3fb678);
+            
+        
+
+        marker_97674b68d5bd0f75c725dfea4884ad66.bindPopup(popup_6cc8009357ae4ecf1c958129c86d8b3d)
+        ;
+
+        
+    
+    
+            var marker_b2e3045290bc738d077f9dfad5a72d3f = L.marker(
+                [30.52021715, 114.41184627402748],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_3563f2b70be6d127a2024f8c41d9135c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b2e3045290bc738d077f9dfad5a72d3f.setIcon(icon_3563f2b70be6d127a2024f8c41d9135c);
+        
+    
+        var popup_b165b2c8a13a8d8e54b0033b7c8662f5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_506c723f1b845b44fbb294808306a459 = $(`<div id="html_506c723f1b845b44fbb294808306a459" style="width: 100.0%; height: 100.0%;">Huazhong University of Science (Jing Tang)</div>`)[0];
+                popup_b165b2c8a13a8d8e54b0033b7c8662f5.setContent(html_506c723f1b845b44fbb294808306a459);
+            
+        
+
+        marker_b2e3045290bc738d077f9dfad5a72d3f.bindPopup(popup_b165b2c8a13a8d8e54b0033b7c8662f5)
+        ;
+
+        
+    
+    
+            var marker_281eeee985a0e773eb7929d7856d72d7 = L.marker(
+                [39.9809427, 116.34097867654876],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_0f96ed6a90723d892dd4cfe935cdb7d8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_281eeee985a0e773eb7929d7856d72d7.setIcon(icon_0f96ed6a90723d892dd4cfe935cdb7d8);
+        
+    
+        var popup_d9e7730339c90186ada1b6473916a1cb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_faab94b7935c7c38891e848dfa97a3da = $(`<div id="html_faab94b7935c7c38891e848dfa97a3da" style="width: 100.0%; height: 100.0%;">Beihang University (Zhongzhi Chen)</div>`)[0];
+                popup_d9e7730339c90186ada1b6473916a1cb.setContent(html_faab94b7935c7c38891e848dfa97a3da);
+            
+        
+
+        marker_281eeee985a0e773eb7929d7856d72d7.bindPopup(popup_d9e7730339c90186ada1b6473916a1cb)
+        ;
+
+        
+    
+    
+            var marker_1e17b6bd8fe5f9ddcbe2b0cc357e9625 = L.marker(
+                [47.65566375, -122.30270741043226],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_dfcb3ab9b0e2666d7eddf49ee73c35eb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_1e17b6bd8fe5f9ddcbe2b0cc357e9625.setIcon(icon_dfcb3ab9b0e2666d7eddf49ee73c35eb);
+        
+    
+        var popup_bc842589934d62db93c672c19c9f9591 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f0c7e19e5ed44310b8d7e71072a88c4a = $(`<div id="html_f0c7e19e5ed44310b8d7e71072a88c4a" style="width: 100.0%; height: 100.0%;">University of Washington (Yuanhe Tian)</div>`)[0];
+                popup_bc842589934d62db93c672c19c9f9591.setContent(html_f0c7e19e5ed44310b8d7e71072a88c4a);
+            
+        
+
+        marker_1e17b6bd8fe5f9ddcbe2b0cc357e9625.bindPopup(popup_bc842589934d62db93c672c19c9f9591)
+        ;
+
+        
+    
+    
+            var marker_e95f668c96f58c6834ba4bc607d6cac6 = L.marker(
+                [32.0565957, 118.77408832807794],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_db9908eaf4529913e3d0fe84ce99492c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightred", "prefix": "glyphicon"}
+            );
+            marker_e95f668c96f58c6834ba4bc607d6cac6.setIcon(icon_db9908eaf4529913e3d0fe84ce99492c);
+        
+    
+        var popup_ac97d8758dfda1deecee4c6540173293 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8b026a2544f00d1804f8e71549ff88ca = $(`<div id="html_8b026a2544f00d1804f8e71549ff88ca" style="width: 100.0%; height: 100.0%;">Nanjing University (Zhe Chen (陈喆))</div>`)[0];
+                popup_ac97d8758dfda1deecee4c6540173293.setContent(html_8b026a2544f00d1804f8e71549ff88ca);
+            
+        
+
+        marker_e95f668c96f58c6834ba4bc607d6cac6.bindPopup(popup_ac97d8758dfda1deecee4c6540173293)
+        ;
+
+        
+    
+    
+            var marker_9cc17a43aa20aac92d7617fd5d98a884 = L.marker(
+                [48.535503750000004, 9.057921738521756],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_f4b060bdb768e49906221a8c15230e4d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_9cc17a43aa20aac92d7617fd5d98a884.setIcon(icon_f4b060bdb768e49906221a8c15230e4d);
+        
+    
+        var popup_a2815a7e92ccae3abb6202b8f1ed6b5e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a83498f77d21c4169572b43b6c3bf7fb = $(`<div id="html_a83498f77d21c4169572b43b6c3bf7fb" style="width: 100.0%; height: 100.0%;">Max-Planck Institut für Intelligente Systeme (Florian E. Dorner)</div>`)[0];
+                popup_a2815a7e92ccae3abb6202b8f1ed6b5e.setContent(html_a83498f77d21c4169572b43b6c3bf7fb);
+            
+        
+
+        marker_9cc17a43aa20aac92d7617fd5d98a884.bindPopup(popup_a2815a7e92ccae3abb6202b8f1ed6b5e)
+        ;
+
+        
+    
+    
+            var marker_256d5d860f920e14db14752d14dab68d = L.marker(
+                [31.839071949999997, 117.26420747857581],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_a3c4e27c49f81053c2e2c40cafd5bcd3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "darkgreen", "prefix": "glyphicon"}
+            );
+            marker_256d5d860f920e14db14752d14dab68d.setIcon(icon_a3c4e27c49f81053c2e2c40cafd5bcd3);
+        
+    
+        var popup_7512c3101e7fe56be7ad71b8ea002290 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_41caa720d1fade5adb27ef3ea5f22d76 = $(`<div id="html_41caa720d1fade5adb27ef3ea5f22d76" style="width: 100.0%; height: 100.0%;">USTC (Yan Song)</div>`)[0];
+                popup_7512c3101e7fe56be7ad71b8ea002290.setContent(html_41caa720d1fade5adb27ef3ea5f22d76);
+            
+        
+
+        marker_256d5d860f920e14db14752d14dab68d.bindPopup(popup_7512c3101e7fe56be7ad71b8ea002290)
+        ;
+
+        
+    
+    
+            var marker_f8956bf959efe427dbe8d72590c12f14 = L.marker(
+                [39.907697049999996, 116.24405770367915],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_a176a39103c618fa9df982c336fad89d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightblue", "prefix": "glyphicon"}
+            );
+            marker_f8956bf959efe427dbe8d72590c12f14.setIcon(icon_a176a39103c618fa9df982c336fad89d);
+        
+    
+        var popup_7367661fed9cbbcdc7ae4b85dcaac7b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7090e7346b4765fc7e600637bf04f2c7 = $(`<div id="html_7090e7346b4765fc7e600637bf04f2c7" style="width: 100.0%; height: 100.0%;">University of Chinese Academy of Sciences (Linzhuang Sun)</div>`)[0];
+                popup_7367661fed9cbbcdc7ae4b85dcaac7b9.setContent(html_7090e7346b4765fc7e600637bf04f2c7);
+            
+        
+
+        marker_f8956bf959efe427dbe8d72590c12f14.bindPopup(popup_7367661fed9cbbcdc7ae4b85dcaac7b9)
+        ;
+
+        
+    
+    
+            var marker_49166d843a0eccd1110eef3ef27b37c4 = L.marker(
+                [14.6683641, 120.994608],
+                {}
+            ).addTo(map_8383a22adcaf0263c824f4406c37432d);
+        
+    
+            var icon_e2037a80621d6a7149ded5654b18bbda = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_49166d843a0eccd1110eef3ef27b37c4.setIcon(icon_e2037a80621d6a7149ded5654b18bbda);
+        
+    
+        var popup_da9345130e4217f5f81e40e0ccec5e28 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_371c8047be90e44009ca286323b4f962 = $(`<div id="html_371c8047be90e44009ca286323b4f962" style="width: 100.0%; height: 100.0%;">Engineering (Ziyuan Wang)</div>`)[0];
+                popup_da9345130e4217f5f81e40e0ccec5e28.setContent(html_371c8047be90e44009ca286323b4f962);
+            
+        
+
+        marker_49166d843a0eccd1110eef3ef27b37c4.bindPopup(popup_da9345130e4217f5f81e40e0ccec5e28)
+        ;
+
+        
+    
+</script>
+</html>
