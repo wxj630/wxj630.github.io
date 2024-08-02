@@ -26,9 +26,6 @@ Initial members of the IDEA Research Institute's Fengshenbang Team([封神榜团
 - **Multi-modal:** Multi-modal LLM, Stable Diffusion model
 - **NLP:** LLM, Natural Language Understanding, Information Retrival, Natural Language Generation
 
-## Citation Map
-![](./assets/img/citation_map.png)
-
 <!-- ## News
 
 - **[Feb. 2020]** Our paper about incremental learning is accepted to CVPR 2020.
@@ -37,5 +34,8 @@ Initial members of the IDEA Research Institute's Fengshenbang Team([封神榜团
 - **[Mar. 2019]** Our paper about few-shot learning is accepted to CVPR 2019. -->
 
 {% include_relative _includes/publications.md %}
+
+## Citation Map
+![](./assets/img/citation_map.png)
 
 <!-- {% include_relative _includes/services.md %} -->
