@@ -1,4 +1,12 @@
 main:
+  - title: "Golden Touchstone: A Comprehensive Bilingual Benchmark for Evaluating Financial Large Language Models"
+    conference_short: Under Review
+    conference: Submitted to ACL Rolling Review (ARR) 2024 December
+    authors: <strong>Xiaojun Wu</strong>, Junxi Liu, Huanyi Su, Zhouchi Lin, Yiyan Qi, Chengjin Xu, Jiajun Su, Jiajie Zhong, Fuwei Wang, Saizhuo Wang, Fengrui Hua, Jia Li, Jian Guo
+    paper: https://arxiv.org/abs/2411.06272
+    code: https://github.com/IDEA-FinAI/Golden-Touchstone
+    model: https://huggingface.co/IDEA-FinAI/TouchstoneGPT-7B-Instruct
+    image: ./assets/img/touchstone.png
 
   - title: "Taiyi-Diffusion-XL: Advancing Bilingual Text-to-Image Generation With Large Vision-Language Model"
     conference_short: Under Review
