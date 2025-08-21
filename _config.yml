@@ -1,7 +1,7 @@
 # Basic Information 
 title: Xiaojun Wu
 position: Algorithm Engineer & Joint Ph.D. Program Student
-affiliation: HKUST(GZ)&IDEA (International Digital Economy Academy)
+affiliation: HKUST(GZ)&IDEA
 email: wuxiaojun (at) idea.edu.cn
 
 # Search Engine Optimization (SEO)
@@ -22,7 +22,7 @@ zhihu: https://www.zhihu.com/people/wxj630
 
 # Images (e.g., your profile picture and your website's favicon) 
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
-avatar: ./assets/img/wuxiaojun_photo.jpeg
+avatar: ./assets/img/wuxiaojun_anime.jpeg
 favicon: ./assets/img/favicon.png
 favicon_dark: ./assets/img/favicon-dark.png
 
