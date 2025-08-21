@@ -19,13 +19,14 @@ main:
     notes: Camera Ready
 
   - title: "Taiyi-Diffusion-XL: Advancing Bilingual Text-to-Image Generation With Large Vision-Language Model"
-    conference_short: Under Review
-    conference: Submitted to EMNLP 2024 System Demonstration Track
+    conference_short: Arxiv
+    conference: Arxiv, 2024
     authors: <strong>Xiaojun Wu</strong>, Dixiang Zhang, Ruyi Gan, Junyu Lu, Ziwei Wu, Renliang Sun, Jiaxing Zhang, Pingjian Zhang, Yan Song
     paper: https://arxiv.org/abs/2401.14688
     code: https://github.com/IDEA-CCNL/Fooocus-Taiyi-XL
     model: https://huggingface.co/IDEA-CCNL/Taiyi-Stable-Diffusion-XL-3.5B
     image: ./assets/img/taiyi_diffusion_xl.png
+    notes: Technical Report
 
   - title: "Can ChatGPT Serve as a Multi-Criteria Decision Maker? A Novel Approach to Supplier Evaluation"
     conference_short: ICASSP
@@ -44,6 +45,7 @@ main:
     code: https://github.com/IDEA-CCNL/Fengshenbang-LMziya
     model: https://huggingface.co/IDEA-CCNL/Ziya-Visual-14B-Chat
     image: ./assets/img/ziya_vl.png
+    notes: Technical Report
 
   - title: "Noise Learning for Text Classification: A Benchmark"
     conference_short: COLING
