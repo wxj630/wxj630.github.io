@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I am a researcher in the field of AI,  in [FinAI Center](https://www.idea.edu.cn/research/research-finai.html) of IDEA, initial members [Fengshenbang Team](https://huggingface.co/IDEA-CCNL) previously. I am engaged in pre-trained large language model work, including LLM, Multimodal LLM, and Diffusion-based AIGC model. Internship and work experience include internet companies, state-owned enterprises, and research institutes. Rich in technical passion and curiosity, enjoys sharing (with over  on [Zhihu](https://www.zhihu.com/people/wxj630)) and exploring Multimodal, Generative AI, and General Artificial Intelligence.
+I am a researcher in [FinAI Center](https://www.idea.edu.cn/research/research-finai.html) of IDEA, initial members [Fengshenbang Team](https://huggingface.co/IDEA-CCNL) previously. I am engaged in pre-trained large language model work, including LLM, Multimodal LLM, and Diffusion-based AIGC model. Internship and work experience include internet companies, state-owned enterprises, and research institutes. Rich in technical passion and curiosity, enjoys sharing (with over  on [Zhihu](https://www.zhihu.com/people/wxj630)) and exploring Multimodal, Generative AI, and General Artificial Intelligence.
 
 ## Experiences
 
