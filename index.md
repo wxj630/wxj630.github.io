@@ -4,7 +4,11 @@ layout: homepage
 
 ## About Me
 
-I am a researcher in [FinAI Center](https://www.idea.edu.cn/research/research-finai.html) of IDEA, initial members [Fengshenbang Team](https://huggingface.co/IDEA-CCNL) previously. I am engaged in pre-trained large language model work, including LLM, Multimodal LLM, and Diffusion-based AIGC model. Internship and work experience include internet companies, state-owned enterprises, and research institutes. Rich in technical passion and curiosity, enjoys sharing (with over  on [Zhihu](https://www.zhihu.com/people/wxj630)) and exploring Multimodal, Generative AI, and General Artificial Intelligence.
+I am a researcher in [FinAI Center](https://www.idea.edu.cn/research/research-finai.html) of IDEA, initial members [Fengshenbang Team](https://huggingface.co/IDEA-CCNL) previously. 
+<!-- I am engaged in pre-trained large language model work, including LLM, Multimodal LLM, and Diffusion-based AIGC model.  -->
+I am one of the earliest developers in China to conduct research on [Pretrain Models](https://huggingface.co/IDEA-CCNL), [Vision-Language Model](https://arxiv.org/abs/2310.08166), and [Diffusion-based AIGC model](https://huggingface.co/IDEA-CCNL/Taiyi-Stable-Diffusion-1B-Chinese-v0.1).
+Internship and work experience include internet companies, state-owned enterprises, and research institutes. 
+Rich in technical passion and curiosity, enjoys sharing and exploring Multimodal, Generative AI, and General Artificial Intelligence.
 
 ## Experiences
 
@@ -22,7 +26,8 @@ I am a researcher in [FinAI Center](https://www.idea.edu.cn/research/research-fi
 
 ## Research Interests
 
-- **FinAI:** FinLLM, ChartVLM, Quant Trading
+<!-- - **FinAI:** FinLLM, Quant Trading -->
+- **Agent:** Multi-Agent, Agent Evolution, Tool use, Reinforcement Learning
 - **Multi-modal:** Multi-modal LLM, Stable Diffusion model
 - **NLP:** LLM, Natural Language Understanding, Information Retrival, Natural Language Generation
 
