@@ -13,12 +13,12 @@ Rich in technical passion and curiosity, enjoys sharing and exploring Multimodal
 ## Experiences
 
 ### Education
-- **[2024.09 - ]** Joint PHD program of [HKUST(GZ)](https://www.hkust-gz.edu.cn/) and [IDEA Research](https://www.idea.edu.cn/), co-supervised by [Prof.Jia LI](https://sites.google.com/view/lijia) and [Prof.Jian GUO](https://www.idea.edu.cn/person/guojian/)
+- **[2024.09 - Now]** Joint PHD program of [HKUST(GZ)](https://www.hkust-gz.edu.cn/) and [IDEA Research](https://www.idea.edu.cn/), co-supervised by [Prof.Jia LI](https://sites.google.com/view/lijia) and [Prof.Jian GUO](https://www.idea.edu.cn/person/guojian/)
 - **[2018.09 - 2020.07]** Master's in Information Science, supervised by [Prof.Jimin Wang](http://www.im.pku.edu.cn/szll/xxxwyjs/wjm/index.htm), [scie lab](https://scie.pku.edu.cn/), Peking University
 - **[2014.09 - 2018.07]** Bachelor's in Information Management and Information Systems, Xidian University
 
 ### Intern and Work
-- **[2021.07 - Present]** Algorithm Engineer, IDEA
+- **[2021.07 - Now]** Algorithm Engineer, IDEA
 - **[2020.07 - 2021.07]** Algorithm Engineer, The Smart City Research Institute of CETC(China Electronics Technology Group Corporation)
 - **[2019.07 - 2020.05]** Big Data Development Intern, ByteDance
 - **[2018.07 - 2018.10]** Data Analysis Intern, Chinese Academy of Science and Technology for Development
