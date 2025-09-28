@@ -18,17 +18,17 @@ Rich in technical passion and curiosity, enjoys sharing and exploring Multimodal
 - **[2014.09 - 2018.07]** Bachelor's in Information Management and Information Systems, Xidian University
 
 ### Intern and Work
-- **[2021.07 - Now]** Algorithm Engineer, IDEA
-- **[2020.07 - 2021.07]** Algorithm Engineer, The Smart City Research Institute of CETC(China Electronics Technology Group Corporation)
-- **[2019.07 - 2020.05]** Big Data Development Intern, ByteDance
-- **[2018.07 - 2018.10]** Data Analysis Intern, Chinese Academy of Science and Technology for Development
+- **[2021.07 - Now]** Algorithm Engineer, IDEA, Shenzhen
+- **[2020.07 - 2021.07]** Algorithm Engineer, The Smart City Research Institute of CETC (China Electronics Technology Group Corporation), Shenzhen
+- **[2019.07 - 2020.05]** Big Data Development Intern, ByteDance, Beijing
+- **[2018.07 - 2018.10]** Data Analysis Intern, Chinese Academy of Science and Technology for Development, Ministry of Science and Technology (MOST), Beijing
 
 
 ## Research Interests
 
 <!-- - **FinAI:** FinLLM, Quant Trading -->
-- **Agent:** Multi-Agent, Agent Evolution, Tool use, Reinforcement Learning
-- **Multi-modal:** Multi-modal LLM, Stable Diffusion model
+- **Agent:** Multi-Agent, Agent Evolution, Memory and Knowledge, Tool use, Reinforcement Learning
+- **Multi-modal:** Multi-modal LLM, Diffusion model
 - **NLP:** LLM, Natural Language Understanding, Information Retrival, Natural Language Generation
 
 <!-- ## News
