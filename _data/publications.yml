@@ -3,9 +3,9 @@ main:
     conference_short: Under Review
     conference: Submitted to ICLR 2026
     authors: <strong>Xiaojun Wu</strong>, Cehao Yang, Xueyuan Lin, Chengjin Xu, Xuhui Jiang, Yuanliang Sun, Hui Xiong, Jia Li, Jian Guo
-    paper: https://wxj630.github.io
+    paper: https://arxiv.org/abs/2509.21710
     code: https://github.com/DataArcTech/RAG-Factory
-    # model: https://arxiv.org/abs/2503.21422
+    model: https://huggingface.co/IDEA-FinAI/TouchstoneGPT-7B-Instruct
     image: ./assets/img/ToG3.0.png
 
   - title: "From Deep Learning to LLMs: A survey of AI in Quantitative Investment"
