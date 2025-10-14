@@ -18,7 +18,7 @@ Rich in technical passion and curiosity, enjoys sharing and exploring Data and K
 - **[2014.09 - 2018.07]** Bachelor's in Information Management and Information Systems, Xidian University
 
 ### Intern and Work
-- **[2021.07 - Now]** Algorithm Engineer, [IDEA](https://www.idea.edu.cn/), Shenzhen
+- **[2021.07 - Now]** Algorithm Engineer & LLM Researcher, [IDEA](https://www.idea.edu.cn/), Shenzhen
 - **[2020.07 - 2021.07]** Algorithm Engineer, [The Smart City Research Institute of CETC](https://cetccity.cetc.com.cn/), Shenzhen
 - **[2019.07 - 2020.05]** Big Data Development Intern, [ByteDance](https://www.bytedance.com), Beijing
 - **[2018.07 - 2018.10]** Data Analysis Intern, [Chinese Academy of Science and Technology for Development](http://www.casted.org.cn/), Ministry of Science and Technology (MOST), Beijing
