@@ -3,7 +3,7 @@
 <div id="github-repos" 
      data-config='{
          "github_username": "wxj630",
-         "max_repos": 8,
+         "max_repos": 6,
          "show_forks": false,
          "exclude_repos": []
      }'>
