@@ -1,0 +1,204 @@
+/* GitHub Repos Component Styles */
+.repo-stats {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    color: var(--global-text-color-light);
+}
+
+.repo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.repo-card {
+    border: 1px solid #e1e4e8;
+    border-radius: 8px;
+    padding: 1.5rem;
+    background: var(--global-bg-color);
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.repo-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+    border-color: var(--global-theme-color);
+}
+
+.repo-card.pinned {
+    border-left: 4px solid #fbc02d;
+    background: linear-gradient(135deg, rgba(251, 192, 45, 0.1) 0%, var(--global-bg-color) 100%);
+}
+
+.repo-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 0.5rem;
+}
+
+.repo-header h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    flex: 1;
+}
+
+.repo-header h3 a {
+    color: var(--global-theme-color);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.repo-header h3 a:hover {
+    text-decoration: underline;
+    color: var(--global-hover-color);
+}
+
+.repo-badges {
+    display: flex;
+    gap: 0.3rem;
+    margin-left: 0.5rem;
+}
+
+.pinned-badge, .api-indicator {
+    font-size: 0.9rem;
+    opacity: 0.7;
+}
+
+.repo-description {
+    color: var(--global-text-color-light);
+    margin: 0.5rem 0 1rem 0;
+    line-height: 1.5;
+    min-height: 3em;
+}
+
+.repo-meta {
+    display: flex;
+    gap: 1rem;
+    font-size: 0.85rem;
+    color: var(--global-text-color-light);
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.language {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.language-color {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #3572A5;
+}
+
+.language[data-language="JavaScript"] .language-color { background-color: #f1e05a; }
+.language[data-language="TypeScript"] .language-color { background-color: #2b7489; }
+.language[data-language="HTML"] .language-color { background-color: #e34c26; }
+.language[data-language="CSS"] .language-color { background-color: #563d7c; }
+.language[data-language="Jupyter Notebook"] .language-color { background-color: #DA5B0B; }
+
+.repo-updated {
+    font-size: 0.8rem;
+    color: var(--global-text-color-light);
+    margin-top: 0.8rem;
+    padding-top: 0.8rem;
+    border-top: 1px solid #e1e4e8;
+}
+
+.repo-footer {
+    text-align: center;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid #e1e4e8;
+}
+
+.view-all-btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: var(--global-theme-color);
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 500;
+    transition: background-color 0.2s;
+}
+
+.view-all-btn:hover {
+    background: var(--global-hover-color);
+    text-decoration: none;
+    color: white;
+}
+
+.api-fallback {
+    background: #fff3cd;
+    border: 1px solid #ffeaa7;
+    border-radius: 6px;
+    padding: 1rem;
+    margin-top: 1rem;
+    text-align: center;
+    color: #856404;
+}
+
+.repos-empty {
+    text-align: center;
+    padding: 3rem;
+    color: var(--global-text-color-light);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .repo-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    .repo-stats {
+        flex-direction: column;
+        gap: 0.5rem;
+        align-items: flex-start;
+    }
+    
+    .repo-header {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    
+    .repo-badges {
+        margin-left: 0;
+    }
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+    .repo-card {
+        background: var(--global-bg-color);
+        border-color: #30363d;
+        color: var(--global-text-color);
+    }
+    
+    .repo-card.pinned {
+        background: linear-gradient(135deg, rgba(251, 192, 45, 0.1) 0%, var(--global-bg-color) 100%);
+    }
+    
+    .repo-description {
+        color: var(--global-text-color-light);
+    }
+    
+    .repo-meta {
+        color: var(--global-text-color-light);
+    }
+    
+    .api-fallback {
+        background: #332701;
+        border-color: #856404;
+        color: #ffdb6e;
+    }
+}

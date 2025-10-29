@@ -1,0 +1,42 @@
+pinned_repos:
+  - name: "Fengshenbang-LM"
+    full_name: "IDEA-CCNL/Fengshenbang-LM"
+    description: "Fengshenbang-LM(封神榜大模型)是IDEA研究院认知计算与自然语言研究中心主导的大模型开源体系，成为中文AIGC和认知智能的基础设施。"
+    url: "https://github.com/IDEA-CCNL/Fengshenbang-LM"
+    language: "Python"
+    stars: 4100
+    forks: 384
+    is_pinned: true
+
+  - name: "visual-chatgpt-zh"
+    full_name: "wxj630/visual-chatgpt-zh"
+    description: "visual-chatgpt支持中文版本"
+    url: "https://github.com/wxj630/visual-chatgpt-zh"
+    language: "Python"
+    stars: 287
+    forks: 41
+    is_pinned: true
+
+  - name: "GTS-Engine"
+    full_name: "IDEA-CCNL/GTS-Engine"
+    description: "GTS Engine: A powerful NLU Training System。GTS引擎是一款开箱即用且性能强大的自然语言理解引擎，聚焦于小样本任务。"
+    url: "https://github.com/IDEA-CCNL/GTS-Engine"
+    language: "Python"
+    stars: 93
+    forks: 10
+    is_pinned: true
+
+  - name: "Fooocus-Taiyi-XL"
+    full_name: "IDEA-CCNL/Fooocus-Taiyi-XL"
+    description: "支持Taiyi-Diffusion-XL模型的Fooocus"
+    url: "https://github.com/IDEA-CCNL/Fooocus-Taiyi-XL"
+    language: "Python"
+    stars: 20
+    forks: 2
+    is_pinned: true
+
+config:
+  github_username: "wxj630"
+  max_repos: 8
+  show_forks: false
+  exclude_repos: []
