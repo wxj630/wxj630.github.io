@@ -26,17 +26,35 @@ pinned_repos:
     forks: 10
     is_pinned: true
 
-  - name: "Fooocus-Taiyi-XL"
-    full_name: "IDEA-CCNL/Fooocus-Taiyi-XL"
-    description: "支持Taiyi-Diffusion-XL模型的Fooocus"
-    url: "https://github.com/IDEA-CCNL/Fooocus-Taiyi-XL"
+  - name: "Awesome-FinLLMs"
+    full_name: "IDEA-FinAI/Awesome-FinLLMs"
+    description: "🥇 A curated list of awesome large language models in finance(FinLLMs), including papers,models,datasets and codebases. 金融大模型列表，特别是中英双语大模型。"
+    url: "https://github.com/IDEA-FinAI/Awesome-FinLLMs"
+    language: "Html"
+    stars: 53
+    forks: 5
+    is_pinned: true
+
+  - name: "RAG-Factory"
+    full_name: "DataArcTech/RAG-Factory"
+    description: "A factory for building advanced RAG pipelines including GraphRAG and Multi-modal RAG"
+    url: "https://github.com/DataArcTech/RAG-Factory"
     language: "Python"
-    stars: 20
-    forks: 2
+    stars: 30
+    forks: 3
+    is_pinned: true
+
+  - name: "Taiyi-Diffusion-XL"
+    full_name: "IDEA-CCNL/Taiyi-Diffusion-XL"
+    description: "Taiyi-Diffusion-XL训练代码"
+    url: "https://github.com/IDEA-CCNL/Taiyi-Diffusion-XL"
+    language: "Python"
+    stars: 23
+    forks: 4
     is_pinned: true
 
 config:
   github_username: "wxj630"
   max_repos: 8
-  show_forks: false
+  show_forks: true
   exclude_repos: []
