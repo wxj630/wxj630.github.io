@@ -41,7 +41,7 @@ class GitHubRepos {
         try {
             const username = this.config.github_username || 'wxj630';
             const response = await fetch(
-                `https://api.github.com/users/${username}/repos?sort=updated&per_page=${this.config.max_repos || 6}`
+                `https://api.github.com/users/wxj630/repos?sort=updated&per_page=6`
             );
             
             if (!response.ok) throw new Error(`GitHub API error: ${response.status}`);
