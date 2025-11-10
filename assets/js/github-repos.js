@@ -123,31 +123,33 @@ class GitHubRepos {
     //     }).slice(0, this.config.max_repos || 8);
     // }
 
-    getMergedRepositories() {
-        // 创建 manualRepos 的副本
+    async getMergedRepositories() {
         const allRepos = [...this.manualRepos];
         
-        // 遍历手动配置的仓库，而不是所有仓库
-        allRepos.forEach(manualRepo => {
-            // 在 API 仓库中查找对应的仓库
-            const apiRepo = this.apiRepos.find(repo => 
-                repo.full_name === manualRepo.full_name
-            );
-            
-            if (apiRepo) {
-                // 如果找到对应的 API 仓库，更新信息
-                const index = allRepos.findIndex(repo => 
-                    repo.full_name === manualRepo.full_name
-                );
-                allRepos[index] = {
-                    ...manualRepo,  // 保留手动配置的所有属性
-                    stars: apiRepo.stars,  // 更新星数
-                    forks: apiRepo.forks,  // 更新fork数
-                    description: apiRepo.description,  // 更新描述
-                    updated_at: apiRepo.updated_at,  // 更新时间
-                };
+        // 遍历每个手动配置的仓库
+        for (const manualRepo of allRepos) {
+            try {
+                // 获取单个仓库的API数据
+                const apiRepo = await this.fetchSingleRepo(manualRepo.full_name);
+                
+                if (apiRepo) {
+                    const index = allRepos.findIndex(repo => 
+                        repo.full_name === manualRepo.full_name
+                    );
+                    
+                    // 更新仓库信息
+                    allRepos[index] = {
+                        ...manualRepo,  // 保留手动配置的所有属性
+                        stars: apiRepo.stars,  // 更新星数
+                        forks: apiRepo.forks,  // 更新fork数
+                        description: apiRepo.description,  // 更新描述
+                        updated_at: apiRepo.updated_at,  // 更新时间
+                    };
+                }
+            } catch (error) {
+                console.error(`获取仓库 ${manualRepo.full_name} 数据失败:`, error);
             }
-        });
+        }
 
         return allRepos.sort((a, b) => {
             if (a.is_pinned && !b.is_pinned) return -1;
@@ -155,6 +157,18 @@ class GitHubRepos {
             return (b.stars || 0) - (a.stars || 0);
         }).slice(0, this.config.max_repos || 8);
     }
+
+    // 新增方法：获取单个仓库的数据
+    async fetchSingleRepo(fullName) {
+        // 这里需要根据你的实际情况实现
+        // 示例使用 GitHub API:
+        const response = await fetch(`https://api.github.com/repos/${fullName}`);
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        return await response.json();
+    }
+
 
 
 
