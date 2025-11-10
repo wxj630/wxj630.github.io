@@ -75,14 +75,41 @@ class GitHubRepos {
         };
     }
 
+    // getMergedRepositories() {
+    //     const allRepos = [...this.manualRepos];
+        
+    //     this.apiRepos.forEach(apiRepo => {
+    //         const exists = allRepos.some(manualRepo => 
+    //             manualRepo.full_name === apiRepo.full_name
+    //         );
+    //         if (!exists) allRepos.push(apiRepo);
+    //     });
+
+    //     return allRepos.sort((a, b) => {
+    //         if (a.is_pinned && !b.is_pinned) return -1;
+    //         if (!a.is_pinned && b.is_pinned) return 1;
+    //         return (b.stars || 0) - (a.stars || 0);
+    //     }).slice(0, this.config.max_repos || 8);
+    // }
+
     getMergedRepositories() {
         const allRepos = [...this.manualRepos];
         
         this.apiRepos.forEach(apiRepo => {
-            const exists = allRepos.some(manualRepo => 
+            const existingIndex = allRepos.findIndex(manualRepo => 
                 manualRepo.full_name === apiRepo.full_name
             );
-            if (!exists) allRepos.push(apiRepo);
+            
+            if (existingIndex !== -1) {
+                // 如果仓库已存在，更新其信息
+                allRepos[existingIndex] = {
+                    ...allRepos[existingIndex],  // 保留原有属性
+                    ...apiRepo  // 用API数据更新
+                };
+            } else {
+                // 如果仓库不存在，添加新仓库
+                allRepos.push(apiRepo);
+            }
         });
 
         return allRepos.sort((a, b) => {
@@ -91,6 +118,7 @@ class GitHubRepos {
             return (b.stars || 0) - (a.stars || 0);
         }).slice(0, this.config.max_repos || 8);
     }
+
 
     renderRepos() {
         const container = document.getElementById('github-repos');
