@@ -101,10 +101,14 @@ class GitHubRepos {
             );
             
             if (existingIndex !== -1) {
-                // 如果仓库已存在，更新其信息
+                // 如果仓库已存在，更新关键信息
                 allRepos[existingIndex] = {
                     ...allRepos[existingIndex],  // 保留原有属性
-                    ...apiRepo  // 用API数据更新
+                    stars: apiRepo.stars,        // 更新星数
+                    forks: apiRepo.forks,        // 更新fork数
+                    description: apiRepo.description,  // 更新描述
+                    updated_at: apiRepo.updated_at,     // 更新最后更新时间
+                    // 可以添加其他需要更新的字段
                 };
             } else {
                 // 如果仓库不存在，添加新仓库
@@ -118,6 +122,7 @@ class GitHubRepos {
             return (b.stars || 0) - (a.stars || 0);
         }).slice(0, this.config.max_repos || 8);
     }
+
 
 
     renderRepos() {
