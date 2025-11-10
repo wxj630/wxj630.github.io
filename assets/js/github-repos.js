@@ -92,27 +92,60 @@ class GitHubRepos {
     //     }).slice(0, this.config.max_repos || 8);
     // }
 
+    // getMergedRepositories() {
+    //     const allRepos = [...this.manualRepos];
+        
+    //     this.apiRepos.forEach(apiRepo => {
+    //         const existingIndex = allRepos.findIndex(manualRepo => 
+    //             manualRepo.full_name === apiRepo.full_name
+    //         );
+            
+    //         if (existingIndex !== -1) {
+    //             // 如果仓库已存在，更新关键信息
+    //             allRepos[existingIndex] = {
+    //                 ...allRepos[existingIndex],  // 保留原有属性
+    //                 stars: apiRepo.stars,        // 更新星数
+    //                 forks: apiRepo.forks,        // 更新fork数
+    //                 description: apiRepo.description,  // 更新描述
+    //                 updated_at: apiRepo.updated_at,     // 更新最后更新时间
+    //                 // 可以添加其他需要更新的字段
+    //             };
+    //         } else {
+    //             // 如果仓库不存在，添加新仓库
+    //             allRepos.push(apiRepo);
+    //         }
+    //     });
+
+    //     return allRepos.sort((a, b) => {
+    //         if (a.is_pinned && !b.is_pinned) return -1;
+    //         if (!a.is_pinned && b.is_pinned) return 1;
+    //         return (b.stars || 0) - (a.stars || 0);
+    //     }).slice(0, this.config.max_repos || 8);
+    // }
+
     getMergedRepositories() {
+        // 创建 manualRepos 的副本
         const allRepos = [...this.manualRepos];
         
-        this.apiRepos.forEach(apiRepo => {
-            const existingIndex = allRepos.findIndex(manualRepo => 
-                manualRepo.full_name === apiRepo.full_name
+        // 遍历手动配置的仓库，而不是所有仓库
+        allRepos.forEach(manualRepo => {
+            // 在 API 仓库中查找对应的仓库
+            const apiRepo = this.apiRepos.find(repo => 
+                repo.full_name === manualRepo.full_name
             );
             
-            if (existingIndex !== -1) {
-                // 如果仓库已存在，更新关键信息
-                allRepos[existingIndex] = {
-                    ...allRepos[existingIndex],  // 保留原有属性
-                    stars: apiRepo.stars,        // 更新星数
-                    forks: apiRepo.forks,        // 更新fork数
+            if (apiRepo) {
+                // 如果找到对应的 API 仓库，更新信息
+                const index = allRepos.findIndex(repo => 
+                    repo.full_name === manualRepo.full_name
+                );
+                allRepos[index] = {
+                    ...manualRepo,  // 保留手动配置的所有属性
+                    stars: apiRepo.stars,  // 更新星数
+                    forks: apiRepo.forks,  // 更新fork数
                     description: apiRepo.description,  // 更新描述
-                    updated_at: apiRepo.updated_at,     // 更新最后更新时间
-                    // 可以添加其他需要更新的字段
+                    updated_at: apiRepo.updated_at,  // 更新时间
                 };
-            } else {
-                // 如果仓库不存在，添加新仓库
-                allRepos.push(apiRepo);
             }
         });
 
@@ -122,6 +155,7 @@ class GitHubRepos {
             return (b.stars || 0) - (a.stars || 0);
         }).slice(0, this.config.max_repos || 8);
     }
+
 
 
 
