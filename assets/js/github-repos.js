@@ -137,7 +137,7 @@ class GitHubRepos {
                 
                 allRepos[index] = {
                     ...manualRepo,
-                    stars: apiRepo.stars,
+                    stars: apiRepo.stargazers_count,
                     forks: apiRepo.forks,
                     description: apiRepo.description,
                     updated_at: apiRepo.updated_at,
