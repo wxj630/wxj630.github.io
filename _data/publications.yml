@@ -1,7 +1,7 @@
 main:
   - title: "Think-on-Graph 3.0: Efficient and Adaptive LLM Reasoning on Heterogeneous Graphs via Multi-Agent Dual-Evolving Context Retrieval"
     conference_short: Under Review
-    conference: Under Review by ICLR 2026
+    conference: Under Review
     authors: <strong>Xiaojun Wu</strong>, Cehao Yang, Xueyuan Lin, Chengjin Xu, Xuhui Jiang, Yuanliang Sun, Hui Xiong, Jia Li, Jian Guo
     paper: https://arxiv.org/abs/2509.21710
     code: https://github.com/DataArcTech/RAG-Factory
@@ -10,7 +10,7 @@ main:
 
   - title: "From Deep Learning to LLMs: A survey of AI in Quantitative Investment"
     conference_short: Under Review
-    conference: Under Review by IEEE Transactions on Knowledge and Data Engineering(TKDE) 2025
+    conference: Under Review
     authors: Bokai Cao, Saizhuo Wang, Xinyi Lin, <strong>Xiaojun Wu</strong>, Haohan Zhang, Lionel M. Ni, Jian Guo
     paper: https://arxiv.org/abs/2503.21422
     code: https://arxiv.org/abs/2503.21422
