@@ -21,7 +21,7 @@ main:
     conference_short: AAAI
     conference: Camera Ready to AAAI 2026
     authors: Fengrui Hua, Yiyan Qi, Zikai WEI, Yuxing Tian, Chengjin Xu, <strong>Xiaojun Wu</strong>, Jia Li, Jian Guo
-    paper: https://arxiv.org/abs/2411.06272
+    paper: https://ojs.aaai.org/index.php/AAAI/article/view/38510
     code: https://github.com/IDEA-FinAI/Golden-Touchstone
     image: ./assets/img/BAG.png
     notes: Camera Ready

@@ -31,12 +31,13 @@ Rich in technical passion and curiosity, enjoys sharing and exploring Data and K
 - **Multi-modal:** Multi-modal LLM, Diffusion model
 - **NLP:** LLM, Natural Language Understanding, Information Retrival, Natural Language Generation
 
-<!-- ## News
+## News
 
-- **[Feb. 2020]** Our paper about incremental learning is accepted to CVPR 2020.
-- **[Feb. 2020]** We will host the ACM Multimedia Asia 2020 conference in Singapore!
-- **[Sept. 2019]** Our paper about few-shot learning is accepted to NeurIPS 2019.
-- **[Mar. 2019]** Our paper about few-shot learning is accepted to CVPR 2019. -->
+- **[Apr. 2026]** Our paper about Efficient Instruction-Tuning is accepted to ACL 2026 Findings.
+- **[Nov. 2026]** Our paper about Anomaly Detection on Dynamic Graphs is accepted to AAAI 2026.
+- **[Sept. 2025]** Our paper about Financial Large Language Models is accepted to EMNLP 2025 Findings.
+- **[Oct. 2022]** Our paper about Multimodal Dialogue is accepted to International Journal of Machine Learning and Cybernetics.
+- **[Oct. 2022]** Our paper about Noise Learning is accepted to COLING 2022.
 
 
 {% include_relative _includes/publications.md %}
