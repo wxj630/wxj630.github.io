@@ -1,6 +1,14 @@
 ## Services
 
-<h4 style="margin:0 10px 0;">Conference Reviewers</h4>
+<!-- <h4 style="margin:0 10px 0;">Conference Reviewers</h4> -->
+
+<h4 style="margin:0 10px 0;">Teaching Assistant</h4>
+<ul style="margin:0 0 20px;">
+  <li><a href=""><autocolor>HKUST (GZ) 2026 Spring:  UFUG 2602 - Data Structure and Algorithm Design</autocolor></a></li>
+  <li><a href=""><autocolor>Peking University 2018 Fall: Web Data Mining</autocolor></a></li>
+</ul>
+
+<!-- <h4 style="margin:0 10px 0;">Conference Reviewers</h4>
 
 <ul style="margin:0 0 5px;">
   <li><a href="http://cvpr2023.thecvf.com/"><autocolor>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2021-2023</autocolor></a></li>
@@ -13,4 +21,4 @@
 <ul style="margin:0 0 20px;">
   <li><a href="https://www.computer.org/csdl/journal/tp"><autocolor>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)</autocolor></a></li>
   <li><a href="https://www.springer.com/journal/11263"><autocolor>International Journal of Computer Vision (IJCV)</autocolor></a></li>
-</ul>
+</ul> -->

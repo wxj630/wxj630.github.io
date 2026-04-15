@@ -46,4 +46,4 @@ Rich in technical passion and curiosity, enjoys sharing and exploring Data and K
 ## Citation Map
 ![](./assets/img/citation_map.png)
 
-<!-- {% include_relative _includes/services.md %} -->
+{% include_relative _includes/services.md %}
