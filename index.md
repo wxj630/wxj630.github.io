@@ -10,6 +10,16 @@ I am one of the earliest developers in China to conduct research on [Pretrain Mo
 Internship and work experience include internet companies, state-owned enterprises, and research institutes. 
 Rich in technical passion and curiosity, enjoys sharing and exploring Data and Knowledge, Multimodal, Generative AI, and General Artificial Intelligence.
 
+## News
+
+- **[Apr. 2026]** Our paper about Efficient Instruction-Tuning is accepted to ACL 2026 Findings.
+- **[Nov. 2025]** Our paper about Anomaly Detection on Dynamic Graphs is accepted to AAAI 2026.
+- **[Sept. 2025]** Our paper about Financial Large Language Models is accepted to EMNLP 2025 Findings.
+- **[Jan. 2024]** Taiyi-Diffusion-XL Technical Report is released at [Arxiv](https://arxiv.org/pdf/2401.14688) and [HuggingFace](https://huggingface.co/IDEA-CCNL/Taiyi-Stable-Diffusion-XL-3.5B)
+- **[Sept. 2023]** Ziya-VL Technical Report is released at [Arxiv](https://arxiv.org/pdf/2310.08166) and [HuggingFace](https://huggingface.co/IDEA-CCNL/Ziya-Visual-14B-Chat)
+- **[Oct. 2022]** Our paper about Multimodal Dialogue is accepted to International Journal of Machine Learning and Cybernetics.
+- **[Oct. 2022]** Our paper about Noise Learning is accepted to COLING 2022.
+
 ## Experiences
 
 ### Education
@@ -30,17 +40,6 @@ Rich in technical passion and curiosity, enjoys sharing and exploring Data and K
 - **Agent:** Multi-Agent, Agent Evolution, Memory and Knowledge, Tool use, Reinforcement Learning
 - **Multi-modal:** Multi-modal LLM, Diffusion model
 - **NLP:** LLM, Natural Language Understanding, Information Retrival, Natural Language Generation
-
-## News
-
-- **[Apr. 2026]** Our paper about Efficient Instruction-Tuning is accepted to ACL 2026 Findings.
-- **[Nov. 2025]** Our paper about Anomaly Detection on Dynamic Graphs is accepted to AAAI 2026.
-- **[Sept. 2025]** Our paper about Financial Large Language Models is accepted to EMNLP 2025 Findings.
-- **[Jan. 2024]** Taiyi-Diffusion-XL Technical Report is released at [Arxiv](https://arxiv.org/pdf/2401.14688) and [HuggingFace](https://huggingface.co/IDEA-CCNL/Taiyi-Stable-Diffusion-XL-3.5B)
-- **[Sept. 2023]** Ziya-VL Technical Report is released at [Arxiv](https://arxiv.org/pdf/2310.08166) and [HuggingFace](https://huggingface.co/IDEA-CCNL/Ziya-Visual-14B-Chat)
-- **[Oct. 2022]** Our paper about Multimodal Dialogue is accepted to International Journal of Machine Learning and Cybernetics.
-- **[Oct. 2022]** Our paper about Noise Learning is accepted to COLING 2022.
-
 
 {% include_relative _includes/publications.md %}
 
