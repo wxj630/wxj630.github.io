@@ -12,7 +12,7 @@ Rich in technical passion and curiosity, enjoys sharing and exploring Data and K
 
 ## News
 
-- **[Apr. 2026]** Our paper about Efficient Instruction-Tuning is accepted to ACL 2026 Findings.
+- **[Apr. 2026]** 2 papers about LLM Data Engineering and Data Synthetic are accepted to ACL 2026 (1 Findings paper and 1 System Demostration paper).
 - **[Nov. 2025]** Our paper about Anomaly Detection on Dynamic Graphs is accepted to AAAI 2026.
 - **[Sept. 2025]** Our paper about Financial Large Language Models is accepted to EMNLP 2025 Findings.
 - **[Jan. 2024]** Taiyi-Diffusion-XL Technical Report is released at [Arxiv](https://arxiv.org/pdf/2401.14688) and [HuggingFace](https://huggingface.co/IDEA-CCNL/Taiyi-Stable-Diffusion-XL-3.5B)
