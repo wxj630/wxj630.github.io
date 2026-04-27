@@ -16,9 +16,9 @@ Rich in technical passion and curiosity, enjoys sharing and exploring Data and K
 - **[Nov. 2025]** Our paper about Anomaly Detection on Dynamic Graphs is accepted to AAAI 2026.
 - **[Sept. 2025]** Our paper about Financial Large Language Models is accepted to EMNLP 2025 Findings.
 - **[Jan. 2024]** Taiyi-Diffusion-XL Technical Report is released at [Arxiv](https://arxiv.org/pdf/2401.14688) and [HuggingFace](https://huggingface.co/IDEA-CCNL/Taiyi-Stable-Diffusion-XL-3.5B)
-- **[Sept. 2023]** Ziya-VL Technical Report is released at [Arxiv](https://arxiv.org/pdf/2310.08166) and [HuggingFace](https://huggingface.co/IDEA-CCNL/Ziya-Visual-14B-Chat) and is featured by [HuggingFace](https://mp.weixin.qq.com/s/rLrrajTIeACcEqZmmnUjxQ).
-- **[Nov. 2022]** Our [GTS-Engine](https://github.com/IDEA-CCNL/GTS-Engine) is featured by [JiQiZhiXin](https://mp.weixin.qq.com/s/uDMuf0HXanPCM26WFfdvDw).
-- **[Oct. 2022]** Our [Fengshenbang-LM](https://github.com/IDEA-CCNL/Fengshenbang-LM) is featured by [JiQiZhiXin](https://mp.weixin.qq.com/s/nkVqC7JlZLqqUICGbgDjHw).
+- **[Sept. 2023]** Ziya-VL Technical Report is released at [Arxiv](https://arxiv.org/pdf/2310.08166) and [HuggingFace](https://huggingface.co/IDEA-CCNL/Ziya-Visual-14B-Chat) and is reported by [HuggingFace](https://mp.weixin.qq.com/s/rLrrajTIeACcEqZmmnUjxQ).
+- **[Nov. 2022]** Our [GTS-Engine](https://github.com/IDEA-CCNL/GTS-Engine) is reported by [JIQIZHIXIN·机器之心](https://mp.weixin.qq.com/s/uDMuf0HXanPCM26WFfdvDw).
+- **[Oct. 2022]** Our [Fengshenbang-LM](https://github.com/IDEA-CCNL/Fengshenbang-LM) is reported by [JIQIZHIXIN·机器之心](https://mp.weixin.qq.com/s/nkVqC7JlZLqqUICGbgDjHw).
 - **[Oct. 2022]** Our paper about Multimodal Dialogue is accepted to International Journal of Machine Learning and Cybernetics.
 - **[Oct. 2022]** Our paper about Noise Learning is accepted to COLING 2022.
 
