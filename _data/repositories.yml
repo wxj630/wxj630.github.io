@@ -8,6 +8,15 @@ pinned_repos:
     forks: 384
     is_pinned: true
 
+  - name: "skillsbench"
+    full_name: "benchflow-ai/skillsbench"
+    description: "SkillsBench evaluates how well skills work and how effective agents are at using them."
+    url: "https://github.com/benchflow-ai/skillsbench"
+    language: "PDDL"
+    stars: 1358
+    forks: 317
+    is_pinned: true
+
   - name: "visual-chatgpt-zh"
     full_name: "wxj630/visual-chatgpt-zh"
     description: "visual-chatgpt支持中文版本"
@@ -55,6 +64,6 @@ pinned_repos:
 
 config:
   github_username: "wxj630"
-  max_repos: 6
+  max_repos: 7
   show_forks: true
   exclude_repos: []

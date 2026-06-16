@@ -12,6 +12,7 @@ Rich in technical passion and curiosity, enjoys sharing and exploring Data and K
 
 ## News
 
+- **[Jun. 2026]** 🎉 Honored to be a co-author and contributor of [SkillsBench](https://arxiv.org/abs/2602.12670), contributing tasks and BenchFlow SDK development.
 - **[Apr. 2026]** 🎉🎉 2 papers about LLM Data Engineering and Data Synthetic are accepted to ACL 2026 (1 Findings paper and 1 System Demostration paper).
 - **[Nov. 2025]** 🎉 Our paper about Anomaly Detection on Dynamic Graphs is accepted to AAAI 2026.
 - **[Sept. 2025]** 🎉 Our paper about Financial Large Language Models is accepted to EMNLP 2025 Findings.

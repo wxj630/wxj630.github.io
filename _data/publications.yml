@@ -1,4 +1,12 @@
 main:
+  - title: "SkillsBench: Benchmarking How Well Agent Skills Work Across Diverse Tasks"
+    conference_short: Under Review
+    conference: Arxiv, 2026
+    authors: The SkillsBench Team
+    paper: https://arxiv.org/abs/2602.12670
+    code: https://github.com/benchflow-ai/skillsbench
+    image: ./assets/img/skillsbench.png
+
   - title: "Think-on-Graph 3.0: Efficient and Adaptive LLM Reasoning on Heterogeneous Graphs via Multi-Agent Dual-Evolving Context Retrieval"
     conference_short: Under Review
     conference: Under Review
