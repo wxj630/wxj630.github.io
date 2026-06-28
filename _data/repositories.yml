@@ -8,6 +8,15 @@ pinned_repos:
     forks: 384
     is_pinned: true
 
+  - name: "DataArc-SynData-Toolkit"
+    full_name: "DataArcTech/DataArc-SynData-Toolkit"
+    description: "Synthetic Data Generation Platform By DataArcTech"
+    url: "https://github.com/DataArcTech/DataArc-SynData-Toolkit"
+    language: "Python"
+    stars: 1755
+    forks: 69
+    is_pinned: true
+
   - name: "skillsbench"
     full_name: "benchflow-ai/skillsbench"
     description: "SkillsBench evaluates how well skills work and how effective agents are at using them."
@@ -51,15 +60,6 @@ pinned_repos:
     language: "Python"
     stars: 30
     forks: 3
-    is_pinned: true
-
-  - name: "Taiyi-Diffusion-XL"
-    full_name: "IDEA-CCNL/Taiyi-Diffusion-XL"
-    description: "Taiyi-Diffusion-XL训练代码"
-    url: "https://github.com/IDEA-CCNL/Taiyi-Diffusion-XL"
-    language: "Python"
-    stars: 23
-    forks: 4
     is_pinned: true
 
 config:
