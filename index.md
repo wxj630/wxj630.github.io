@@ -9,6 +9,7 @@ I'm a full-time PhD student at [HKUST Guangzhou](https://www.hkust-gz.edu.cn/), 
 I am one of the earliest developers in China to conduct research on [Pretrain Models](https://huggingface.co/IDEA-CCNL), [Vision-Language Model](https://arxiv.org/abs/2310.08166), and [Diffusion-based AIGC model](https://huggingface.co/IDEA-CCNL/Taiyi-Stable-Diffusion-1B-Chinese-v0.1).
 Internship and work experience include internet companies, state-owned enterprises, and research institutes. 
 Rich in technical passion and curiosity, enjoys sharing and exploring Data and Knowledge, Multimodal, Generative AI, and General Artificial Intelligence.
+My current research focuses on LLM model training, Harness Engineering, datasets and data synthesis, and benchmark development, with an emphasis on Mathematical Modeling tasks.
 
 ## News
 
@@ -43,6 +44,7 @@ Rich in technical passion and curiosity, enjoys sharing and exploring Data and K
 - **Agent:** Multi-Agent, Agent Evolution, Memory and Knowledge, Tool use, Reinforcement Learning
 - **Multi-modal:** Multi-modal LLM, Diffusion model
 - **NLP:** LLM, Natural Language Understanding, Information Retrival, Natural Language Generation
+- **Application:** Mathematical Modeling, Financial AI, Operations Research
 
 {% include_relative _includes/publications.md %}
 
