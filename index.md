@@ -13,6 +13,7 @@ My current research focuses on LLM model training, Harness Engineering, datasets
 
 ## News
 
+- **[Sept. 2026]** 🎉 Huge news for [Terminal-Bench-Science v0.1](https://github.com/harbor-framework/terminal-bench-science): I became a contributor and collaborator, and Terminal-Bench-Science was featured as the first benchmark in Anthropic's [Claude Fable & Mythos 5.1 release](https://www.anthropic.com/claude-fable-and-mythos-5-1) ([DOI](https://doi.org/10.5281/zenodo.22110253)). We believe that, as coding benchmarks approach saturation, longer-horizon, more complex, and more open-ended scientific domains will become the main arena for LLM agents.
 - **[Jun. 2026]** 🎉 Honored to be a co-author and contributor of [SkillsBench](https://arxiv.org/abs/2602.12670), contributing tasks and BenchFlow SDK development.
 - **[Apr. 2026]** 🎉🎉 2 papers about LLM Data Engineering and Data Synthetic are accepted to ACL 2026 (1 Findings paper and 1 System Demostration paper).
 - **[Nov. 2025]** 🎉 Our paper about Anomaly Detection on Dynamic Graphs is accepted to AAAI 2026.
@@ -32,6 +33,7 @@ My current research focuses on LLM model training, Harness Engineering, datasets
 - **[2014.09 - 2018.07]** Bachelor's in Information Management and Information Systems, Xidian University
 
 ### Intern and Work
+- **[2026.09 - Now]** Contributor and collaborator for [Terminal-Bench-Science v0.1](https://github.com/harbor-framework/terminal-bench-science), an AI-for-science agent benchmark featured in Anthropic's [Claude Fable & Mythos 5.1 release](https://www.anthropic.com/claude-fable-and-mythos-5-1)
 - **[2021.07 - Now]** from NLP Algorithm Engineer to affiliate LLM Researcher, [IDEA](https://www.idea.edu.cn/), Shenzhen
 - **[2020.07 - 2021.07]** Algorithm Engineer, [The Smart City Research Institute of CETC](https://cetccity.cetc.com.cn/), Shenzhen
 - **[2019.07 - 2020.05]** Big Data Development Intern, [ByteDance](https://www.bytedance.com), Beijing
