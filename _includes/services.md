@@ -4,9 +4,13 @@
 
 <h4 style="margin:0 10px 0;">Teaching Assistant</h4>
 <ul style="margin:0 0 20px;">
-  <li><a href=""><autocolor>HKUST (GZ) 2026 Spring:  UFUG 2602 - Data Structure and Algorithm Design</autocolor></a></li>
+  <li><a href=""><autocolor>HKUST (GZ) 2026 Fall:  DSAA 5002 - Data Mining and Knowledge Discovery in Data Science</autocolor></a></li>
+  <li><a href=""><autocolor>HKUST (GZ) 2026 Spring:  UFUG 2602 - Data Structure and Algorithm Design (Both Lectures and Labs)</autocolor></a></li>
   <li><a href=""><autocolor>Peking University 2018 Fall: Web Data Mining</autocolor></a></li>
 </ul>
+
+<h4 style="margin:0 10px 0;">Reviewers</h4>
+ACL Rolling Review (ARR)
 
 <!-- <h4 style="margin:0 10px 0;">Conference Reviewers</h4>
 
