@@ -13,7 +13,7 @@ My current research focuses on LLM model training, Harness Engineering, datasets
 
 ## News
 
-- **[Sept. 2026]** 🎉 [Terminal-Bench-Science v0.1](https://github.com/harbor-framework/terminal-bench-science) was featured as the #1 benchmark in both Anthropic’s [Claude Fable & Mythos 5.1 release](https://www.anthropic.com/claude-fable-and-mythos-5-1) and OpenAI’s [GPT-6 Astra release](https://openai.com/index/gpt-6-astra/), the two strongest AGI model releases on this planet!
+- **[Sept. 2026]** 🎉 I became a contributor and collaborator of [Terminal-Bench-Science v0.1](https://github.com/harbor-framework/terminal-bench-science), which was featured as the #1 benchmark in both Anthropic’s [Claude Fable & Mythos 5.1 release](https://www.anthropic.com/claude-fable-and-mythos-5-1) and OpenAI’s [GPT-6 Astra release](https://openai.com/index/gpt-6-astra/), the two strongest AGI model releases on this planet. We believe that, as coding benchmarks approach saturation, longer-horizon, more complex, and more open-ended scientific domains will become the main arena for LLM agents.
 - **[Jun. 2026]** 🎉 Honored to be a co-author and contributor of [SkillsBench](https://arxiv.org/abs/2602.12670), contributing tasks and BenchFlow SDK development.
 - **[Apr. 2026]** 🎉🎉 2 papers about LLM Data Engineering and Data Synthetic are accepted to ACL 2026 (1 Findings paper and 1 System Demostration paper).
 - **[Nov. 2025]** 🎉 Our paper about Anomaly Detection on Dynamic Graphs is accepted to AAAI 2026.
