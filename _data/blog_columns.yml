@@ -1,0 +1,14 @@
+- key: python-mathematical-modeling
+  title: python数学建模实践
+  url: https://zhuanlan.zhihu.com/column/c_1060904037507006464
+  description: 主要工具是 pyomo，常见的运筹、调度、控制问题的建模和求解。
+
+- key: reinforcement-learning
+  title: 小白学强化学习
+  url: https://zhuanlan.zhihu.com/column/c_1866872213107527681
+  description: 从直觉、代码和实践出发，记录强化学习与 GRPO 的学习笔记。
+
+- key: llm-agent
+  title: LLM Agent
+  url: https://zhuanlan.zhihu.com/column/c_2036314448978236126
+  description: 关于 LLM Agent、Harness、Skills 与 Agentic 系统的思考和实践。
