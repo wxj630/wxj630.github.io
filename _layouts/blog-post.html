@@ -2,33 +2,44 @@
 layout: homepage
 ---
 
-<article class="blog-post">
-  <div class="blog-post-topline">
-    <a class="blog-back-link" href="{{ "/blog/" | relative_url }}">← Blog</a>
-  </div>
-
-  <header class="blog-post-header">
-    <p class="blog-kicker">{{ page.column_title }}</p>
-    <h2>{{ page.title }}</h2>
-    <p class="blog-post-source">
-      <a class="blog-source-link" href="{{ page.source_url }}" target="_blank" rel="noopener">在知乎查看原文</a>
-    </p>
-    <div class="blog-post-meta">
-      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y-%m-%d" }}</time>
-      <span>原文发表于知乎</span>
+<div class="blog-post-layout">
+  <article class="blog-post">
+    <div class="blog-post-topline">
+      <a class="blog-back-link" href="{{ "/blog/" | relative_url }}">← Blog</a>
     </div>
-    <div class="blog-metrics blog-metrics-large" aria-label="Zhihu interaction snapshot">
-      <span>阅读 {% if page.views %}{{ page.views }}{% else %}知乎未公开{% endif %}</span>
-      <span>收藏 {% if page.favorites != nil %}{{ page.favorites }}{% else %}知乎未公开{% endif %}</span>
-      <span>点赞 {% if page.likes != nil %}{{ page.likes }}{% else %}知乎未公开{% endif %}</span>
-    </div>
-    <p class="blog-metrics-note">互动数据为 {{ page.metrics_collected_at }} 的知乎数据快照；阅读量未在当前可用的知乎公开接口中提供。</p>
-    {% if page.cover_image %}
-    <img class="blog-post-cover" src="{{ page.cover_image | relative_url }}" alt="">
-    {% endif %}
-  </header>
 
-  <div class="blog-post-body">
-    {{ content }}
-  </div>
-</article>
+    <header class="blog-post-header">
+      <p class="blog-kicker">{{ page.column_title }}</p>
+      <h2>{{ page.title }}</h2>
+      <p class="blog-post-source">
+        <a class="blog-source-link" href="{{ page.source_url }}" target="_blank" rel="noopener">在知乎查看原文</a>
+      </p>
+      <div class="blog-post-meta">
+        <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y-%m-%d" }}</time>
+        <span>原文发表于知乎</span>
+      </div>
+      <div class="blog-metrics blog-metrics-large" aria-label="Zhihu interaction snapshot">
+        <span>阅读 {% if page.views %}{{ page.views }}{% else %}知乎未公开{% endif %}</span>
+        <span>收藏 {% if page.favorites != nil %}{{ page.favorites }}{% else %}知乎未公开{% endif %}</span>
+        <span>点赞 {% if page.likes != nil %}{{ page.likes }}{% else %}知乎未公开{% endif %}</span>
+      </div>
+      <p class="blog-metrics-note">互动数据为 {{ page.metrics_collected_at }} 的知乎数据快照；阅读量未在当前可用的知乎公开接口中提供。</p>
+      {% if page.cover_image %}
+      <img class="blog-post-cover" src="{{ page.cover_image | relative_url }}" alt="">
+      {% endif %}
+    </header>
+
+    <div class="blog-post-body">
+      {{ content }}
+    </div>
+  </article>
+
+  <aside class="blog-toc" id="blog-toc" aria-label="文章目录" hidden>
+    <details open>
+      <summary>目录</summary>
+      <nav aria-label="文章目录">
+        <ol id="blog-toc-list"></ol>
+      </nav>
+    </details>
+  </aside>
+</div>

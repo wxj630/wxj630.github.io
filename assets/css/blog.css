@@ -381,3 +381,137 @@
     max-height: 220px;
   }
 }
+
+.blog-post-layout {
+  display: grid;
+  gap: 1.25rem;
+  grid-template-columns: minmax(0, 1fr);
+  min-width: 0;
+}
+
+.blog-post-page .blog-post-layout {
+  width: 100%;
+}
+
+.blog-post {
+  max-width: none;
+  min-width: 0;
+}
+
+.blog-toc {
+  min-width: 0;
+}
+
+.blog-toc[hidden] {
+  display: none;
+}
+
+.blog-toc details {
+  border: 1px solid rgba(127, 127, 127, 0.25);
+  padding: 0.85rem 1rem;
+}
+
+.blog-toc summary {
+  color: #043361;
+  cursor: pointer;
+  font-size: 0.92rem;
+  font-weight: 600;
+  list-style: none;
+}
+
+.blog-toc summary::-webkit-details-marker {
+  display: none;
+}
+
+.blog-toc summary::after {
+  content: "+";
+  float: right;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.blog-toc details[open] summary::after {
+  content: "−";
+}
+
+.blog-toc nav {
+  margin-top: 0.75rem;
+}
+
+.blog-toc ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.blog-toc ol ol {
+  border-left: 1px solid rgba(127, 127, 127, 0.22);
+  margin: 0.25rem 0 0.25rem 0.55rem;
+  padding-left: 0.7rem;
+}
+
+.blog-toc li {
+  margin: 0;
+}
+
+.blog-toc a {
+  border-left: 2px solid transparent;
+  color: inherit;
+  display: block;
+  font-size: 0.8rem;
+  line-height: 1.45;
+  overflow-wrap: anywhere;
+  padding: 0.22rem 0.35rem;
+  text-decoration: none;
+}
+
+.blog-toc a:hover,
+.blog-toc a:focus-visible,
+.blog-toc a.is-active {
+  border-left-color: currentColor;
+  color: #043361;
+}
+
+@media (prefers-color-scheme: dark) {
+  .blog-toc summary,
+  .blog-toc a:hover,
+  .blog-toc a:focus-visible,
+  .blog-toc a.is-active {
+    color: #3eb7f0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .blog-post-page .wrapper {
+    width: min(1220px, calc(100% - 40px));
+  }
+
+  .blog-post-page section {
+    width: calc(100% - 270px);
+  }
+
+  .blog-post-layout {
+    gap: 2rem;
+    grid-template-columns: minmax(0, 1fr) 220px;
+  }
+
+  .blog-toc {
+    max-height: calc(100vh - var(--top-nav-space) - 2rem);
+    overflow-y: auto;
+    position: sticky;
+    top: calc(var(--top-nav-space) + 1rem);
+  }
+
+  .blog-toc details {
+    border: 0;
+    border-left: 1px solid rgba(127, 127, 127, 0.25);
+    padding: 0 0 0 1rem;
+  }
+}
+
+@media (max-width: 1199px) {
+  .blog-toc {
+    order: -1;
+  }
+}

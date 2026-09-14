@@ -12,6 +12,11 @@
 <h4 style="margin:0 10px 0;">Reviewers</h4>
 ACL Rolling Review (ARR)
 
+<h4 style="margin:20px 10px 0;">Program Committee</h4>
+<ul style="margin:0 0 20px;">
+  <li>Program Committee member of LASS @ CIKM 2026 — LLM Agents for Social Simulation</li>
+</ul>
+
 <!-- <h4 style="margin:0 10px 0;">Conference Reviewers</h4>
 
 <ul style="margin:0 0 5px;">
