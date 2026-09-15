@@ -10,7 +10,7 @@
 </ul>
 
 <h4 style="margin:0 10px 0;">Academic Services</h4>
-ACL Rolling Review (ARR), Program Committee member of LASS @ CIKM 2026 — LLM Agents for Social Simulation
+ACL Rolling Review (ARR), Program Committee member of LASS(LLM Agents for Social Simulation) @ CIKM 2026
 
 <!-- <h4 style="margin:0 10px 0;">Conference Reviewers</h4>
 

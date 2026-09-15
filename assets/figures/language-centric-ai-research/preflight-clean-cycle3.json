@@ -1,0 +1,100 @@
+{
+  "file": "wxj630.github.io/assets/figures/language-centric-ai-research/language-centric-ai-research-xiaojun-wu.drawio",
+  "summary": {
+    "total_findings": 4,
+    "fail": 0,
+    "warn": 4,
+    "passed": true,
+    "clean": false
+  },
+  "fails": [],
+  "warns": [
+    {
+      "rule": "spacing-inconsistent-h",
+      "element_id": "card_syndata",
+      "message": "Row at y≈370: horizontal gaps vary (gaps=['60', '20', '510'], mean=197, cv=1.13). Use uniform spacing.",
+      "detail": {
+        "row_y": 370,
+        "gaps": [
+          60.0,
+          20.0,
+          510.0
+        ],
+        "mean": 196.7,
+        "cv": 1.13,
+        "element_ids": [
+          "card_syndata",
+          "card_fengshen",
+          "card_lazytrain",
+          "card_skillsbench"
+        ]
+      }
+    },
+    {
+      "rule": "spacing-inconsistent-h",
+      "element_id": "card_envs_forge",
+      "message": "Row at y≈535: horizontal gaps vary (gaps=['60', '20', '510'], mean=197, cv=1.13). Use uniform spacing.",
+      "detail": {
+        "row_y": 535,
+        "gaps": [
+          60.0,
+          20.0,
+          510.0
+        ],
+        "mean": 196.7,
+        "cv": 1.13,
+        "element_ids": [
+          "card_envs_forge",
+          "card_lazyinfer",
+          "card_faro",
+          "card_tbsci"
+        ]
+      }
+    },
+    {
+      "rule": "spacing-inconsistent-h",
+      "element_id": "card_touchstone_data",
+      "message": "Row at y≈950: horizontal gaps vary (gaps=['100', '550'], mean=325, cv=0.69). Use uniform spacing.",
+      "detail": {
+        "row_y": 950,
+        "gaps": [
+          100.0,
+          550.0
+        ],
+        "mean": 325.0,
+        "cv": 0.69,
+        "element_ids": [
+          "card_touchstone_data",
+          "card_touchstone_gpt",
+          "card_golden_eval"
+        ]
+      }
+    },
+    {
+      "rule": "spacing-inconsistent-v",
+      "element_id": "card_syndata",
+      "message": "Column at x≈450: vertical gaps vary (gaps=['25', '35', '145', '95'], mean=75, cv=0.65). Use uniform spacing.",
+      "detail": {
+        "col_x": 450,
+        "gaps": [
+          25.0,
+          35.0,
+          145.0,
+          95.0
+        ],
+        "mean": 75.0,
+        "cv": 0.65,
+        "element_ids": [
+          "card_syndata",
+          "card_envs_forge",
+          "card_select2reason",
+          "card_touchstone_data",
+          "card_bao_data"
+        ]
+      }
+    }
+  ],
+  "vertex_count": 53,
+  "edge_count": 13,
+  "canvas": "2280x1520"
+}

@@ -1,0 +1,831 @@
+{
+  "file": "/Volumes/PSSD/overleaf/wxj630.github.io/assets/figures/language-centric-ai-research/language-centric-ai-research-xiaojun-wu.drawio",
+  "summary": {
+    "total_findings": 64,
+    "fail": 42,
+    "warn": 22,
+    "passed": false,
+    "clean": false
+  },
+  "fails": [
+    {
+      "rule": "arrow-box-collision",
+      "element_id": "edge_actor_input",
+      "message": "Edge 'edge_actor_input' passes through box 'actor_body' (76,260 112×104)",
+      "detail": {
+        "edge_id": "edge_actor_input",
+        "box_id": "actor_body",
+        "box_type": "shape",
+        "box_rect": "76,260 112×104",
+        "segment": "(133,343)→(235,343)"
+      }
+    },
+    {
+      "rule": "arrow-box-collision",
+      "element_id": "edge_tog_adapter",
+      "message": "Edge 'edge_tog_adapter' passes through box 'lane_general' (315,285 1860×550)",
+      "detail": {
+        "edge_id": "edge_tog_adapter",
+        "box_id": "lane_general",
+        "box_type": "shape",
+        "box_rect": "315,285 1860×550",
+        "segment": "(1505,592)→(1505,738)"
+      }
+    },
+    {
+      "rule": "arrow-box-collision",
+      "element_id": "edge_adapter_fin",
+      "message": "Edge 'edge_adapter_fin' passes through box 'lane_general' (315,285 1860×550)",
+      "detail": {
+        "edge_id": "edge_adapter_fin",
+        "box_id": "lane_general",
+        "box_type": "shape",
+        "box_rect": "315,285 1860×550",
+        "segment": "(1505,738)→(1505,947)"
+      }
+    },
+    {
+      "rule": "arrow-box-collision",
+      "element_id": "edge_adapter_math",
+      "message": "Edge 'edge_adapter_math' passes through box 'lane_finance' (315,860 1860×190)",
+      "detail": {
+        "edge_id": "edge_adapter_math",
+        "box_id": "lane_finance",
+        "box_type": "shape",
+        "box_rect": "315,860 1860×190",
+        "segment": "(1505,947)→(1505,1157)"
+      }
+    },
+    {
+      "rule": "arrow-box-collision",
+      "element_id": "edge_feedback",
+      "message": "Edge 'edge_feedback' passes through box 'label_general' (276,470 100×48)",
+      "detail": {
+        "edge_id": "edge_feedback",
+        "box_id": "label_general",
+        "box_type": "shape",
+        "box_rect": "276,470 100×48",
+        "segment": "(300,1370)→(300,218)"
+      }
+    },
+    {
+      "rule": "element-overlap",
+      "element_id": "actor_head",
+      "message": "Element 'actor_head' (shape) overlaps 'actor_body' (shape): (103,205 58×58) vs (76,260 112×104)",
+      "detail": {
+        "elem_a": "actor_head",
+        "elem_b": "actor_body",
+        "a_type": "shape",
+        "b_type": "shape",
+        "rect_a": "103,205 58×58",
+        "rect_b": "76,260 112×104"
+      }
+    },
+    {
+      "rule": "element-overlap",
+      "element_id": "actor_body",
+      "message": "Element 'actor_body' (shape) overlaps 'actor_screen' (shape): (76,260 112×104) vs (63,300 140×86)",
+      "detail": {
+        "elem_a": "actor_body",
+        "elem_b": "actor_screen",
+        "a_type": "shape",
+        "b_type": "shape",
+        "rect_a": "76,260 112×104",
+        "rect_b": "63,300 140×86"
+      }
+    },
+    {
+      "rule": "element-overlap",
+      "element_id": "actor_body",
+      "message": "Element 'actor_body' (shape) overlaps 'actor_screen_inner' (shape): (76,260 112×104) vs (75,312 116×60)",
+      "detail": {
+        "elem_a": "actor_body",
+        "elem_b": "actor_screen_inner",
+        "a_type": "shape",
+        "b_type": "shape",
+        "rect_a": "76,260 112×104",
+        "rect_b": "75,312 116×60"
+      }
+    },
+    {
+      "rule": "element-overlap",
+      "element_id": "actor_screen",
+      "message": "Element 'actor_screen' (shape) overlaps 'actor_screen_inner' (shape): (63,300 140×86) vs (75,312 116×60)",
+      "detail": {
+        "elem_a": "actor_screen",
+        "elem_b": "actor_screen_inner",
+        "a_type": "shape",
+        "b_type": "shape",
+        "rect_a": "63,300 140×86",
+        "rect_b": "75,312 116×60"
+      }
+    },
+    {
+      "rule": "element-overlap",
+      "element_id": "actor_screen",
+      "message": "Element 'actor_screen' (shape) overlaps 'actor_keyboard' (shape): (63,300 140×86) vs (50,382 166×34)",
+      "detail": {
+        "elem_a": "actor_screen",
+        "elem_b": "actor_keyboard",
+        "a_type": "shape",
+        "b_type": "shape",
+        "rect_a": "63,300 140×86",
+        "rect_b": "50,382 166×34"
+      }
+    },
+    {
+      "rule": "element-overlap",
+      "element_id": "lane_general",
+      "message": "Element 'lane_general' (shape) overlaps 'label_general' (shape): (315,285 1860×550) vs (276,470 100×48)",
+      "detail": {
+        "elem_a": "lane_general",
+        "elem_b": "label_general",
+        "a_type": "shape",
+        "b_type": "shape",
+        "rect_a": "315,285 1860×550",
+        "rect_b": "276,470 100×48"
+      }
+    },
+    {
+      "rule": "element-overlap",
+      "element_id": "lane_general",
+      "message": "Element 'lane_general' (shape) overlaps 'card_syndata' (shape): (315,285 1860×550) vs (350,345 340×135)",
+      "detail": {
+        "elem_a": "lane_general",
+        "elem_b": "card_syndata",
+        "a_type": "shape",
+        "b_type": "shape",
+        "rect_a": "315,285 1860×550",
+        "rect_b": "350,345 340×135"
+      }
+    },
+    {
+      "rule": "element-overlap",
+      "element_id": "lane_general",
+      "message": "Element 'lane_general' (shape) overlaps 'card_envs_forge' (shape): (315,285 1860×550) vs (350,520 340×125)",
+      "detail": {
+        "elem_a": "lane_general",
+        "elem_b": "card_envs_forge",
+        "a_type": "shape",
+        "b_type": "shape",
+        "rect_a": "315,285 1860×550",
+        "rect_b": "350,520 340×125"
+      }
+    },
+    {
+      "rule": "element-overlap",
+      "element_id": "lane_general",
+      "message": "Element 'lane_general' (shape) overlaps 'card_fengshen' (shape): (315,285 1860×550) vs (770,315 230×130)",
+      "detail": {
+        "elem_a": "lane_general",
+        "elem_b": "card_fengshen",
+        "a_type": "shape",
+        "b_type": "shape",
+        "rect_a": "315,285 1860×550",
+        "rect_b": "770,315 230×130"
+      }
+    },
+    {
+      "rule": "element-overlap",
+      "element_id": "lane_general",
+      "message": "Element 'lane_general' (shape) overlaps 'card_lazytrain' (shape): (315,285 1860×550) vs (1020,315 230×130)",
+      "detail": {
+        "elem_a": "lane_general",
+        "elem_b": "card_lazytrain",
+        "a_type": "shape",
+        "b_type": "shape",
+        "rect_a": "315,285 1860×550",
+        "rect_b": "1020,315 230×130"
+      }
+    },
+    {
+      "rule": "element-overlap",
+      "element_id": "lane_general",
+      "message": "Element 'lane_general' (shape) overlaps 'card_lazyinfer' (shape): (315,285 1860×550) vs (770,475 230×115)",
+      "detail": {
+        "elem_a": "lane_general",
+        "elem_b": "card_lazyinfer",
+        "a_type": "shape",
+        "b_type": "shape",
+        "rect_a": "315,285 1860×550",
+        "rect_b": "770,475 230×115"
+      }
+    },
+    {
+      "rule": "element-overlap",
+      "element_id": "lane_general",
+      "message": "Element 'lane_general' (shape) overlaps 'card_faro' (shape): (315,285 1860×550) vs (1020,475 230×115)",
+      "detail": {
+        "elem_a": "lane_general",
+        "elem_b": "card_faro",
+        "a_type": "shape",
+        "b_type": "shape",
+        "rect_a": "315,285 1860×550",
+        "rect_b": "1020,475 230×115"
+      }
+    },
+    {
+      "rule": "element-overlap",
+      "element_id": "lane_general",
+      "message": "Element 'lane_general' (shape) overlaps 'card_r3l' (shape): (315,285 1860×550) vs (895,625 230×120)",
+      "detail": {
+        "elem_a": "lane_general",
+        "elem_b": "card_r3l",
+        "a_type": "shape",
+        "b_type": "shape",
+        "rect_a": "315,285 1860×550",
+        "rect_b": "895,625 230×120"
+      }
+    },
+    {
+      "rule": "element-overlap",
+      "element_id": "lane_general",
+      "message": "Element 'lane_general' (shape) overlaps 'card_bayesian' (shape): (315,285 1860×550) vs (1350,350 310×130)",
+      "detail": {
+        "elem_a": "lane_general",
+        "elem_b": "card_bayesian",
+        "a_type": "shape",
+        "b_type": "shape",
+        "rect_a": "315,285 1860×550",
+        "rect_b": "1350,350 310×130"
+      }
+    },
+    {
+      "rule": "element-overlap",
+      "element_id": "lane_general",
+      "message": "Element 'lane_general' (shape) overlaps 'card_tog' (shape): (315,285 1860×550) vs (1350,525 310×135)",
+      "detail": {
+        "elem_a": "lane_general",
+        "elem_b": "card_tog",
+        "a_type": "shape",
+        "b_type": "shape",
+        "rect_a": "315,285 1860×550",
+        "rect_b": "1350,525 310×135"
+      }
+    },
+    {
+      "rule": "element-overlap",
+      "element_id": "lane_general",
+      "message": "Element 'lane_general' (shape) overlaps 'adapter_general' (shape): (315,285 1860×550) vs (1360,705 290×66)",
+      "detail": {
+        "elem_a": "lane_general",
+        "elem_b": "adapter_general",
+        "a_type": "shape",
+        "b_type": "shape",
+        "rect_a": "315,285 1860×550",
+        "rect_b": "1360,705 290×66"
+      }
+    },
+    {
+      "rule": "element-overlap",
+      "element_id": "lane_general",
+      "message": "Element 'lane_general' (shape) overlaps 'card_skillsbench' (shape): (315,285 1860×550) vs (1760,315 370×130)",
+      "detail": {
+        "elem_a": "lane_general",
+        "elem_b": "card_skillsbench",
+        "a_type": "shape",
+        "b_type": "shape",
+        "rect_a": "315,285 1860×550",
+        "rect_b": "1760,315 370×130"
+      }
+    },
+    {
+      "rule": "element-overlap",
+      "element_id": "lane_general",
+      "message": "Element 'lane_general' (shape) overlaps 'card_tbsci' (shape): (315,285 1860×550) vs (1760,485 370×135)",
+      "detail": {
+        "elem_a": "lane_general",
+        "elem_b": "card_tbsci",
+        "a_type": "shape",
+        "b_type": "shape",
+        "rect_a": "315,285 1860×550",
+        "rect_b": "1760,485 370×135"
+      }
+    },
+    {
+      "rule": "element-overlap",
+      "element_id": "lane_general",
+      "message": "Element 'lane_general' (shape) overlaps 'card_ale' (shape): (315,285 1860×550) vs (1760,660 370×145)",
+      "detail": {
+        "elem_a": "lane_general",
+        "elem_b": "card_ale",
+        "a_type": "shape",
+        "b_type": "shape",
+        "rect_a": "315,285 1860×550",
+        "rect_b": "1760,660 370×145"
+      }
+    },
+    {
+      "rule": "element-overlap",
+      "element_id": "lane_finance",
+      "message": "Element 'lane_finance' (shape) overlaps 'label_finance' (shape): (315,860 1860×190) vs (276,930 100×48)",
+      "detail": {
+        "elem_a": "lane_finance",
+        "elem_b": "label_finance",
+        "a_type": "shape",
+        "b_type": "shape",
+        "rect_a": "315,860 1860×190",
+        "rect_b": "276,930 100×48"
+      }
+    },
+    {
+      "rule": "element-overlap",
+      "element_id": "lane_finance",
+      "message": "Element 'lane_finance' (shape) overlaps 'adapter_finance' (shape): (315,860 1860×190) vs (1380,915 250×64)",
+      "detail": {
+        "elem_a": "lane_finance",
+        "elem_b": "adapter_finance",
+        "a_type": "shape",
+        "b_type": "shape",
+        "rect_a": "315,860 1860×190",
+        "rect_b": "1380,915 250×64"
+      }
+    },
+    {
+      "rule": "element-overlap",
+      "element_id": "lane_finance",
+      "message": "Element 'lane_finance' (shape) overlaps 'card_touchstone_data' (shape): (315,860 1860×190) vs (350,895 340×120)",
+      "detail": {
+        "elem_a": "lane_finance",
+        "elem_b": "card_touchstone_data",
+        "a_type": "shape",
+        "b_type": "shape",
+        "rect_a": "315,860 1860×190",
+        "rect_b": "350,895 340×120"
+      }
+    },
+    {
+      "rule": "element-overlap",
+      "element_id": "lane_finance",
+      "message": "Element 'lane_finance' (shape) overlaps 'card_touchstone_gpt' (shape): (315,860 1860×190) vs (795,895 430×120)",
+      "detail": {
+        "elem_a": "lane_finance",
+        "elem_b": "card_touchstone_gpt",
+        "a_type": "shape",
+        "b_type": "shape",
+        "rect_a": "315,860 1860×190",
+        "rect_b": "795,895 430×120"
+      }
+    },
+    {
+      "rule": "element-overlap",
+      "element_id": "lane_finance",
+      "message": "Element 'lane_finance' (shape) overlaps 'card_golden_eval' (shape): (315,860 1860×190) vs (1760,895 370×120)",
+      "detail": {
+        "elem_a": "lane_finance",
+        "elem_b": "card_golden_eval",
+        "a_type": "shape",
+        "b_type": "shape",
+        "rect_a": "315,860 1860×190",
+        "rect_b": "1760,895 370×120"
+      }
+    },
+    {
+      "rule": "element-overlap",
+      "element_id": "lane_math",
+      "message": "Element 'lane_math' (shape) overlaps 'label_math' (shape): (315,1075 1860×190) vs (276,1135 100×58)",
+      "detail": {
+        "elem_a": "lane_math",
+        "elem_b": "label_math",
+        "a_type": "shape",
+        "b_type": "shape",
+        "rect_a": "315,1075 1860×190",
+        "rect_b": "276,1135 100×58"
+      }
+    },
+    {
+      "rule": "element-overlap",
+      "element_id": "lane_math",
+      "message": "Element 'lane_math' (shape) overlaps 'adapter_math' (shape): (315,1075 1860×190) vs (1380,1125 250×64)",
+      "detail": {
+        "elem_a": "lane_math",
+        "elem_b": "adapter_math",
+        "a_type": "shape",
+        "b_type": "shape",
+        "rect_a": "315,1075 1860×190",
+        "rect_b": "1380,1125 250×64"
+      }
+    },
+    {
+      "rule": "element-overlap",
+      "element_id": "lane_math",
+      "message": "Element 'lane_math' (shape) overlaps 'card_bao_data' (shape): (315,1075 1860×190) vs (350,1110 340×120)",
+      "detail": {
+        "elem_a": "lane_math",
+        "elem_b": "card_bao_data",
+        "a_type": "shape",
+        "b_type": "shape",
+        "rect_a": "315,1075 1860×190",
+        "rect_b": "350,1110 340×120"
+      }
+    },
+    {
+      "rule": "element-overlap",
+      "element_id": "lane_math",
+      "message": "Element 'lane_math' (shape) overlaps 'card_lightning' (shape): (315,1075 1860×190) vs (795,1110 430×120)",
+      "detail": {
+        "elem_a": "lane_math",
+        "elem_b": "card_lightning",
+        "a_type": "shape",
+        "b_type": "shape",
+        "rect_a": "315,1075 1860×190",
+        "rect_b": "795,1110 430×120"
+      }
+    },
+    {
+      "rule": "element-overlap",
+      "element_id": "lane_math",
+      "message": "Element 'lane_math' (shape) overlaps 'card_bao_bench' (shape): (315,1075 1860×190) vs (1760,1110 370×120)",
+      "detail": {
+        "elem_a": "lane_math",
+        "elem_b": "card_bao_bench",
+        "a_type": "shape",
+        "b_type": "shape",
+        "rect_a": "315,1075 1860×190",
+        "rect_b": "1760,1110 370×120"
+      }
+    },
+    {
+      "rule": "element-overlap",
+      "element_id": "label_general",
+      "message": "Element 'label_general' (shape) overlaps 'card_syndata' (shape): (276,470 100×48) vs (350,345 340×135)",
+      "detail": {
+        "elem_a": "label_general",
+        "elem_b": "card_syndata",
+        "a_type": "shape",
+        "b_type": "shape",
+        "rect_a": "276,470 100×48",
+        "rect_b": "350,345 340×135"
+      }
+    },
+    {
+      "rule": "element-overlap",
+      "element_id": "label_finance",
+      "message": "Element 'label_finance' (shape) overlaps 'card_touchstone_data' (shape): (276,930 100×48) vs (350,895 340×120)",
+      "detail": {
+        "elem_a": "label_finance",
+        "elem_b": "card_touchstone_data",
+        "a_type": "shape",
+        "b_type": "shape",
+        "rect_a": "276,930 100×48",
+        "rect_b": "350,895 340×120"
+      }
+    },
+    {
+      "rule": "element-overlap",
+      "element_id": "label_math",
+      "message": "Element 'label_math' (shape) overlaps 'card_bao_data' (shape): (276,1135 100×58) vs (350,1110 340×120)",
+      "detail": {
+        "elem_a": "label_math",
+        "elem_b": "card_bao_data",
+        "a_type": "shape",
+        "b_type": "shape",
+        "rect_a": "276,1135 100×58",
+        "rect_b": "350,1110 340×120"
+      }
+    },
+    {
+      "rule": "element-overlap-row",
+      "element_id": "actor_screen",
+      "message": "Boxes 'actor_screen' and 'actor_screen_inner' overlap horizontally in row (gap=-128px). Adjust positions.",
+      "detail": {
+        "box_a": "actor_screen",
+        "box_b": "actor_screen_inner",
+        "gap": -128.0
+      }
+    },
+    {
+      "rule": "element-overlap-row",
+      "element_id": "lane_general",
+      "message": "Boxes 'lane_general' and 'card_fengshen' overlap horizontally in row (gap=-1405px). Adjust positions.",
+      "detail": {
+        "box_a": "lane_general",
+        "box_b": "card_fengshen",
+        "gap": -1405.0
+      }
+    },
+    {
+      "rule": "element-overlap-row",
+      "element_id": "label_math",
+      "message": "Boxes 'label_math' and 'card_bao_data' overlap horizontally in row (gap=-26px). Adjust positions.",
+      "detail": {
+        "box_a": "label_math",
+        "box_b": "card_bao_data",
+        "gap": -26.0
+      }
+    },
+    {
+      "rule": "element-overlap-col",
+      "element_id": "actor_body",
+      "message": "Boxes 'actor_body' and 'actor_screen' overlap vertically in column (gap=-64px). Adjust positions.",
+      "detail": {
+        "box_a": "actor_body",
+        "box_b": "actor_screen",
+        "gap": -64.0
+      }
+    },
+    {
+      "rule": "element-overlap-col",
+      "element_id": "actor_screen",
+      "message": "Boxes 'actor_screen' and 'actor_screen_inner' overlap vertically in column (gap=-74px). Adjust positions.",
+      "detail": {
+        "box_a": "actor_screen",
+        "box_b": "actor_screen_inner",
+        "gap": -74.0
+      }
+    }
+  ],
+  "warns": [
+    {
+      "rule": "font-box-cavernous",
+      "element_id": "card_syndata",
+      "message": "Box 'card_syndata' is 135px tall with effective fontSize=13.0 (ratio 10.4:1). Text will look tiny and lost. Either shrink box or increase font.",
+      "detail": {
+        "box_height": 135.0,
+        "font_size": 13.0,
+        "ratio": 10.4
+      }
+    },
+    {
+      "rule": "font-box-cavernous",
+      "element_id": "card_tog",
+      "message": "Box 'card_tog' is 135px tall with effective fontSize=13.0 (ratio 10.4:1). Text will look tiny and lost. Either shrink box or increase font.",
+      "detail": {
+        "box_height": 135.0,
+        "font_size": 13.0,
+        "ratio": 10.4
+      }
+    },
+    {
+      "rule": "font-box-cavernous",
+      "element_id": "card_tbsci",
+      "message": "Box 'card_tbsci' is 135px tall with effective fontSize=13.0 (ratio 10.4:1). Text will look tiny and lost. Either shrink box or increase font.",
+      "detail": {
+        "box_height": 135.0,
+        "font_size": 13.0,
+        "ratio": 10.4
+      }
+    },
+    {
+      "rule": "font-box-cavernous",
+      "element_id": "card_ale",
+      "message": "Box 'card_ale' is 145px tall with effective fontSize=13.0 (ratio 11.2:1). Text will look tiny and lost. Either shrink box or increase font.",
+      "detail": {
+        "box_height": 145.0,
+        "font_size": 13.0,
+        "ratio": 11.2
+      }
+    },
+    {
+      "rule": "spacing-inconsistent-h",
+      "element_id": "actor_screen",
+      "message": "Row at y≈300: horizontal gaps vary (gaps=['124', '20', '510'], mean=218, cv=0.97). Use uniform spacing.",
+      "detail": {
+        "row_y": 300,
+        "gaps": [
+          124.0,
+          20.0,
+          510.0
+        ],
+        "mean": 218.0,
+        "cv": 0.97,
+        "element_ids": [
+          "actor_screen",
+          "actor_screen_inner",
+          "lane_general",
+          "card_fengshen",
+          "card_lazytrain",
+          "card_skillsbench"
+        ]
+      }
+    },
+    {
+      "rule": "spacing-inconsistent-h",
+      "element_id": "label_general",
+      "message": "Row at y≈470: horizontal gaps vary (gaps=['394', '20', '510'], mean=308, cv=0.68). Use uniform spacing.",
+      "detail": {
+        "row_y": 470,
+        "gaps": [
+          394.0,
+          20.0,
+          510.0
+        ],
+        "mean": 308.0,
+        "cv": 0.68,
+        "element_ids": [
+          "label_general",
+          "card_lazyinfer",
+          "card_faro",
+          "card_tbsci"
+        ]
+      }
+    },
+    {
+      "rule": "spacing-inconsistent-h",
+      "element_id": "card_touchstone_data",
+      "message": "Row at y≈895: horizontal gaps vary (gaps=['105', '535'], mean=320, cv=0.67). Use uniform spacing.",
+      "detail": {
+        "row_y": 895,
+        "gaps": [
+          105.0,
+          535.0
+        ],
+        "mean": 320.0,
+        "cv": 0.67,
+        "element_ids": [
+          "card_touchstone_data",
+          "card_touchstone_gpt",
+          "card_golden_eval"
+        ]
+      }
+    },
+    {
+      "rule": "spacing-inconsistent-v",
+      "element_id": "card_syndata",
+      "message": "Column at x≈350: vertical gaps vary (gaps=['40', '250', '95'], mean=128, cv=0.69). Use uniform spacing.",
+      "detail": {
+        "col_x": 350,
+        "gaps": [
+          40.0,
+          250.0,
+          95.0
+        ],
+        "mean": 128.3,
+        "cv": 0.69,
+        "element_ids": [
+          "card_syndata",
+          "card_envs_forge",
+          "card_touchstone_data",
+          "card_bao_data"
+        ]
+      }
+    },
+    {
+      "rule": "color-too-many-fills",
+      "element_id": "*",
+      "message": "18 distinct fill colors used across diagram. Palette is scattered — reduce to 3-6 fill colors. Colors: #dceff7, #eaf4f7, #eaf4f9, #eaf8f1, #edf2f4, #edf8f3, #eee1fa, #eef3fc, #eef4ff, #f1f8fc, #f2f4f7, #f4f4f5, #f5fbfd, #f8f1ff, #fff0c9, #fff2e8, #fff7e8, #ffffff",
+      "detail": {
+        "fill_count": 18,
+        "colors": [
+          "#dceff7",
+          "#eaf4f7",
+          "#eaf4f9",
+          "#eaf8f1",
+          "#edf2f4",
+          "#edf8f3",
+          "#eee1fa",
+          "#eef3fc",
+          "#eef4ff",
+          "#f1f8fc",
+          "#f2f4f7",
+          "#f4f4f5",
+          "#f5fbfd",
+          "#f8f1ff",
+          "#fff0c9",
+          "#fff2e8",
+          "#fff7e8",
+          "#ffffff"
+        ]
+      }
+    },
+    {
+      "rule": "color-too-many-strokes",
+      "element_id": "*",
+      "message": "12 distinct stroke colors used. Use 2-3 consistent stroke colors. Colors: #16835c, #173b46, #2563eb, #2b6f92, #2f855a, #364152, #6b7280, #7b4fb3, #7ba9c1, #a887c8, #b9770e, #d2a24f",
+      "detail": {
+        "stroke_count": 12,
+        "colors": [
+          "#16835c",
+          "#173b46",
+          "#2563eb",
+          "#2b6f92",
+          "#2f855a",
+          "#364152",
+          "#6b7280",
+          "#7b4fb3",
+          "#7ba9c1",
+          "#a887c8",
+          "#b9770e",
+          "#d2a24f"
+        ]
+      }
+    },
+    {
+      "rule": "solitary-decoration-block",
+      "element_id": "actor_head",
+      "message": "Isolated colored shape 'actor_head' (58x58, fill=#ffffff, label='') has no semantic label. If it carries no meaning, delete it or replace with a labeled box.",
+      "detail": {
+        "element_id": "actor_head",
+        "fill_color": "#ffffff",
+        "label": "",
+        "size": "58x58"
+      }
+    },
+    {
+      "rule": "solitary-decoration-block",
+      "element_id": "actor_body",
+      "message": "Isolated colored shape 'actor_body' (112x104, fill=#eaf4f7, label='') has no semantic label. If it carries no meaning, delete it or replace with a labeled box.",
+      "detail": {
+        "element_id": "actor_body",
+        "fill_color": "#eaf4f7",
+        "label": "",
+        "size": "112x104"
+      }
+    },
+    {
+      "rule": "solitary-decoration-block",
+      "element_id": "actor_screen_inner",
+      "message": "Isolated colored shape 'actor_screen_inner' (116x60, fill=#dceff7, label='') has no semantic label. If it carries no meaning, delete it or replace with a labeled box.",
+      "detail": {
+        "element_id": "actor_screen_inner",
+        "fill_color": "#dceff7",
+        "label": "",
+        "size": "116x60"
+      }
+    },
+    {
+      "rule": "orphan-empty-box",
+      "element_id": "actor_body",
+      "message": "Box 'actor_body' (112×104) has no text label. Add content or reduce size.",
+      "detail": {
+        "box_id": "actor_body",
+        "size": "112×104"
+      }
+    },
+    {
+      "rule": "orphan-empty-box",
+      "element_id": "actor_screen",
+      "message": "Box 'actor_screen' (140×86) has no text label. Add content or reduce size.",
+      "detail": {
+        "box_id": "actor_screen",
+        "size": "140×86"
+      }
+    },
+    {
+      "rule": "orphan-empty-box",
+      "element_id": "actor_screen_inner",
+      "message": "Box 'actor_screen_inner' (116×60) has no text label. Add content or reduce size.",
+      "detail": {
+        "box_id": "actor_screen_inner",
+        "size": "116×60"
+      }
+    },
+    {
+      "rule": "orphan-empty-box",
+      "element_id": "actor_keyboard",
+      "message": "Box 'actor_keyboard' (166×34) has no text label. Add content or reduce size.",
+      "detail": {
+        "box_id": "actor_keyboard",
+        "size": "166×34"
+      }
+    },
+    {
+      "rule": "orphan-empty-box",
+      "element_id": "research_boundary",
+      "message": "Box 'research_boundary' (1950×1140) has no text label. Add content or reduce size.",
+      "detail": {
+        "box_id": "research_boundary",
+        "size": "1950×1140"
+      }
+    },
+    {
+      "rule": "orphan-empty-box",
+      "element_id": "lane_general",
+      "message": "Box 'lane_general' (1860×550) has no text label. Add content or reduce size.",
+      "detail": {
+        "box_id": "lane_general",
+        "size": "1860×550"
+      }
+    },
+    {
+      "rule": "orphan-empty-box",
+      "element_id": "lane_finance",
+      "message": "Box 'lane_finance' (1860×190) has no text label. Add content or reduce size.",
+      "detail": {
+        "box_id": "lane_finance",
+        "size": "1860×190"
+      }
+    },
+    {
+      "rule": "orphan-empty-box",
+      "element_id": "lane_math",
+      "message": "Box 'lane_math' (1860×190) has no text label. Add content or reduce size.",
+      "detail": {
+        "box_id": "lane_math",
+        "size": "1860×190"
+      }
+    },
+    {
+      "rule": "orphan-empty-box",
+      "element_id": "harness_region",
+      "message": "Box 'harness_region' (360×930) has no text label. Add content or reduce size.",
+      "detail": {
+        "box_id": "harness_region",
+        "size": "360×930"
+      }
+    }
+  ],
+  "vertex_count": 51,
+  "edge_count": 8,
+  "canvas": "2280x1450"
+}

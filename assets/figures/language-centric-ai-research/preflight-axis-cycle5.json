@@ -1,0 +1,26 @@
+{
+  "file": "wxj630.github.io/assets/figures/language-centric-ai-research/language-centric-ai-research-xiaojun-wu.drawio",
+  "summary": {
+    "total_findings": 1,
+    "fail": 0,
+    "warn": 1,
+    "passed": true,
+    "clean": false
+  },
+  "fails": [],
+  "warns": [
+    {
+      "rule": "font-box-cavernous",
+      "element_id": "axis_y",
+      "message": "Box 'axis_y' is 980px tall with effective fontSize=17.0 (ratio 57.6:1). Text will look tiny and lost. Either shrink box or increase font.",
+      "detail": {
+        "box_height": 980.0,
+        "font_size": 17.0,
+        "ratio": 57.6
+      }
+    }
+  ],
+  "vertex_count": 44,
+  "edge_count": 8,
+  "canvas": "2280x1520"
+}

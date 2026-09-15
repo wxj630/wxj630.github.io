@@ -1,0 +1,56 @@
+{
+  "file": "wxj630.github.io/assets/figures/language-centric-ai-research/language-centric-ai-research-xiaojun-wu.drawio",
+  "summary": {
+    "total_findings": 4,
+    "fail": 1,
+    "warn": 3,
+    "passed": false,
+    "clean": false
+  },
+  "fails": [
+    {
+      "rule": "arrow-box-collision",
+      "element_id": "axis_y",
+      "message": "Edge 'axis_y' passes through box 'tick_general_source' (264,614 1×1)",
+      "detail": {
+        "edge_id": "axis_y",
+        "box_id": "tick_general_source",
+        "box_type": "shape",
+        "box_rect": "264,614 1×1",
+        "segment": "(265,340)→(265,1320)"
+      }
+    }
+  ],
+  "warns": [
+    {
+      "rule": "orphan-empty-box",
+      "element_id": "lane_general",
+      "message": "Box 'lane_general' (1845×550) has no text label. Add content or reduce size.",
+      "detail": {
+        "box_id": "lane_general",
+        "size": "1845×550"
+      }
+    },
+    {
+      "rule": "orphan-empty-box",
+      "element_id": "lane_finance",
+      "message": "Box 'lane_finance' (1845×190) has no text label. Add content or reduce size.",
+      "detail": {
+        "box_id": "lane_finance",
+        "size": "1845×190"
+      }
+    },
+    {
+      "rule": "orphan-empty-box",
+      "element_id": "lane_math",
+      "message": "Box 'lane_math' (1845×190) has no text label. Add content or reduce size.",
+      "detail": {
+        "box_id": "lane_math",
+        "size": "1845×190"
+      }
+    }
+  ],
+  "vertex_count": 52,
+  "edge_count": 13,
+  "canvas": "2280x1520"
+}

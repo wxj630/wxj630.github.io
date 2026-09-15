@@ -1,0 +1,244 @@
+{
+  "file": "wxj630.github.io/assets/figures/language-centric-ai-research/language-centric-ai-research-xiaojun-wu.drawio",
+  "summary": {
+    "total_findings": 16,
+    "fail": 11,
+    "warn": 5,
+    "passed": false,
+    "clean": false
+  },
+  "fails": [
+    {
+      "rule": "arrow-box-collision",
+      "element_id": "tick_general",
+      "message": "Edge 'tick_general' passes through box 'lane_general' (330,340 1845×550)",
+      "detail": {
+        "edge_id": "tick_general",
+        "box_id": "lane_general",
+        "box_type": "text",
+        "box_rect": "330,340 1845×550",
+        "segment": "(268,615)→(415,615)"
+      }
+    },
+    {
+      "rule": "arrow-box-collision",
+      "element_id": "tick_finance",
+      "message": "Edge 'tick_finance' passes through box 'lane_finance' (330,915 1845×190)",
+      "detail": {
+        "edge_id": "tick_finance",
+        "box_id": "lane_finance",
+        "box_type": "text",
+        "box_rect": "330,915 1845×190",
+        "segment": "(268,1010)→(415,1010)"
+      }
+    },
+    {
+      "rule": "arrow-box-collision",
+      "element_id": "tick_math",
+      "message": "Edge 'tick_math' passes through box 'lane_math' (330,1130 1845×190)",
+      "detail": {
+        "edge_id": "tick_math",
+        "box_id": "lane_math",
+        "box_type": "text",
+        "box_rect": "330,1130 1845×190",
+        "segment": "(268,1225)→(415,1225)"
+      }
+    },
+    {
+      "rule": "arrow-box-collision",
+      "element_id": "edge_tog_adapter",
+      "message": "Edge 'edge_tog_adapter' passes through box 'lane_general' (330,340 1845×550)",
+      "detail": {
+        "edge_id": "edge_tog_adapter",
+        "box_id": "lane_general",
+        "box_type": "text",
+        "box_rect": "330,340 1845×550",
+        "segment": "(1505,648)→(1505,793)"
+      }
+    },
+    {
+      "rule": "arrow-box-collision",
+      "element_id": "edge_adapter_fin",
+      "message": "Edge 'edge_adapter_fin' passes through box 'lane_general' (330,340 1845×550)",
+      "detail": {
+        "edge_id": "edge_adapter_fin",
+        "box_id": "lane_general",
+        "box_type": "text",
+        "box_rect": "330,340 1845×550",
+        "segment": "(1505,793)→(1505,1002)"
+      }
+    },
+    {
+      "rule": "arrow-box-collision",
+      "element_id": "edge_adapter_math",
+      "message": "Edge 'edge_adapter_math' passes through box 'lane_finance' (330,915 1845×190)",
+      "detail": {
+        "edge_id": "edge_adapter_math",
+        "box_id": "lane_finance",
+        "box_type": "text",
+        "box_rect": "330,915 1845×190",
+        "segment": "(1505,1002)→(1505,1212)"
+      }
+    },
+    {
+      "rule": "element-overlap",
+      "element_id": "harness_region",
+      "message": "Element 'harness_region' (shape) overlaps 'card_bayesian' (shape): (1325,355 360×930) vs (1350,405 310×130)",
+      "detail": {
+        "elem_a": "harness_region",
+        "elem_b": "card_bayesian",
+        "a_type": "shape",
+        "b_type": "shape",
+        "rect_a": "1325,355 360×930",
+        "rect_b": "1350,405 310×130"
+      }
+    },
+    {
+      "rule": "element-overlap",
+      "element_id": "harness_region",
+      "message": "Element 'harness_region' (shape) overlaps 'card_tog' (shape): (1325,355 360×930) vs (1350,580 310×135)",
+      "detail": {
+        "elem_a": "harness_region",
+        "elem_b": "card_tog",
+        "a_type": "shape",
+        "b_type": "shape",
+        "rect_a": "1325,355 360×930",
+        "rect_b": "1350,580 310×135"
+      }
+    },
+    {
+      "rule": "element-overlap",
+      "element_id": "harness_region",
+      "message": "Element 'harness_region' (shape) overlaps 'adapter_general' (shape): (1325,355 360×930) vs (1360,760 290×66)",
+      "detail": {
+        "elem_a": "harness_region",
+        "elem_b": "adapter_general",
+        "a_type": "shape",
+        "b_type": "shape",
+        "rect_a": "1325,355 360×930",
+        "rect_b": "1360,760 290×66"
+      }
+    },
+    {
+      "rule": "element-overlap",
+      "element_id": "harness_region",
+      "message": "Element 'harness_region' (shape) overlaps 'adapter_finance' (shape): (1325,355 360×930) vs (1380,970 250×64)",
+      "detail": {
+        "elem_a": "harness_region",
+        "elem_b": "adapter_finance",
+        "a_type": "shape",
+        "b_type": "shape",
+        "rect_a": "1325,355 360×930",
+        "rect_b": "1380,970 250×64"
+      }
+    },
+    {
+      "rule": "element-overlap",
+      "element_id": "harness_region",
+      "message": "Element 'harness_region' (shape) overlaps 'adapter_math' (shape): (1325,355 360×930) vs (1380,1180 250×64)",
+      "detail": {
+        "elem_a": "harness_region",
+        "elem_b": "adapter_math",
+        "a_type": "shape",
+        "b_type": "shape",
+        "rect_a": "1325,355 360×930",
+        "rect_b": "1380,1180 250×64"
+      }
+    }
+  ],
+  "warns": [
+    {
+      "rule": "font-box-cavernous",
+      "element_id": "harness_region",
+      "message": "Box 'harness_region' is 930px tall with effective fontSize=14.0 (ratio 66.4:1). Text will look tiny and lost. Either shrink box or increase font.",
+      "detail": {
+        "box_height": 930.0,
+        "font_size": 14.0,
+        "ratio": 66.4
+      }
+    },
+    {
+      "rule": "spacing-inconsistent-h",
+      "element_id": "card_envs_forge",
+      "message": "Row at y≈535: horizontal gaps vary (gaps=['80', '20', '510'], mean=203, cv=1.07). Use uniform spacing.",
+      "detail": {
+        "row_y": 535,
+        "gaps": [
+          80.0,
+          20.0,
+          510.0
+        ],
+        "mean": 203.3,
+        "cv": 1.07,
+        "element_ids": [
+          "card_envs_forge",
+          "card_lazyinfer",
+          "card_faro",
+          "card_tbsci"
+        ]
+      }
+    },
+    {
+      "rule": "spacing-inconsistent-h",
+      "element_id": "card_touchstone_data",
+      "message": "Row at y≈950: horizontal gaps vary (gaps=['120', '550'], mean=335, cv=0.64). Use uniform spacing.",
+      "detail": {
+        "row_y": 950,
+        "gaps": [
+          120.0,
+          550.0
+        ],
+        "mean": 335.0,
+        "cv": 0.64,
+        "element_ids": [
+          "card_touchstone_data",
+          "card_touchstone_gpt",
+          "card_golden_eval"
+        ]
+      }
+    },
+    {
+      "rule": "spacing-inconsistent-v",
+      "element_id": "card_syndata",
+      "message": "Column at x≈430: vertical gaps vary (gaps=['25', '35', '145', '95'], mean=75, cv=0.65). Use uniform spacing.",
+      "detail": {
+        "col_x": 430,
+        "gaps": [
+          25.0,
+          35.0,
+          145.0,
+          95.0
+        ],
+        "mean": 75.0,
+        "cv": 0.65,
+        "element_ids": [
+          "card_syndata",
+          "card_envs_forge",
+          "card_select2reason",
+          "card_touchstone_data",
+          "card_bao_data"
+        ]
+      }
+    },
+    {
+      "rule": "color-too-many-strokes",
+      "element_id": "*",
+      "message": "7 distinct stroke colors used. Use 2-3 consistent stroke colors. Colors: #2b6f92, #2f855a, #54707a, #7b4fb3, #81949c, #b8c6cc, #b9770e",
+      "detail": {
+        "stroke_count": 7,
+        "colors": [
+          "#2b6f92",
+          "#2f855a",
+          "#54707a",
+          "#7b4fb3",
+          "#81949c",
+          "#b8c6cc",
+          "#b9770e"
+        ]
+      }
+    }
+  ],
+  "vertex_count": 52,
+  "edge_count": 13,
+  "canvas": "2280x1520"
+}

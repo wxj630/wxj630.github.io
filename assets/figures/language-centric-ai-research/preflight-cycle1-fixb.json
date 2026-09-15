@@ -1,0 +1,25 @@
+{
+  "file": "/Volumes/PSSD/overleaf/wxj630.github.io/assets/figures/language-centric-ai-research/language-centric-ai-research-xiaojun-wu.drawio",
+  "summary": {
+    "total_findings": 1,
+    "fail": 0,
+    "warn": 1,
+    "passed": true,
+    "clean": false
+  },
+  "fails": [],
+  "warns": [
+    {
+      "rule": "font-too-large",
+      "element_id": "actor_icon",
+      "message": "'actor_icon' uses fontSize=78.0 — verify this is intentional (heading?) and not a copy-paste error.",
+      "detail": {
+        "font_size": 78.0,
+        "element_id": "actor_icon"
+      }
+    }
+  ],
+  "vertex_count": 41,
+  "edge_count": 8,
+  "canvas": "2280x1450"
+}

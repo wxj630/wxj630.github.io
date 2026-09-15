@@ -1,0 +1,36 @@
+{
+  "file": "language-centric-ai-research-xiaojun-wu.drawio",
+  "summary": {
+    "total_findings": 2,
+    "fail": 0,
+    "warn": 2,
+    "passed": true,
+    "clean": false
+  },
+  "fails": [],
+  "warns": [
+    {
+      "rule": "text-overflow-vertical",
+      "element_id": "actor_icon",
+      "message": "Text in 'actor_icon' may overflow vertically (borderline): estimated 211px needed, container is 200px tall. Verify with screenshot — draw.io may fit the text.",
+      "detail": {
+        "estimated_height": 210.6,
+        "container_height": 200.0,
+        "font_size": 78.0,
+        "text_preview": "👨‍💻"
+      }
+    },
+    {
+      "rule": "font-too-large",
+      "element_id": "actor_icon",
+      "message": "'actor_icon' uses fontSize=78.0 — verify this is intentional (heading?) and not a copy-paste error.",
+      "detail": {
+        "font_size": 78.0,
+        "element_id": "actor_icon"
+      }
+    }
+  ],
+  "vertex_count": 42,
+  "edge_count": 8,
+  "canvas": "2280x1450"
+}

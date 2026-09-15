@@ -1,0 +1,289 @@
+{
+  "file": "/Volumes/PSSD/overleaf/wxj630.github.io/assets/figures/language-centric-ai-research/language-centric-ai-research-xiaojun-wu.drawio",
+  "summary": {
+    "total_findings": 20,
+    "fail": 5,
+    "warn": 15,
+    "passed": false,
+    "clean": false
+  },
+  "fails": [
+    {
+      "rule": "arrow-box-collision",
+      "element_id": "edge_feedback",
+      "message": "Edge 'edge_feedback' passes through box 'domain_axis' (238,700 46×120)",
+      "detail": {
+        "edge_id": "edge_feedback",
+        "box_id": "domain_axis",
+        "box_type": "text",
+        "box_rect": "238,700 46×120",
+        "segment": "(250,1370)→(250,218)"
+      }
+    },
+    {
+      "rule": "element-overlap",
+      "element_id": "label_general",
+      "message": "Element 'label_general' (shape) overlaps 'card_syndata' (shape): (276,470 100×48) vs (350,345 340×135)",
+      "detail": {
+        "elem_a": "label_general",
+        "elem_b": "card_syndata",
+        "a_type": "shape",
+        "b_type": "shape",
+        "rect_a": "276,470 100×48",
+        "rect_b": "350,345 340×135"
+      }
+    },
+    {
+      "rule": "element-overlap",
+      "element_id": "label_finance",
+      "message": "Element 'label_finance' (shape) overlaps 'card_touchstone_data' (shape): (276,930 100×48) vs (350,895 340×120)",
+      "detail": {
+        "elem_a": "label_finance",
+        "elem_b": "card_touchstone_data",
+        "a_type": "shape",
+        "b_type": "shape",
+        "rect_a": "276,930 100×48",
+        "rect_b": "350,895 340×120"
+      }
+    },
+    {
+      "rule": "element-overlap",
+      "element_id": "label_math",
+      "message": "Element 'label_math' (shape) overlaps 'card_bao_data' (shape): (276,1135 100×58) vs (350,1110 340×120)",
+      "detail": {
+        "elem_a": "label_math",
+        "elem_b": "card_bao_data",
+        "a_type": "shape",
+        "b_type": "shape",
+        "rect_a": "276,1135 100×58",
+        "rect_b": "350,1110 340×120"
+      }
+    },
+    {
+      "rule": "element-overlap-row",
+      "element_id": "label_math",
+      "message": "Boxes 'label_math' and 'card_bao_data' overlap horizontally in row (gap=-26px). Adjust positions.",
+      "detail": {
+        "box_a": "label_math",
+        "box_b": "card_bao_data",
+        "gap": -26.0
+      }
+    }
+  ],
+  "warns": [
+    {
+      "rule": "font-box-cavernous",
+      "element_id": "card_syndata",
+      "message": "Box 'card_syndata' is 135px tall with effective fontSize=13.0 (ratio 10.4:1). Text will look tiny and lost. Either shrink box or increase font.",
+      "detail": {
+        "box_height": 135.0,
+        "font_size": 13.0,
+        "ratio": 10.4
+      }
+    },
+    {
+      "rule": "font-box-cavernous",
+      "element_id": "card_tog",
+      "message": "Box 'card_tog' is 135px tall with effective fontSize=13.0 (ratio 10.4:1). Text will look tiny and lost. Either shrink box or increase font.",
+      "detail": {
+        "box_height": 135.0,
+        "font_size": 13.0,
+        "ratio": 10.4
+      }
+    },
+    {
+      "rule": "font-box-cavernous",
+      "element_id": "card_tbsci",
+      "message": "Box 'card_tbsci' is 135px tall with effective fontSize=13.0 (ratio 10.4:1). Text will look tiny and lost. Either shrink box or increase font.",
+      "detail": {
+        "box_height": 135.0,
+        "font_size": 13.0,
+        "ratio": 10.4
+      }
+    },
+    {
+      "rule": "font-box-cavernous",
+      "element_id": "card_ale",
+      "message": "Box 'card_ale' is 145px tall with effective fontSize=13.0 (ratio 11.2:1). Text will look tiny and lost. Either shrink box or increase font.",
+      "detail": {
+        "box_height": 145.0,
+        "font_size": 13.0,
+        "ratio": 11.2
+      }
+    },
+    {
+      "rule": "spacing-inconsistent-h",
+      "element_id": "card_fengshen",
+      "message": "Row at y≈315: horizontal gaps vary (gaps=['20', '510'], mean=265, cv=0.92). Use uniform spacing.",
+      "detail": {
+        "row_y": 315,
+        "gaps": [
+          20.0,
+          510.0
+        ],
+        "mean": 265.0,
+        "cv": 0.92,
+        "element_ids": [
+          "card_fengshen",
+          "card_lazytrain",
+          "card_skillsbench"
+        ]
+      }
+    },
+    {
+      "rule": "spacing-inconsistent-h",
+      "element_id": "label_general",
+      "message": "Row at y≈470: horizontal gaps vary (gaps=['394', '20', '510'], mean=308, cv=0.68). Use uniform spacing.",
+      "detail": {
+        "row_y": 470,
+        "gaps": [
+          394.0,
+          20.0,
+          510.0
+        ],
+        "mean": 308.0,
+        "cv": 0.68,
+        "element_ids": [
+          "label_general",
+          "card_lazyinfer",
+          "card_faro",
+          "card_tbsci"
+        ]
+      }
+    },
+    {
+      "rule": "spacing-inconsistent-h",
+      "element_id": "card_touchstone_data",
+      "message": "Row at y≈895: horizontal gaps vary (gaps=['105', '535'], mean=320, cv=0.67). Use uniform spacing.",
+      "detail": {
+        "row_y": 895,
+        "gaps": [
+          105.0,
+          535.0
+        ],
+        "mean": 320.0,
+        "cv": 0.67,
+        "element_ids": [
+          "card_touchstone_data",
+          "card_touchstone_gpt",
+          "card_golden_eval"
+        ]
+      }
+    },
+    {
+      "rule": "spacing-inconsistent-v",
+      "element_id": "card_syndata",
+      "message": "Column at x≈350: vertical gaps vary (gaps=['40', '250', '95'], mean=128, cv=0.69). Use uniform spacing.",
+      "detail": {
+        "col_x": 350,
+        "gaps": [
+          40.0,
+          250.0,
+          95.0
+        ],
+        "mean": 128.3,
+        "cv": 0.69,
+        "element_ids": [
+          "card_syndata",
+          "card_envs_forge",
+          "card_touchstone_data",
+          "card_bao_data"
+        ]
+      }
+    },
+    {
+      "rule": "color-too-many-fills",
+      "element_id": "*",
+      "message": "14 distinct fill colors used across diagram. Palette is scattered — reduce to 3-6 fill colors. Colors: #dceff7, #eaf4f9, #eaf8f1, #edf8f3, #eee1fa, #eef3fc, #eef4ff, #f1f8fc, #f2f4f7, #f4f4f5, #f8f1ff, #fff0c9, #fff2e8, #fff7e8",
+      "detail": {
+        "fill_count": 14,
+        "colors": [
+          "#dceff7",
+          "#eaf4f9",
+          "#eaf8f1",
+          "#edf8f3",
+          "#eee1fa",
+          "#eef3fc",
+          "#eef4ff",
+          "#f1f8fc",
+          "#f2f4f7",
+          "#f4f4f5",
+          "#f8f1ff",
+          "#fff0c9",
+          "#fff2e8",
+          "#fff7e8"
+        ]
+      }
+    },
+    {
+      "rule": "color-too-many-strokes",
+      "element_id": "*",
+      "message": "12 distinct stroke colors used. Use 2-3 consistent stroke colors. Colors: #16835c, #173b46, #2563eb, #2b6f92, #2f855a, #364152, #6b7280, #7b4fb3, #7ba9c1, #a887c8, #b9770e, #d2a24f",
+      "detail": {
+        "stroke_count": 12,
+        "colors": [
+          "#16835c",
+          "#173b46",
+          "#2563eb",
+          "#2b6f92",
+          "#2f855a",
+          "#364152",
+          "#6b7280",
+          "#7b4fb3",
+          "#7ba9c1",
+          "#a887c8",
+          "#b9770e",
+          "#d2a24f"
+        ]
+      }
+    },
+    {
+      "rule": "orphan-empty-box",
+      "element_id": "research_boundary",
+      "message": "Box 'research_boundary' (1950×1140) has no text label. Add content or reduce size.",
+      "detail": {
+        "box_id": "research_boundary",
+        "size": "1950×1140"
+      }
+    },
+    {
+      "rule": "orphan-empty-box",
+      "element_id": "lane_general",
+      "message": "Box 'lane_general' (1860×550) has no text label. Add content or reduce size.",
+      "detail": {
+        "box_id": "lane_general",
+        "size": "1860×550"
+      }
+    },
+    {
+      "rule": "orphan-empty-box",
+      "element_id": "lane_finance",
+      "message": "Box 'lane_finance' (1860×190) has no text label. Add content or reduce size.",
+      "detail": {
+        "box_id": "lane_finance",
+        "size": "1860×190"
+      }
+    },
+    {
+      "rule": "orphan-empty-box",
+      "element_id": "lane_math",
+      "message": "Box 'lane_math' (1860×190) has no text label. Add content or reduce size.",
+      "detail": {
+        "box_id": "lane_math",
+        "size": "1860×190"
+      }
+    },
+    {
+      "rule": "orphan-empty-box",
+      "element_id": "harness_region",
+      "message": "Box 'harness_region' (360×930) has no text label. Add content or reduce size.",
+      "detail": {
+        "box_id": "harness_region",
+        "size": "360×930"
+      }
+    }
+  ],
+  "vertex_count": 47,
+  "edge_count": 8,
+  "canvas": "2280x1450"
+}

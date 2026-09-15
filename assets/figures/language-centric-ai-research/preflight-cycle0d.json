@@ -1,0 +1,94 @@
+{
+  "file": "/Volumes/PSSD/overleaf/wxj630.github.io/assets/figures/language-centric-ai-research/language-centric-ai-research-xiaojun-wu.drawio",
+  "summary": {
+    "total_findings": 4,
+    "fail": 0,
+    "warn": 4,
+    "passed": true,
+    "clean": false
+  },
+  "fails": [],
+  "warns": [
+    {
+      "rule": "spacing-inconsistent-h",
+      "element_id": "card_fengshen",
+      "message": "Row at y≈315: horizontal gaps vary (gaps=['20', '510'], mean=265, cv=0.92). Use uniform spacing.",
+      "detail": {
+        "row_y": 315,
+        "gaps": [
+          20.0,
+          510.0
+        ],
+        "mean": 265.0,
+        "cv": 0.92,
+        "element_ids": [
+          "card_fengshen",
+          "card_lazytrain",
+          "card_skillsbench"
+        ]
+      }
+    },
+    {
+      "rule": "spacing-inconsistent-h",
+      "element_id": "card_lazyinfer",
+      "message": "Row at y≈475: horizontal gaps vary (gaps=['20', '510'], mean=265, cv=0.92). Use uniform spacing.",
+      "detail": {
+        "row_y": 475,
+        "gaps": [
+          20.0,
+          510.0
+        ],
+        "mean": 265.0,
+        "cv": 0.92,
+        "element_ids": [
+          "card_lazyinfer",
+          "card_faro",
+          "card_tbsci"
+        ]
+      }
+    },
+    {
+      "rule": "spacing-inconsistent-h",
+      "element_id": "card_touchstone_data",
+      "message": "Row at y≈895: horizontal gaps vary (gaps=['105', '535'], mean=320, cv=0.67). Use uniform spacing.",
+      "detail": {
+        "row_y": 895,
+        "gaps": [
+          105.0,
+          535.0
+        ],
+        "mean": 320.0,
+        "cv": 0.67,
+        "element_ids": [
+          "card_touchstone_data",
+          "card_touchstone_gpt",
+          "card_golden_eval"
+        ]
+      }
+    },
+    {
+      "rule": "spacing-inconsistent-v",
+      "element_id": "card_syndata",
+      "message": "Column at x≈390: vertical gaps vary (gaps=['40', '250', '95'], mean=128, cv=0.69). Use uniform spacing.",
+      "detail": {
+        "col_x": 390,
+        "gaps": [
+          40.0,
+          250.0,
+          95.0
+        ],
+        "mean": 128.3,
+        "cv": 0.69,
+        "element_ids": [
+          "card_syndata",
+          "card_envs_forge",
+          "card_touchstone_data",
+          "card_bao_data"
+        ]
+      }
+    }
+  ],
+  "vertex_count": 41,
+  "edge_count": 8,
+  "canvas": "2280x1450"
+}

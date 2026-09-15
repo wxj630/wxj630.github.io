@@ -1,0 +1,37 @@
+{
+  "file": "/Volumes/PSSD/overleaf/wxj630.github.io/assets/figures/language-centric-ai-research/language-centric-ai-research-xiaojun-wu.drawio",
+  "summary": {
+    "total_findings": 2,
+    "fail": 1,
+    "warn": 1,
+    "passed": false,
+    "clean": false
+  },
+  "fails": [
+    {
+      "rule": "text-overflow-vertical",
+      "element_id": "actor_icon",
+      "message": "Text in 'actor_icon' overflows vertically: estimated 284px needed, container is 175px tall. Text: \"🧑‍💻\" (fontSize=105.0, width=180)",
+      "detail": {
+        "estimated_height": 283.5,
+        "container_height": 175.0,
+        "font_size": 105.0,
+        "text_preview": "🧑‍💻"
+      }
+    }
+  ],
+  "warns": [
+    {
+      "rule": "font-too-large",
+      "element_id": "actor_icon",
+      "message": "'actor_icon' uses fontSize=105.0 — verify this is intentional (heading?) and not a copy-paste error.",
+      "detail": {
+        "font_size": 105.0,
+        "element_id": "actor_icon"
+      }
+    }
+  ],
+  "vertex_count": 41,
+  "edge_count": 8,
+  "canvas": "2280x1450"
+}

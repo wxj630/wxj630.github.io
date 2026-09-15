@@ -13,7 +13,7 @@
   url: https://zhuanlan.zhihu.com/column/c_2036314448978236126
   description: 关于 LLM Agent、Harness、Skills 与 Agentic 系统的思考和实践。
 - key: agentic-data-synthesis
-  title: Agentic数据合成
+  title: 数据合成
   url: https://zhuanlan.zhihu.com/column/c_2055435504468898802
   description: 记录 Agentic 数据合成、CLI-Gym、OpenThoughts-Agent 与可验证环境生成的实践进展。
 
@@ -23,7 +23,6 @@
   description: 从优化视角理解梯度下降、Adam、AdamW、Muon 与大模型训练中的一次更新。
 
 - key: tb-mathmodel
-  title: TB-MathModel
+  title: 大模型自建测评benchmark
   url: https://zhuanlan.zhihu.com/column/c_2076102592413943093
   description: 围绕 Terminal-Bench-Science 与 Mathematical Modeling 的 Agentic、可验证 benchmark 实践。
-
