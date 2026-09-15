@@ -1,31 +1,27 @@
 ---
 layout: homepage
-title: Blog
-permalink: /blog/
 ---
 
-<div class="blog-page">
+{% assign column = site.data.blog_columns | where: "key", page.column_key | first %}
+{% assign column_posts = site.posts | where: "column_key", page.column_key | sort: "date" | reverse %}
+
+<div class="blog-page blog-column-page">
   <div class="blog-page-heading">
     <div>
-      <p class="blog-kicker">Writing</p>
-      <h2>Blog</h2>
-      <p class="blog-lead">文章会在知乎和本博客同步发布。</p>
+      <p class="blog-kicker">Column</p>
+      <h2>{{ column.title }}</h2>
+      <p class="blog-lead">{{ column.description }}</p>
     </div>
-    <a class="blog-back-link" href="{{ "/" | relative_url }}">Back to homepage</a>
+    <a class="blog-back-link" href="{{ "/blog/" | relative_url }}">Back to Blog</a>
   </div>
 
-  <div class="blog-columns">
-    {% for column in site.data.blog_columns %}
-    <a class="blog-column-link" href="{{ "/blog/" | append: column.key | append: "/" | relative_url }}">
-      <strong>{{ column.title }}</strong>
-      <span>{{ column.description }}</span>
-    </a>
-    {% endfor %}
+  <div class="blog-column-page-meta">
+    <span>{{ column_posts.size }} articles</span>
+    <a class="blog-source-link" href="{{ column.url }}" target="_blank" rel="noopener">在知乎查看专栏</a>
   </div>
 
-  {% assign posts_by_date = site.posts | sort: "date" | reverse %}
   <div class="blog-list">
-    {% for post in posts_by_date %}
+    {% for post in column_posts %}
     <article class="blog-list-item">
       {% if post.cover_image %}
       <a class="blog-list-cover" href="{{ post.url | relative_url }}" aria-label="Read {{ post.title }}">
