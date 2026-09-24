@@ -40,7 +40,16 @@
   <body{% if page.layout == "blog-post" %} class="blog-post-page"{% endif %}>
     <nav class="top-nav" aria-label="Primary navigation">
       <div class="top-nav-inner">
-        <a class="top-nav-brand" href="{{ "/" | relative_url }}">Xiaojun Wu</a>
+        <div class="top-nav-brand" aria-label="Xiaojun Wu affiliations">
+          <a class="top-nav-name" href="{{ "/" | relative_url }}">Xiaojun Wu</a>
+          <span class="top-nav-divider" aria-hidden="true"></span>
+          <a class="top-nav-logo-link" href="https://www.hkust-gz.edu.cn/" target="_blank" rel="noopener">
+            <img class="top-nav-logo top-nav-logo-hkust" src="{{ "/assets/img/logos/HKUST_GZ_full.png" | relative_url }}" alt="HKUST(GZ)">
+          </a>
+          <a class="top-nav-logo-link" href="https://www.idea.edu.cn/" target="_blank" rel="noopener">
+            <img class="top-nav-logo top-nav-logo-idea" src="{{ "/assets/img/logos/idea-large.png" | relative_url }}" alt="IDEA Research">
+          </a>
+        </div>
         <div class="top-nav-links">
           <a href="{{ "/" | relative_url }}#news">News</a>
           <a href="{{ "/" | relative_url }}#publications">Publications</a>
