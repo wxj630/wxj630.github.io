@@ -34,11 +34,6 @@ layout: homepage
           <span>{{ post.column_title }}</span>
         </div>
         <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-        <div class="blog-metrics" aria-label="Zhihu interaction snapshot">
-          <span>阅读 {% if post.views %}{{ post.views }}{% else %}知乎未公开{% endif %}</span>
-          <span>收藏 {% if post.favorites != nil %}{{ post.favorites }}{% else %}知乎未公开{% endif %}</span>
-          <span>点赞 {% if post.likes != nil %}{{ post.likes }}{% else %}知乎未公开{% endif %}</span>
-        </div>
         <p class="blog-excerpt">{{ post.excerpt | strip_html | strip_newlines | truncate: 180 }}</p>
         <a class="blog-read-link" href="{{ post.url | relative_url }}">Read article</a>
       </div>

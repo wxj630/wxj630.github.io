@@ -18,12 +18,6 @@ layout: homepage
         <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y-%m-%d" }}</time>
         <span>原文发表于知乎</span>
       </div>
-      <div class="blog-metrics blog-metrics-large" aria-label="Zhihu interaction snapshot">
-        <span>阅读 {% if page.views %}{{ page.views }}{% else %}知乎未公开{% endif %}</span>
-        <span>收藏 {% if page.favorites != nil %}{{ page.favorites }}{% else %}知乎未公开{% endif %}</span>
-        <span>点赞 {% if page.likes != nil %}{{ page.likes }}{% else %}知乎未公开{% endif %}</span>
-      </div>
-      <p class="blog-metrics-note">互动数据为 {{ page.metrics_collected_at }} 的知乎数据快照；阅读量未在当前可用的知乎公开接口中提供。</p>
       {% if page.cover_image %}
       <img class="blog-post-cover" src="{{ page.cover_image | relative_url }}" alt="">
       {% endif %}
