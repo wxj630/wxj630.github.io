@@ -1,11 +1,20 @@
 main:
   - title: "SkillsBench: Benchmarking How Well Agent Skills Work Across Diverse Tasks"
-    conference_short: Under Review
-    conference: Arxiv, 2026
+    conference_short: NeurIPS
+    conference: Accepted to NeurIPS 2026 Evaluations &amp; Datasets Track
     authors: The SkillsBench Team
     paper: https://arxiv.org/abs/2602.12670
     code: https://github.com/benchflow-ai/skillsbench
     image: ./assets/img/skillsbench.png
+    notes: Accepted
+
+  - title: "Bayesian-Agent: Posterior-Guided Skill Evolution Across LLM Agent Harnesses"
+    conference_short: Under Review
+    conference: Under Review at EACL 2027
+    authors: <strong>Xiaojun Wu</strong>, Cehao Yang, Honghao Liu, Xueyuan Lin, Wenjie Zhang, Zhichao Shi, Xuhui Jiang, Chengjin Xu, Jia Li, Jian Guo
+    paper: https://arxiv.org/abs/2606.08348
+    code: https://github.com/DataArcTech/Bayesian-Agent
+    image: ./assets/img/bayesian_agent.png
 
   - title: "Think-on-Graph 3.0: Efficient and Adaptive LLM Reasoning on Heterogeneous Graphs via Multi-Agent Dual-Evolving Context Retrieval"
     conference_short: Under Review
