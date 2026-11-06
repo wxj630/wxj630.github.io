@@ -6,7 +6,7 @@ layout: homepage
 
 I'm a full-time PhD candidate at [HKUST Guangzhou](https://www.hkust-gz.edu.cn/), and I'm also an affiliate researcher at the [IDEA Research](https://www.idea.edu.cn/), working on Large Language Models.
 <!-- I am engaged in pre-trained large language model work, including LLM, Multimodal LLM, and Diffusion-based AIGC model.  -->
-I am one of the earliest developers in China to conduct research on [Pretrain Models](https://huggingface.co/IDEA-CCNL), [Vision-Language Model](https://arxiv.org/abs/2310.08166), and [Diffusion-based AIGC model](https://huggingface.co/IDEA-CCNL/Taiyi-Stable-Diffusion-1B-Chinese-v0.1).
+I am an early contributor to research on [Pretrain Models](https://huggingface.co/IDEA-CCNL), [Vision-Language Model](https://arxiv.org/abs/2310.08166), and [Diffusion-based AIGC model](https://huggingface.co/IDEA-CCNL/Taiyi-Stable-Diffusion-1B-Chinese-v0.1) in China.
 Internship and work experience include internet companies, state-owned enterprises, and research institutes. 
 Rich in technical passion and curiosity, enjoys sharing and exploring Data and Knowledge, Multimodal, Generative AI, and General Artificial Intelligence.
 My current research focuses on LLM model training, Harness Engineering, datasets and data synthesis, and benchmark development, with an emphasis on Mathematical Modeling tasks.

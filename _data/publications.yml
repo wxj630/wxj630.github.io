@@ -1,4 +1,12 @@
 main:
+  - title: "TB-MathModel: The First Agentic and Verifiable Benchmark for Mathematical Modeling"
+    conference_short: Under Review
+    conference: Submitted to NAACL 2027
+    authors: <strong>Xiaojun Wu</strong>, Cehao Yang, Xuhui Jiang, Chengjin Xu, Jia Li, Jian Guo
+    paper: https://arxiv.org/abs/2611.08237
+    code: https://github.com/wxj630/terminal-bench-math-modeling
+    image: ./assets/img/tb_mathmodel.png
+
   - title: "Bayesian-Agent: Posterior-Guided Skill Evolution Across LLM Agent Harnesses"
     conference_short: Under Review
     conference: Under Review at EACL 2027
