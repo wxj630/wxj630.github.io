@@ -9,7 +9,7 @@ main:
 
   - title: "Bayesian-Agent: Posterior-Guided Skill Evolution Across LLM Agent Harnesses"
     conference_short: Under Review
-    conference: Under Review at EACL 2027
+    conference: Submitted to NAACL 2027
     authors: <strong>Xiaojun Wu</strong>, Cehao Yang, Honghao Liu, Xueyuan Lin, Wenjie Zhang, Zhichao Shi, Xuhui Jiang, Chengjin Xu, Jia Li, Jian Guo
     paper: https://arxiv.org/abs/2606.08348
     code: https://github.com/DataArcTech/Bayesian-Agent
