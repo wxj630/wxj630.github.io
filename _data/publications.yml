@@ -25,13 +25,14 @@ main:
     notes: Accepted
 
   - title: "Think-on-Graph 3.0: Efficient and Adaptive LLM Reasoning on Heterogeneous Graphs via Multi-Agent Dual-Evolving Context Retrieval"
-    conference_short: Under Review
-    conference: Under Review
+    conference_short: EACL
+    conference: Findings of EACL 2027
     authors: <strong>Xiaojun Wu</strong>, Cehao Yang, Xueyuan Lin, Chengjin Xu, Xuhui Jiang, Yuanliang Sun, Hui Xiong, Jia Li, Jian Guo
     paper: https://arxiv.org/abs/2509.21710
-    code: https://github.com/DataArcTech/RAG-Factory
+    code: https://github.com/DataArcTech/ToG-3
     model: https://huggingface.co/IDEA-FinAI/TouchstoneGPT-7B-Instruct
     image: ./assets/img/ToG3.0.png
+    notes: Accepted
 
   - title: "From Deep Learning to LLMs: A survey of AI in Quantitative Investment"
     conference_short: Under Review
